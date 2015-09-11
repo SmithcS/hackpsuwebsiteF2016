@@ -12,13 +12,21 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+		<script>
+
+			$('#stickyNav').affix({ offset: { top: 50 } }
+		</script>
 	</head>
 	<body>
+
+
 		<style>
 			body {
-				background:url(http://i57.tinypic.com/288cfmd.jpg) no-repeat center center fixed;   -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;height:768px;
+				background:url(hackpsubackground.png) no-repeat center center fixed;   -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;height:768px;
 			}
 			#logo {
 				text-align: center;		
@@ -27,29 +35,30 @@
 			#logo img {
 				height:500px;
 				margin-top:100px;
-				
+				max-width:80%;
+				height:auto;
 			}
 
 			#banner {
 				background: #2A202F;
-				padding:100px;
 				margin-top:-50px;
+				padding:80px 0;
 			}
-			h1 {
-				color:white;
-				font-family: Oswald;
+
+			h1, h2, h3, h4, h5 {
+				font-family: Oswald, sans-serif;
 				text-align: center;
+				color:white;
+				text-transform: uppercase;
 			}
 
 			h2 {
-				color:white;
-				font-family: Oswald;
-				text-align: center;
-				font-size: 300%;
+				
+				font-size: 400%;
 			}
 
 			p {
-				color:white;
+				color:#383739;
 				font-size:160%;
 				text-align:center;
 
@@ -58,37 +67,302 @@
 				height:30px;
 				margin: 5px;
 			}
-			form {
-				color:white; 
-				display:block; 
-				text-align:center;
+
+
+			section .container {
+				/*background:#EBFFFF;*/
+				background: white;
+				margin-top:40px;
+				padding:2%;
 			}
 
-			button {
-				background:red;
+			#about .container .row div {
+				text-align: center;
+			}
+
+			#about .container .row div p {
+				color:#383739;
+				font-size: 120%;
+
+			}
+
+			#about .container .row div h1 {
+				color:#2A202F;
+			}
+
+			.register {
+				background:#1B75BB;
+				font-family: Open Sans, sans-serif;
+				border:none;
+				padding:15px;
+				color:white;
+				font-size: 200%;
+				border-radius: 5px;
+				margin:10px;
+				-webkit-transition: all ease 500ms;
+				-moz-transition: all ease 500ms;
+				-o-transition: all ease 500ms;
+				-ms-transition: all ease 500ms;
+				transition: all ease 500ms;
+			} .register:hover {
+				padding: 15px 30px;
+				color:#E3CB58;
+				background:#1C55BA;
+				-webkit-transition: all ease 500ms;
+				-moz-transition: all ease 500ms;
+				-o-transition: all ease 500ms;
+				-ms-transition: all ease 500ms;
+				transition: all ease 500ms;
+			}
+
+			.highlight {
+				color:#1B75BB;
+
+			}
+			ul {
+				background:#1B75BB;
+
+			}
+			li {
+				color:white;
+				font-family: Oswald, sans-serif;
+				display: inline-block;
+				font-size: 200%;
+				padding:20px;
+				text-transform: uppercase;
+
+			} li:hover {
+				color:#E3CB58;
+				background:#1C55BA;
+			}
+			.yellow {
+				color:#e2cb59;
+			}
+			.white {
+				color:white;
+			}
+			.darkBlue {
+				color:#2A202F;
+			}
+			.sectionHeader {
+				text-align: left;
+				padding:5px;
+			}
+
+			.question {
+				font-family: 'Open Sans', sans-serif;
+				color:#1B75BB;
+				text-align: left;
+			}
+
+			.answer {
+				color:#383739;
+				font-size: 120%;
+				text-align: left;
+
+			}
+			.sponsor{
+				text-align:center;
+				padding:10px;
+				opacity:0.6;
+				-webkit-transition: all ease 500ms;
+				-moz-transition: all ease 500ms;
+				-o-transition: all ease 500ms;
+				-ms-transition: all ease 500ms;
+				transition: all ease 500ms;
+
+			}
+			.sponsor:hover{
+				opacity:1;
+				-webkit-transition: all ease 500ms;
+				-moz-transition: all ease 500ms;
+				-o-transition: all ease 500ms;
+				-ms-transition: all ease 500ms;
+				transition: all ease 500ms;
+
+			}
+			.sponsor img{
+				width: 90%
+			}
+			.contact {
+				text-align: center;
+				margin-top:10px;
+			}
+			.contact p {
+				color:white;
 			}
 
 		</style>
 		<div>
+			<nav  id="stickyNav" class="navbar-fixed-top">
+				<ul>
+					<a href="#about"><li>about</li></a>
+					<a href="#faq"><li>faq</li></a>
+					<a href="#sponsors"><li>sponsors</li></a>
+					<a href="#contact"><li>contact</li></a>
+				</ul>
+			</nav>
 			<div id="logo">
-				<img src="hackpsulogo.png" alt="hackpsulogo" >
+				<img src="hackpsulogo.png" class="animated rubberBand" alt="hackpsulogo" >
 			</div>
 
 			<div id="banner">
-				<h2>LEARN   <span style="color:yellow">//</span>  BUILD  <span style="color:yellow">//</span>  SHARE</h2>
-				<h1>11  <span style="color:yellow">//</span>  07  <span style="color:yellow">//</span>  15</h1>
-				<p style="padding:">HackPSU is Penn State's educational hackathon, brought to you by Innoblue and DevNet at Penn State. We are committed to supporting beginner-developers and hackers, and to giving them the resources they need in order to succeed. We aim to drive a culture of innovation at Penn State.</p>
-				
-				<div style="text-align:center"><a href="http://hackpsu2015.launchrock.com"><button class="btn btn-primary">REGISTER</button></a></div>
-				<!--<form action="info.php" method="post" >
-					<input type="text" style="color:black" name="name" placeholder="Name"></input>
-					<input type="text" style="color:black" name="email" placeholder="Email"></input>
-					<button class="btn btn-primary" type="submit">Send me things!</button></p>
-				</form>
-				-->
-			</div>
-		</div>
+				<div class="container">
+					<h1>24 hours. 250 hackers. endless possibilities.</h1>
+					<h2>11  <span style="color:yellow">//</span>  07  <span style="color:yellow">//</span>  15</h2>
 
+					
+					
+					<div style="text-align:center"><a href="signup.html"><button class="register">REGISTER</button></a></div>
+					<!--<form action="info.php" method="post" >
+						<input type="text" style="color:black" name="name" placeholder="Name"></input>
+						<input type="text" style="color:black" name="email" placeholder="Email"></input>
+						<button class="btn btn-primary" type="submit">Send me things!</button></p>
+					</form>
+					-->
+				</div>
+			</div>
+
+		</div>
+		<section id="about">
+
+			<div class="container">
+
+				<h2 class="darkBlue sectionHeader"><span class="yellow">//</span>about</h2>
+				<p>Join us at <span class="highlight">the IST Building</span> in November for HackPSU, a 
+	                <span class="highlight">24 hour internal hackathon</span> powered by Innoblue Entrepreneurship and the Penn State Developer Network. 
+	                <span class="highlight">250 Penn State students</span> will collaborate and compete 
+	                for incredible prizes!<p>
+
+				<div class="row">
+	            	<div class="col-md-4 col-sm-12">
+	            		<img style="max-width:200px; height:auto" src="https://cloud.githubusercontent.com/assets/8320826/5952242/f377698a-a740-11e4-8e30-a710122f1679.png">
+	            		<h1 class="heading navy" style=>Learn.</h1>
+	            		<p>Attend workshops held by industry professionals to get started with a new technology</p>
+	            	</div>
+	            	<div class="col-md-4 col-sm-12">
+	            		<img style="max-width:200px; height:auto" src="https://cloud.githubusercontent.com/assets/8320826/5952237/e118ebe2-a740-11e4-9f1f-b6471363ccaf.png">
+	            		<h1 class="heading navy" >build.</h1>
+	            		<p>Work with other students to get hands-on experience prototyping cool apps and projects</p>
+	            	</div>
+	            	<div class="col-md-4 col-sm-12">
+	            		<img style="max-width:200px; height:auto" src="https://cloud.githubusercontent.com/assets/8320826/5952239/eaa0ff7e-a740-11e4-9dbe-0dfee6511305.png">
+						<h1 class="heading navy" >share.</h1>
+						<p>Pitch your creation to judges for the chance to win eternal glory (and awesome prizes)</p>
+	            	</div>
+	            </div>
+            </div>
+
+		</section>
+
+		<section id="faq">
+			<div class="container">
+				<h2 class="darkBlue sectionHeader"><span class="yellow">//</span>faq</h2>
+			 		<div class="row">
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q: What is a hackathon?</h4>
+	                            <p class="answer">
+	                                <strong>A:</strong> 
+	                                <a href="https://medium.com/@axskern/what-is-a-hackathon-c2162b893b0a">Hackathons are where your crazy idea becomes reality.</a> Build anything - there are no restrictions on what you can create. Dive in and make the most incredible thing you can alongside fellow creators. While some may see hackers as the crazy ones, we see genius.</p>
+	                    </div>
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q: Who can participate?</h4>
+	                            <p class="answer">
+	                                <strong>A:</strong> Any and all Penn State students from any college or major are eligible. Hackathons are not just for computer science majors!</p>
+	                    </div>
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q: I can`t code! Should I bother coming?</h4>
+	                            <p class="answer">
+	                                <strong>A:</strong> YES. Hackathons are more about learning than anything else. There will be individuals who are experts on pretty much everything from hardware, to software, to Tolkien elvish. There`s really no better place to jumpstart your journey into the wonderful world of code. </p>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q:What if I don`t have a team or an idea?</h4>
+	                            <p class="answer"><strong>A:</strong> No problem! Many hackers do not have a fully-formed team or hack concept before the event begins. We will be hosting team-forming activities after hacking begins to help you find the perfect match. If you`re a first-time hacker, there will be many others looking for team members with whom you can pair. </p>
+	                    </div>
+	                    <div class="col-md-4 col-xs-12">
+	                        <h4 class="question">Q: What can I build?</h4>
+	                        <p class="answer"><strong>A:</strong> Web, mobile, hardware, you name it. Any type of project is welcome. Projects will be judged based on creativity, technical difficulty, polish, and utility by a panel of industry judges.</p>
+	                    </div>
+	                    <div class="col-md-4 col-xs-12">
+	                        <h4 class="question">Q: Why should I come?</h4>
+	                        <p class="answer">
+	                                <strong>A:</strong> A hackathon is a weekend-long nerd party. We will have free food, free swag and free caffiene, along with tons of chances to meet awesome students at Penn State and recruiters from top tech companies. Looking for an internship or full-time job? Make sure you come check it out.  </p>
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q: What should I bring?</h4>
+	                            <p class="answer">
+	                                <strong>A:</strong> All attendees are required to bring their laptops and a positive attitude!</p>
+	                    </div>
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q: How much does it cost?</h4>
+	                            <p class="answer"><strong>A:</strong>4 simple payments of $24.99, and a $50 application fee... Just kidding! HackPSU is completely free for all accepted hackers. We will provide your WiFi, meals, caffeine, swag, workspace, and fun times through the duration of the event.</p>
+	                    </div>
+	                    <div class="col-md-4 col-xs-12">
+	                            <h4 class="question">Q: Can I start programming before the competition?</h4>
+	                            <p class="answer"><strong>A:</strong>No part of your hack may be started before HackPSU begins. We ask that all hacks are completed within the 24 hour timeslot. You may use any API or free resource available though.</p>
+	                    </div>	                
+	                </div>
+                </div>
+		</section>
+		<section id="sponsors">
+
+			<div class="container">
+
+				<h2 class="darkBlue sectionHeader"><span class="yellow">//</span>sponsors</h2>
+				<p>A huge thank you to our sponsors for making HackPSU a reality. <br>If you are interested in sponsoring, contact us at <a href="mailto:sponsorship@hackpsu.org?Subject=HackPSU%20Sponsorship">sponsorship@hackpsu.org</a></p>
+				<div class="row">
+             			<div class="col-md-6 col-sm-12 sponsor"><a href="http://www.worldcampus.psu.edu"><img src="http://i60.tinypic.com/33kch0g.png" style="max-height:250px"></a></div>
+
+             			<div class="col-md-6 col-sm-12 sponsor"><a href="http://www.danaher.com"><img src="http://www.controlcomponentsinc.com/images/categories/Danaher_Logo.jpg" style="max-height:250px"></a></div>
+                </div>
+			</div>
+		</section>
+
+		<section id="contact">
+
+			<div class="container" style="background:#2A202F">
+
+				<h2 class="sectionHeader"><span class="yellow">//</span>contact</h2>
+
+				<div class="row">
+		            <div class="contact col-md-4 col-sm-12">
+		                <div class="contactIcon">
+		                    <a href="https://www.facebook.com/HackPSU">
+		                        <img src="http://i44.photobucket.com/albums/f9/christinaplatt/facebook_zps269b683f.png">
+		                    </a>
+		                </div>
+		                <h2>Facebook</h2>
+		                <p>Find us at facebook.com/hackpsu!</p>
+		            </div>	
+		            <div class="contact col-md-4 col-sm-12">
+		                <div class="contactIcon"><a href="https://twitter.com/HackPSU">
+		                    <img src="http://i44.photobucket.com/albums/f9/christinaplatt/twitter_zps1aeffa68.png">
+		                    </a>
+		                </div>
+		                <h2>Twitter</h2>
+		                <p>Tweet at us @HackPSU!</p>
+		            </div>
+		            <div class="contact col-md-4 col-sm-12">
+		                <div class="contactIcon"><a href="mailto:team@hackpsu.org">
+		                    <img src="http://i44.photobucket.com/albums/f9/christinaplatt/email_zpsf21506ff.png"></a>
+		                </div>
+		                <h2>Email</h2>
+		                <p>Send questions to <a href="mailto:team@hackpsu.org">team@hackpsu.org!</a></p>
+		            </div>
+	         </div>
+        </div>
+   
+   		<section>
+   			<div class="container" style="background:#2A202F">
+		        <div style="display:block">
+		            <p class="white">Innoblue is a 501(c) non-profit organization. <br>&#169 2015 <a href="https://www.facebook.com/CreativeJamDesign">Creative Jam Design</a></p>
+		        </div>
+			</div>
+		</section>
 
 		
 	</body>
