@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>HackPSU|Learn.Build.Share.</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 				<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -16,20 +17,23 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="animate.css">
-		<meta property="og:title" content="HackPSU: Penn State's Official Hackathon" />
-		<meta property="og:site_name" content="HackPSU.org"/>
-		<meta property="og:description" content="Join us November 7-8th for HackPSU, Penn State's Offial Hackathon! 250 Penn State students will have 24 hours to build the coolest technology they can and compete for prizes and eternal glory." />
-
 
 		<script>
+		  $(function () {
+		    $("#nav").tinyNav();
+		  });
+</script>
 
-			$('#stickyNav').affix({ offset: { top: 50 } }
-		</script>
 	</head>
 	<body>
 
 
 		<style>
+			.tinynav { display: none }
+			@media screen and (max-width: 600px) {
+			    .tinynav { display: block }
+			    #nav { display: none }
+			}
 			body {
 				background:url(hackpsubackground.png) no-repeat center center fixed;   -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover; background-size: cover;height:768px;
 			}
@@ -197,15 +201,49 @@
 				color:white;
 			}
 
+			.tinynav div ul li {
+				width:100%;
+				background:#1B75BB
+				
+			}
+			.tinynav div   {
+				width:100%;
+				background:#1B75BB;
+				text-align: right;
+			}
+
+			.tinynav div button  {
+				border:none;
+				background:#1B75BB;
+			}
+			.tinynav div li  {
+				font-size: 150%;
+				margin:3px 0 0 0;
+			}
+
+
 		</style>
 		<div>
 			<nav  id="stickyNav" class="navbar-fixed-top">
-				<ul>
+				<ul id="nav">
 					<a href="#about"><li>about</li></a>
 					<a href="#faq"><li>faq</li></a>
 					<a href="#sponsors"><li>sponsors</li></a>
 					<a href="#contact"><li>contact</li></a>
 				</ul>
+				<div class="tinynav">
+					<div class="btn-group">
+					  <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    <h4>MENU<span class="caret"></h4></span>
+					  </button>
+					  <ul class="dropdown-menu">
+						<a href="#about"><li>about</li></a>
+						<a href="#faq"><li>faq</li></a>
+						<a href="#sponsors"><li>sponsors</li></a>
+						<a href="#contact"><li>contact</li></a>
+					  </ul>
+					</div>
+				</div>
 			</nav>
 			<div id="logo">
 				<img src="hackpsulogo.png" class="animated rubberBand" alt="hackpsulogo" >
@@ -230,6 +268,22 @@
 
 		</div>
 		<section id="about">
+			
+
+			<div class="btn-group">
+			  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    Action <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu">
+			    <li><a href="#">Action</a></li>
+			    <li><a href="#">Another action</a></li>
+			    <li><a href="#">Something else here</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">Separated link</a></li>
+			  </ul>
+			</div>
+
+
 
 			<div class="container">
 
