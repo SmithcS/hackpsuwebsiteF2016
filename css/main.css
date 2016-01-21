@@ -11,7 +11,6 @@ body {
 }
 #logo {
 	height:50%;
-	top:10%;
 	width:100%;
 	position: absolute;	
 	z-index: 500;
@@ -20,16 +19,15 @@ body {
 #logo img {
 	text-align: center;	
 	max-height:100%;
-
 	width:auto;
-
 	z-index: 500;
 }
 
 #banner {
 	background: #2A202F;
-	top:55%;
+	top:50%;
 	width:100%;
+	margin-top:-40px;
 	position:absolute;
 	z-index: 0;
 	padding-bottom: 30px;
@@ -38,10 +36,11 @@ body {
 #footer {
 	background-color:#0099FF;
 	text-align: right;
-	height:5%;
-	position: absolute;
-	top:95%;
+	padding:5px;
 	width: 100%;
+	position:absolute;
+	left:0;
+	bottom:0;
 }
 
 h1, h2, h3, h4, h5 {

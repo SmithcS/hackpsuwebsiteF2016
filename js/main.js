@@ -1,5 +1,5 @@
 $( document ).ready(function() {
     console.log( "ready!" );
-    $( "body" ).css( "height", window.innerHeight);
+    $( "#content" ).css( "height", window.innerHeight);
 
 });
