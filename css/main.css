@@ -1,0 +1,96 @@
+
+body {
+	background:url('../assets/images/cybertorium2.jpg') no-repeat center center fixed;   
+	-webkit-background-size: cover;  
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+	text-align: center
+
+}
+#logo {
+	height:50%;
+	top:10%;
+	width:100%;
+	position: absolute;	
+	z-index: 500;
+}
+
+#logo img {
+	text-align: center;	
+	max-height:100%;
+
+	width:auto;
+
+	z-index: 500;
+}
+
+#banner {
+	background: #2A202F;
+	top:55%;
+	width:100%;
+	position:absolute;
+	z-index: 0;
+	padding-bottom: 30px;
+}
+
+#footer {
+	background-color:#0099FF;
+	text-align: right;
+	height:5%;
+	position: absolute;
+	top:95%;
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Oswald, sans-serif;
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+}
+
+h2 {
+	
+	font-size: 400%;
+}
+
+p {
+	color:#383739;
+	font-size:130%;
+	text-align:center;
+
+}
+
+
+.yellow {
+	color:#e2cb59;
+}
+.white {
+	color:white;
+}
+.darkBlue {
+	color:#2A202F;
+}
+.lightBlue {
+	color:#0099FF;
+}
+.sectionHeader {
+	text-align: left;
+	padding:5px;
+}
+
+button {
+	background: none;
+	border: 2px solid white;
+	color:white;
+	padding:10px 20px;
+	letter-spacing: 4px;
+	transition: ease-out .5s;
+
+} button:hover {
+	border: 2px solid yellow;
+	padding: 10px 30px;
+	transition: ease-out .1s;
+
+}
