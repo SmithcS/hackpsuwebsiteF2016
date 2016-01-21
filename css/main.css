@@ -1,11 +1,6 @@
 
-.tinynav { display: none }
-@media screen and (max-width: 600px) {
-    .tinynav { display: block }
-    #nav { display: none }
-}
 body {
-	background:url('../assets/images/cybertoriumcolorized.jpg') no-repeat center center fixed;   
+	background:url('../assets/images/cybertorium2.jpg') no-repeat center center fixed;   
 	-webkit-background-size: cover;  
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
@@ -33,10 +28,10 @@ body {
 #banner {
 	background: #2A202F;
 	top:55%;
-	height:40%;
 	width:100%;
 	position:absolute;
 	z-index: 0;
+	padding-bottom: 30px;
 }
 
 #footer {
@@ -95,7 +90,7 @@ button {
 
 } button:hover {
 	border: 2px solid yellow;
-	padding: 10px 50px;
+	padding: 10px 30px;
 	transition: ease-out .1s;
 
 }

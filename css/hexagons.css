@@ -2,7 +2,7 @@
 	width: 0;
 	border-bottom: 30px solid #FFFFFF;
 	border-left: 52px solid transparent;
-	border-right: 52px solid transparent;
+	border-right: 52px solid transparent; 
 }
 
 .hexmiddle { 
@@ -20,9 +20,10 @@
 
 .hexagon {
 	left:-50px;
-	top:0px;
+	top:-50px;
 	position: absolute;
 	z-index: -1;
+	animation:spin 6s infinite linear;
 	
 
 
