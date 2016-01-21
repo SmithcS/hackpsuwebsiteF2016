@@ -6,14 +6,26 @@ $( document ).ready(function() {
 	  return windowHeight
 	});
 
+    $.fn.hexify = function() {
+    	$(this).append($('<div>').addClass('hextop'));
+    	$(this).append($('<div>').addClass('hexmiddle'));
+    	$(this).append($('<div>').addClass('hexbottom'));
+    	return this;
+	}
 
-    $('.hexagon').append("<p>Test</p>");
 
+	
+	$('.hexagon').each(function( index, element ) {
+	    var time = Math.floor(5000 * Math.random());
+	    var xcoordstart = window.innerHeight * Math.random();
+	    var xcoordend = window.innerHeight * Math.random();
+	    $( element ).hexify().offset({top:0,left:xcoordstart}).animate({
+			opacity:0.25,
+			left: xcoordend,
+			top: "+=500"
+		},time, "linear");    
+	  });
 
-	// $('.hexagon').animate({
-	// 	opacity:0.25,
-	// 	top: "+=500"
-	// },1000);
     
 
 });
