@@ -8,8 +8,10 @@
 
 		<!-- other scripts -->
 		<script src="node_modules/jquery/dist/jquery.min.js"></script>
-		<script src="js/main.js"></script>
 		<script class='desktop' type='text/javascript' src='js/hexagons.js'></script>
+		<script src="js/main.js"></script>
+		<script src="js/quickfit.js"></script>
+
 
 		<!-- bootstrap -->
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -19,6 +21,7 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<link rel="stylesheet" type="text/css" href="css/hexagons.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+
 
 		<!-- ~~so metadata -->
 		<meta property="og:title" content="HackPSU: Penn State's Official Hackathon" />
@@ -30,41 +33,50 @@
 
 	</head>
 	<body>	
-			<div id='content'>
-				<div id="logo">
-					<img src="assets/images/hackpsulogo.png" class="animated rubberBand" alt="hackpsulogo" >
+		
+		<div id="logo-container">
+			<img src="assets/images/hackpsulogo.png" class="animated rubberBand" alt="hackpsulogo" >
+		</div>
+
+
+		<div id="banner">
+			<div class="container">
+				<div>
+					<h1>Penn state's hackathon</h1>
+					
+					<div class='divider'></div>
+					<h1 class="date"><span class="yellow">04</span>.<span class="yellow">09</span>.<span class="yellow">16</span></h1ß>
+					<div class='divider'></div>
+					
+					<h1>welcome to #hackyvalley</h1>
 				</div>
 
+				<!--  BUTTONS FOR MORE INFORMATION  -->
+				<div class="row">
+					<div class='col-md-2' ></div>
 
-				<div id="banner">
-					<div class="container">
-						<h1 style="margin-top:50px" >Penn state's official hackathon</h1>
-						<div style="height:2px; width:100%; background:#FFFFFF"></div>
-						<h3 style="font-size:400%;margin:-5px; letter-spacing:20px"><span class="yellow">04</span>.<span class="yellow">09</span>.<span class="yellow">16</span></h3>
-						<div style="height:2px; width:100%; background:#FFFFFF"></div>
-						<h2>welcome to #hackyvalley</h2>
-
-						<div class="row">
-							<div class='col-sm-2' >
-							</div>
-							<div class='col-sm-4 col-xs-12' >
-								<div style="text-align:center"><a href="http://goo.gl/forms/Rn2hrhWHJv"><button>KEEP ME UPDATED!</button></a></div>
-							</div>
-							<div class='col-sm-4 col-xs-12' style='float:left'>
-								<div style="text-align:center"><a href="assets/HackPSU_SP2016Sponsorship.pdf"><button>SPONSORSHIP INFO</button></a></div>
-							</div>
-							<div class='col-sm-2' >
-							</div>
-						</div>
+					<div class='col-md-4 col-sm-12' >
+						<div class="button"><a href="http://goo.gl/forms/Rn2hrhWHJv">KEEP ME UPDATED!</a></div>
 					</div>
+
+					<div class='col-md-4 col-sm-12'>
+						<div class="button"><a href="assets/HackPSU_SP2016Sponsorship.pdf">SPONSORSHIP INFO</a></div>
+					</div>
+
+					<div class='col-md-2' ></div>
 				</div>
-			</div>
 
 
-			<div id="footer">
-				<p style="padding:5px;" class="white">// Made with <span class="yellow glyphicon glyphicon-heart"></span> in <a class="white" href="http://www.facebook.com/creativejamdesign">Happy Valley</a>.</p>
 			</div>
+		</div>
+
+
+
+	<div id="footer">
+		<p style="padding:5px;" class="white">// Made with <span class="yellow glyphicon glyphicon-heart"></span> in <a class="white" href="http://www.facebook.com/creativejamdesign">Happy Valley</a>.</p>
+	</div>
 	</body>
+	
 
 </html>
 

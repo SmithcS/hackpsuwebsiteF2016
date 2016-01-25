@@ -1,3 +1,57 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*+++++++++++++++ BODY AND TEXT +++++++++++++++++++*/
 
 body {
 	background:url(../assets/images/cybertorium2.jpg) no-repeat center center fixed;  
@@ -6,63 +60,64 @@ body {
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover;
-	text-align: center
+	text-align: center;
+	font-family: 'Open-Sans', sans-serif;
+
 
 }
-#logo {
-	height:50%;
-	width:100%;
-	position: absolute;	
-	z-index: 500;
+
+
+@media (max-width: 650px) {
+	h1, h2, h3, h4, h5 {
+		font-size: 200%;
+
+	}
+
+	.button a {
+		font-size: 100%
+	}
 }
 
-#logo img {
-	text-align: center;	
-	max-height:100%;
-	width:auto;
-	z-index: 500;
+@media (min-width: 650px) {
+	h1, h2, h3, h4, h5 {
+		font-size: 300%;
+	}
+
+	.button a {
+		font-size: 120%
+	}
 }
 
-#banner {
-	background: #2A202F;
-	top:50%;
-	width:100%;
-	margin-top:-40px;
-	position:absolute;
-	z-index: 0;
-	padding-bottom: 30px;
+/*@media screen and (min-width: 480px) {
+    h1, h2, h3, h4, h5 {
+        font-size: 300%;
+    }
 }
 
-#footer {
-	background-color:#0099FF;
-	text-align: right;
-	padding:5px;
-	width: 100%;
-	position:absolute;
-	left:0;
-	bottom:0;
-}
+@media screen and (min-width: 480px) {
+    h1, h2, h3, h4, h5 {
+        font-size: 300%;
+    }
+}*/
 
 h1, h2, h3, h4, h5 {
-	font-family: Oswald, sans-serif;
+	font-family: 'Oswald', 'Arial';
+	font-weight: 700;
 	text-align: center;
 	color:white;
 	text-transform: uppercase;
-}
-
-h2 {
-	
-	font-size: 400%;
+	white-space: nowrap;
 }
 
 p {
 	color:#383739;
-	font-size:130%;
+	font-size:120%;
 	text-align:center;
+	font-family: 'Open-Sans', 'Arial';
 
 }
 
-
+/*++++++++ COLORS +++++++*/
 .yellow {
 	color:#e2cb59;
 }
@@ -75,22 +130,73 @@ p {
 .lightBlue {
 	color:#0099FF;
 }
-.sectionHeader {
-	text-align: left;
-	padding:5px;
+
+/*++++++++ ELEMENTS +++++++*/
+
+.divider {
+	height:2px; 
+	width:100%; 
+	background:#FFFFFF
 }
 
-button {
+.button {
 	background: none;
 	border: 2px solid white;
-	color:white;
 	padding:10px 20px;
 	letter-spacing: 4px;
 	transition: ease-out .5s;
+	margin:5px;
 
-} button:hover {
-	border: 2px solid yellow;
-	padding: 10px 30px;
+} .button:hover {
+	border: 2px solid #e2cb59;
 	transition: ease-out .1s;
-
+	text-align:center
+} .button a {
+	color:white;
+	font-weight: 200;
 }
+  
+/*++++++++++++ CUSTOM HEADER ELEMENTS +++++++++++++*/
+
+#logo-container {
+	height:50%;
+	width:100%;
+	position: absolute;	
+	z-index: 500;
+}
+
+#logo-container img {
+	text-align: center;	
+	max-height:100%;
+	width:auto;
+	z-index: 500;
+}
+
+#banner {
+	background: #2A202F;
+	top:50%;
+	width:100%;
+	position:absolute;
+	z-index: 0;
+	padding: 40px;
+}
+
+
+#footer {
+	background-color:#0099FF;
+	border-top:10px solid #e2cb59;
+
+	text-align: right;
+	padding:0;
+
+	width: 100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+.date {
+	margin:-4px; 
+	letter-spacing:20px
+}
+
