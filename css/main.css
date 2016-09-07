@@ -193,7 +193,7 @@ a {
 	color:#D0EBF3
 }
 .gray {
-	color: #3A2D40;
+	color:#3A2D40;
 }
 
 /*+++++++ EFFECTS ++++*/
@@ -453,6 +453,11 @@ a {
 #sponsors div p a:hover {
 	color:#2A202F;
 }
+
+#coil {
+	margin-top: 25px;
+}
+
 
 /*========= CONTACT ==========*/
 
