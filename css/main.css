@@ -513,10 +513,10 @@ a {
 }
 
 #left-foot img {
-	max-width: 130px;
+	max-width: 140px;
 	margin-top: 10px;
 	margin-bottom: 5px;
-	margin-left: 15px;
+	margin-left: 10px;
 	display: block;
 	float: left;
 }
