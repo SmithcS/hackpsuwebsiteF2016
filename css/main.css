@@ -267,6 +267,9 @@ a {
 	text-align: center;	
 	height:auto;
 	z-index: 500;
+	margin-left: 140px; /* This pushes the HackPSU logo
+	to the right becasue the MLH banner moves it off center.
+	There is a better way to fix this, but I don't know how ): */
 }
 #banner {
 	margin-top: -20px;
@@ -478,16 +481,44 @@ a {
 /*========= FOOTER ==========*/
 
 #footer {
-	font-size: medium;
 	background-color:#2A202F;
-	text-align: right;
 	padding:10px;
 	width: 100%;
 	margin-top:0;
 }
+
 #footer p {
+	margin-top: 20px;
 	font-size: medium;
 	font-weight: 200;
+}
+
+#left-foot {
+	float: left;
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	color: white;
+	text-align: left;
+	font-size: small;
+	font-weight: 600;
+}
+
+#right-foot {
+	float: right;
+	display: inline-block;
+	position: relative;
+	color: white;
+	text-align: right;
+}
+
+#left-foot img {
+	max-width: 130px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	display: block;
+	float: left;
 }
 
 /*====================  MISCELLANEOUS ====================*/
@@ -504,6 +535,18 @@ a {
 	height:auto;
 	margin:20px;
 }
+#mlh-trust-badge {
+	display:block;
+	max-width:100px;
+	min-width:60px;
+	margin-right: 50px;
+	float: right;
+	right:50px;
+	top:0;
+	width:10%;
+	z-index:10000
+}
+
 /*======== GEARS ========*/
 #gearbox{
 	float:right;
