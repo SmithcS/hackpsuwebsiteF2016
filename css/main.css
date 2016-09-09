@@ -232,8 +232,19 @@ a {
 	width:100%; 
 	background: white;
 }
+.thick-divider {
+	height:4px; 
+	width:100%; 
+	margin: 10px 0;
+	background:#2A202F;
+}
 .section-header {
 	text-align: left;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.section-header-center {
+	text-align: center;
 	font-weight: 600;
 	margin: 10px 0;
 }
@@ -244,7 +255,6 @@ a {
 	color:#3399CC;
 	padding:4px;
 }
-
 .scrolly-divider {
 	margin: 10px 0;
 	height:4px;
@@ -290,6 +300,7 @@ a {
 	letter-spacing:20px;
 	font-size: larger;
 }
+
 
 
 /*========= ABOUT ==========*/
@@ -457,8 +468,8 @@ a {
 	color:#2A202F;
 }
 
-#coil {
-	margin-top: 25px;
+#edtech {
+	max-width: 450px;
 }
 
 
@@ -524,6 +535,13 @@ a {
 /*====================  MISCELLANEOUS ====================*/
 .spacer {
 	height:70px;
+}
+.small-spacer {
+	height:25px;
+}
+.gradient-box {
+	background: rgba(58, 45, 64, 0.5);
+	width: auto;
 }
 .container {
 	padding-top:40px;

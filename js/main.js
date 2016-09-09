@@ -45,7 +45,7 @@ $( document ).ready(function() {
 					var height = $(this).height();
 					var sectionOffset = $(this).offset();
 					if (top + window.innerHeight > sectionOffset.top) {
-						setWidth=100*(top + window.innerHeight - sectionOffset.top)/height;
+						setWidth=100*(top + window.innerHeight - sectionOffset.top)/(height);
 						if (setWidth > 100 ) {
 							setWidth = 100;
 						}
