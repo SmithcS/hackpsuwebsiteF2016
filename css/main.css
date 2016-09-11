@@ -61,8 +61,17 @@ table {
 	.section-header {
 		font-size: 60%;
 	}
+	.section-header-center {
+		font-size: 60%;
+	}
 	#logo-container img {
 		width: 60%;
+	}
+	#mlh-trust-badge {
+		right: 40px;
+	}
+	#mlh-trust-badge img {
+		max-height: 60px;
 	}
 	.tagline {
 		padding: 5px;
@@ -81,6 +90,9 @@ table {
 		font-size: 80%;
 	}
 	.section-header {
+		font-size: 80%;
+	}
+	.section-header-center {
 		font-size: 80%;
 	}
 	#logo-container img {
@@ -104,6 +116,9 @@ table {
 	.section-header {
 		font-size: 100%;
 	}
+	.section-header-center {
+		font-size: 100%;
+	}
 	#logo-container img {
 		width: 300px;
 	}
@@ -122,6 +137,9 @@ table {
 		font-size: 120%;
 	}
 	.section-header {
+		font-size: 120%;
+	}
+	.section-header-center {
 		font-size: 120%;
 	}
 	#logo-container img {
@@ -227,6 +245,18 @@ a {
 	width:100%; 
 	background:#2A202F;
 }
+.center-divider-left {
+	height: 4px;
+	width: 100%;
+	margin-right: 0px;
+	background:#2A202F;
+}
+.center-divider-right {
+	height: 4px;
+	width: 100%;
+	margin-left: 0px;
+	background:#2A202F;
+}
 .alt-divider {
 	height:2px; 
 	width:100%; 
@@ -261,6 +291,7 @@ a {
 }
 
 
+
 /*++++++++++++ CUSTOM HEADER ELEMENTS +++++++++++++*/
 
 /*========= HEADER ==========*/
@@ -271,15 +302,26 @@ a {
 }
 #logo-container {
 	width:100%;
+	position: relative;
 	z-index: 500;
 }
-#logo-container img {
+#hackpsu-logo {
 	text-align: center;	
 	height:auto;
 	z-index: 500;
-	margin-left: 140px; /* This pushes the HackPSU logo
-	to the right becasue the MLH banner moves it off center.
-	There is a better way to fix this, but I don't know how ): */
+}
+#mlh-trust-badge {
+	display:block;
+	position: absolute;
+	right:50px;
+	top:0;
+	width:10%;
+	z-index:10000;
+}
+#mlh-trust-badge img {
+	width: 100%;
+	max-width:100px;
+	min-width:60px;
 }
 #banner {
 	margin-top: -20px;
@@ -300,7 +342,6 @@ a {
 	letter-spacing:20px;
 	font-size: larger;
 }
-
 
 
 /*========= ABOUT ==========*/
@@ -552,17 +593,6 @@ a {
 	max-width:80%;
 	height:auto;
 	margin:20px;
-}
-#mlh-trust-badge {
-	display:block;
-	max-width:100px;
-	min-width:60px;
-	margin-right: 50px;
-	float: right;
-	right:50px;
-	top:0;
-	width:10%;
-	z-index:10000
 }
 
 /*======== GEARS ========*/
