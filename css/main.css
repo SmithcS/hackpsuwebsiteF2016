@@ -81,7 +81,6 @@ table {
 	p {
 		font-size: 45%
 	}
-
 }
 
 @media (min-width: 380px) and (max-width: 450px) {
@@ -158,9 +157,6 @@ table {
 	}
 	#logo-container img {
 		width: 350px;
-	}
-	.learnbuildshare-icon img {
-		width: 35% !important;
 	}
 	.tagline {
 		padding: 20px;
