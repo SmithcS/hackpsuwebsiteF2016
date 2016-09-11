@@ -51,7 +51,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /*========================= *** MEDIA QUERIES *** =========================*/
 
 @media (max-width: 380px) {
@@ -67,11 +66,11 @@ table {
 	#logo-container img {
 		width: 60%;
 	}
-	#mlh-trust-badge {
-		right: 40px;
-	}
 	#mlh-trust-badge img {
-		max-height: 60px;
+		max-height: 85px;
+	}
+	.learnbuildshare-icon img {
+		width: 35% !important;
 	}
 	.tagline {
 		padding: 5px;
@@ -98,6 +97,12 @@ table {
 	#logo-container img {
 		width: 60%;
 	}
+	#mlh-trust-badge img {
+		max-height: 90px;
+	}
+	.learnbuildshare-icon img {
+		width: 35% !important;
+	}
 	.tagline {
 		padding: 10px;
 	}	
@@ -122,6 +127,15 @@ table {
 	#logo-container img {
 		width: 300px;
 	}
+	#logo-container img {
+		width: 60%;
+	}
+	#mlh-trust-badge img {
+		max-height: 85px;
+	}
+	.learnbuildshare-icon img {
+		width: 35% !important;
+	}
 	.tagline {
 		padding: 15px;
 	}
@@ -144,6 +158,9 @@ table {
 	}
 	#logo-container img {
 		width: 350px;
+	}
+	.learnbuildshare-icon img {
+		width: 35% !important;
 	}
 	.tagline {
 		padding: 20px;
@@ -313,7 +330,7 @@ a {
 #mlh-trust-badge {
 	display:block;
 	position: absolute;
-	right:50px;
+	right:25px;
 	top:0;
 	width:10%;
 	z-index:10000;
@@ -358,8 +375,6 @@ a {
 #learnbuildshare {
 	background: rgba(58, 45, 64, 0.5);
 }
-#learnbuildshare div img {
-}
 #learnbuildshare-icon-container {
 	margin: 0;
 	background: url('../assets/backgrounds/typeformBackground.png') no-repeat center center;
@@ -373,7 +388,7 @@ a {
 }
 .learnbuildshare-icon img {
 	padding:20px;
-	width:200px;
+	width: 70%;
 }
 .learnbuildshare-icon h2 {
 	color:#2A202F;
