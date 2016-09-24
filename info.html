@@ -1,0 +1,387 @@
+<html>
+	<head>
+		<title>HackPSU | Welcome to #HackyValley.</title>
+
+		<!-- fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lekton:400' rel='stylesheet' type='text/css'>
+
+
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="shortcut icon" href="assets/icons/favicon.ico">
+
+		<!-- other scripts -->
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script type='text/javascript' src='js/hexagons.js'></script>
+		<script src="js/participant-info.js"></script>
+		<script src="js/quickfit.js"></script>
+		<script src="assets/json-objects.js"></script>
+
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+		<!-- styles -->
+		
+		<link rel="stylesheet" type="text/css" href="css/hexagons.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/participant.css">
+
+
+		<!-- ~~so metadata -->
+		<meta property="og:title" content="HackPSU: Penn State's Official Hackathon" />
+		<meta property="og:site_name" content="HackPSU.org"/>
+		<meta property="og:description" content="Join us April 9th for HackPSU, Penn State's Official Hackathon! 500 students will have 24 hours to build the coolest technology they can to compete for prizes and eternal glory." />
+		<meta property="og:image" content="assets/images/hackpsulogo.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	</head>
+	<body>
+		<div id='floating-top-button'>
+			<a href='#welcome'>
+				<h2>^ top</h2>
+			</a>
+		</div>
+		<section id='easter-egg'>
+			<div></div>
+			<div id='an-image'>
+				<img src="assets/images/easter-egg.png">
+			</div>
+		</section>
+
+		<section id='header'>
+
+			<div id="logo-container">
+				<img src="assets/images/hackpsulogo.png" class="animated rubberBand" alt="hackpsulogo" >
+			</div>
+			
+		</section>
+
+		<section id='floating'>
+			<div>
+				<div id='countdown-timer'>
+					<div id='days' class='unit'><div>0</div>days</div>
+					<div id='hours' class='unit'><div>0</div>hours</div>
+					<div id='minutes' class='unit'><div>0</div>minutes</div>
+					<div id='seconds' class='unit'><div>0</div>seconds</div>
+					<h3 id='countdown-text'></h3>
+				</div>
+				<div id='twitter-feed'>
+					<p>Tweet about the event with the hashtag #hackyvalley!</p>
+					<a class="twitter-timeline" href="https://twitter.com/HackPSU" data-widget-id="715636733874819072">Tweets by @HackPSU</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>
+		</section>
+
+		<section id='welcome'>
+			<div class='container'>
+				<h1>Welcome to HackPSU!</h1>
+				<p>This guide will tell you everything you need to know in order to have a great time this weekend!</p>
+				<ol id='table-of-contents'>
+				</ol>
+			</div>
+		</section>
+
+		<section class='content'>
+			<div id='arrival-info'>
+				<div class='container'>
+					<h1>Arrival</h1>
+					<div class='row'>
+						<div class='col-md-6'>
+							<img id='parking-map' src='assets/images/parking-map.png'>
+						</div>
+						<div class='col-md-6'> 
+							<p>Check in will begin at 10 AM in the foyer of the Business Building, located near the corner of Park Avenue and
+								Shortlidge Road. Please have a valid ID!</p>
+							<p>Parking is free for the weekend in the East Parking Deck, a quick stroll from the Business Building and right
+								behind the Berkey Creamery. If you get lost driving through campus, just look for signs for the Creamery, because they are LITERALLY everywhere.</p> 
+						</div>
+					</div>
+					<p>During this time, teams participating in the Club Cup must register at the check-in booth.</p>
+				</div>
+			</div>
+			<div id='reimbursement-info'>
+				<div class='container'>
+					<h1>Reimbursement</h1>
+					<p>Reimbursement paperwork will be handled from 8pm-12am in the Business Building lobby. Students traveling by car with at least 1 passenger will be reimbursed $0.29 per mile up to $30. Longer distances will be handled on a case-by-case basis.</p>
+				</div>
+			</div>
+
+
+			<div id='venue-info'>
+				<div class='container'>
+					<h1>Venue</h1>
+					<div class='row'>
+						<div id='rooms-available' class='col-md-6'>
+							<h3>Space Available</h3>
+							<p>All events will take place in the Atrium of the Business Building, with space available for teams to work in the following rooms:</p>
+							<p>Saturday: 2, 3, 4, 5, 6, 7, 8, 9, 10, 103, 105, 106, 107</p>
+							<p>Workshops: 102, 104, 110</p>
+							<p>Sunday: 2, 4, 6, 7, 8, 9, 103, 106, 107, 108, 110 til 1045</p>
+						</div>
+						<div id='building-map' class='class-md-6'>
+							<img src='assets/images/buildingmap.png'>
+						</div>
+					</div>
+					<h3>WiFi</h3>
+					<p>Penn State students - please use the PSU WiFi network to avoid overloading the guest network. Non-Penn State students can use the <span class='lightBlue'>attwifi</span> network.</p>
+				</div>
+			</div>
+
+
+			<div id='schedule'>
+				<div class='container'>
+					<h1 class='white'>Schedule</h1>
+
+					<div id='timeline'>
+						<div class='time-marker'>| 10 AM
+						</div>
+						<div class='time-marker'>| 12 PM
+						</div>
+						<div class='time-marker'>| 12 AM
+						</div>
+						<div class='time-marker'>| 12 PM
+						</div>
+						<div id='timeline-bar'>
+						</div>
+						
+					</div>
+					<p class='white'>A team-building session will take place after the opening ceremony! <br>T-shirts will be distributed after Lunch on Saturday.</p>
+					<div class='row' id='schedule-container'>
+						<div class='col-md-6'>
+							<h4>saturday <span class='yellow'>04/09</span></h4>
+							<table id='day1' class='schedule'>
+								<tr>
+									<td>10:00AM</td>
+									<td>check-in begins</td>
+								</tr>
+								<tr>
+									<td>12:00PM</td>
+									<td>opening ceremony (auditorium)</td>
+								</tr>
+								<tr>
+									<td>01:00PM</td>
+									<td>lunch/hacking begins<br><span style='font-weight:300; letter-spacing:1px; font-size:14px'>(team-building session in Atrium)</span></td>
+								</tr>
+								<tr>
+									<td>03:00PM</td>
+									<td>workshops begin</td>
+								</tr>
+								<tr>
+									<td>07:00PM</td>
+									<td>dinner</td>
+								</tr>
+								<tr>
+									<td>12:00AM</td>
+									<td>midnight snack</td>
+								</tr>
+
+							</table>
+						</div>
+						<div class='col-md-6'>
+							<h4>sunday <span class='yellow'>04/10</span></h4>
+							<table id='day2' class='schedule'>
+								<tr>
+									<td>08:30AM</td>
+									<td>breakfast</td>
+								</tr>
+								<tr>
+									<td>12:00PM</td>
+									<td>lunch</td>
+								</tr>
+								<tr>
+									<td>01:00PM</td>
+									<td>hacking ends</td>
+								</tr>	
+								<tr>
+									<td>01:30PM</td>
+									<td>expo</td>
+								</tr>
+								<tr>
+									<td>02:30PM</td>
+									<td>closing ceremony</td>
+								</tr>
+								<tr>
+									<td>04:00PM</td>
+									<td>departure</td>
+								</tr>
+
+							</table>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div id='keynote'>
+				<div class='container'>
+					<img src='assets/images/keynotespeaker.png'>
+					<h1>Keynote Speaker: Shawn McCarthy</h1>
+					<p class='lightBlue'>Sr. Leader, Portals and APIs, Vantiv</p>
+					<p>Shawn is a technologist at heart and has been working with computers from age 12 when his father brought home an Osborne (IBM Clone) computer (with a 10 meg disk drive) and started writing basic algorithms to solve algebra equations. His interest in distributed computing expanded when the first Bulletin Board Systems (BBS) systems went online and he was able to communicate with people around the world. Those passions have evolved into the design of a Web API course (he also teaches) and through continued support of the student chapters of the Association for Computing Machinery (ACM) and the Society of Women Engineers (SWE).</p>
+					<p>Shawn is a two-time graduate from the Department of Computer Science and Engineering (CSE) at the University of Colorado. He is passionate about his career and has found a new passion in motivating current students through involvement at both the department and college level. Shawn believes you are given a strong engineering basis in computer science that allows you to think more critically in the large-scale enterprise platforms. This curriculum provided him the confidence and practical knowledge to explore many different platforms and technologies within the enterprise.</p>
+					<p>Shawn joined Vantiv in  2011 and advocates Vantiv's support for IT Interns, and the number of enterprise level systemsacross every technology stack that allow the company to expose payments solutions for stimulating people like you to simplify payments innovation. He hopes to inspire success in current students so they get as much out of their education as he did.</p>
+				</div>
+			</div>
+
+
+			<div id='rules'>
+				<div class='container'>
+					<h1>Rules</h1>
+					<ol id='rules-list'>
+						<li>Students are permitted to come and go from the venue as they please.</li>
+						<li>All participants must be older than 18, or accompanied by a chaperone at all times.</li>
+						<li>Participants must abide by the expectations set in the <a href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf'>MLH Code of Conduct</a>, or will be asked to leave the event.</li>
+						<li>All submissions must be recieved by the end of the allotted time (Sunday at 1PM). They must be submitted through the DevPost, as outlined in the "Submission" section.</li>
+						<li>Teams can be comprised of up to five members.</li>
+						<li>Projects should be build on site -- do not use a project you have already started! However, using existing libraries and APIs totally fine.</li>
+						<li>Create anything your heart desires! Have fun and be respectful of others!</li>
+						<li>Anything you create is YOUR WORK! HackPSU and its partners have no claim over your intellectual property developed at the event.
+					</ol>
+				</div>
+			</div>
+
+
+			<div id='prizes'>
+				<div class='container'>
+					<h1>Prizes</h1>
+					<table class="table table-striped" id="prize-list">
+						<tr>
+							<td>Prize</td>
+							<td>Booty</td>
+							<td>Requirements</td>
+							<td>Judging</td>
+						</tr>
+						
+					</table>
+
+				</div>
+
+			</div>
+
+			<div id='apis'>
+				<div class='container'>
+					<h1>Available APIs</h1>
+					<p>A list of available APIs is located 
+						<a href='https://docs.google.com/document/d/1_WpiM6OTqoxKc1CT3F622pZ1r7SddKvlCtmc46MgCZo/edit?usp=sharing'>here.</a>
+					</p>
+				</div>
+			</div>
+
+
+			<div id='sponsor-information'>
+				<div class='container'>
+					<h1>Sponsors</h1>
+					<table id='sponsor-list'>
+					</table>
+				</div>
+
+			</div>
+
+
+			<div id='workshops'>
+				<div class='container'>
+					<h1>Workshops</h1>
+					<table class="workshop-list table" id="workshop-block">
+					</table>
+				</div>
+			</div>
+
+
+			<div id='hardware'>
+				<div class='container'>
+					<h1>Hardware</h1>
+					<p>Hardware rentals are provided by MLH and can be signed out at <a href='http://hardware.mlh.io'>hardware.mlh.io</a>. Rented items can be picked up in the Atrium. The hardware room will be closed from 2 AM to 8 AM.</p>
+					<h3>Available hardware</h3>
+					<table id='hardware-list-1' class='hardware-list'>
+					</table>
+					<table id='hardware-list-2' class='hardware-list'>
+					</table>
+				</div>
+			</div>
+
+
+			<div id='communication'>
+				<div class='container'>
+					<h1>Communication</h1>
+					<div class='row comm-medium'>
+						<div class='col-md-4'>
+							<a href='https://hackpsuspring2016.slack.com/'>
+								<img src="assets/images/slack.png">
+								<h4>Slack</h4>
+								<p>Use our Slack channel to talk to mentors, communicate with the team and chat with other hackers. </p>
+							</a>
+						</div>
+						<div class='col-md-4'>
+
+							
+							<img src="assets/images/remind.png">
+							<h4>Remind</h4>
+							<p>Sign up for text announcements by texting @hackpsuS16 to 81010.</p>
+						</div>
+						<div class='col-md-4'>
+							<a href='http://www.facebook.com/hackpsu'>
+								<img src="assets/images/facebook.png">
+								<h4>Facebook</h4>
+								<p>Check our Facebook for announcements and to coordinate with other hackers.</p>
+							</a>
+						</div>
+					</div>
+					<h4>Slack Instructions</h4>
+					<p>Penn State students should be able to join our Slack without an invite using their <span class='lightBlue'>psu.edu</span> email addresses. All other students must be invited! If you don't have an invite, ask a team member at check-in to invite you to our Slack.</p>
+				</div>
+			</div>
+			<div id='submission-info'>
+				<div class='container'>
+					<h1>Submission</h1>
+					<h3>1. Create a <a href='http://github.com'>Github account</a> if you do not have one already.</h3>
+					<h3>2. Go to <a href='http://hackpsu-spring-2016-3747.devpost.com/'>our Devpost event.</a></h3> 
+					<h3>3. Log in using your Github account. </h3>
+					<h3>4. Create a git repository for your project. Need help? <a href='http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners'>Check out this article</a>.</h3>
+					<h3>5. Add a project on DevPost and tell us what you've built. Add the url for your git repository. Submit!</h3>
+				</div>
+			</div>
+			<div id='expo-info'>
+				<div class='container'>
+					<h1>Expo Logistics</h1>
+					<div id='expo-form'>
+						<h3>1. Register your team. <span class="glyphicon glyphicon-play"></span></h3>
+						<iframe src="https://docs.google.com/forms/d/1wRYpfPyNAMUIjB5XG3moC6FbkM8GxqM39C4yBuW2K1k/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+					</div>
+					<h3>2. Check your table.</h3>
+					<p>Check <a href="https://docs.google.com/spreadsheets/d/1mwKpeh88YfXYlO5iQWDJ0Xbn3tSCeFKDdO-2CP8d7eo/edit?usp=sharing">this spreadsheet</a> to find which table your team is assigned to. Your table number is the row number of your entry!</p>
+					<h3>3. Find your table when the expo begins at 1:00 PM.</h3>
+				</div>
+			</div>
+
+			<div id='judges'>
+				<div class='container'>
+					<h1>Judges</h1>
+					<div id='judges-list'>
+					</div>
+
+
+					<div id='rubric'>
+						<h3 class='yellow'>Judging Rubric</h3>
+						<div class='divider' style='background:white'></div>
+						<div id='project-rubric'>
+						</div>
+						<div id='presentation-rubric'>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="footer">
+			<p class="white">// Made with 
+				<span class="yellow glyphicon glyphicon-heart"></span> 
+				in Happy Valley. &copy; 2016 
+				<a class="lightestBlue" href="http://www.facebook.com/creativejamdesign">Creative Jam Design</a>
+			</p>
+		</section>
+	</body>
+	</html>
+
