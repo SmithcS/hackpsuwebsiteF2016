@@ -13,10 +13,17 @@
 		<link rel="shortcut icon" href="assets/icons/favicon.ico">
 
 		<!-- other scripts -->
-		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<!-- <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script type='text/javascript' src='js/hexagons.js'></script>
 		<script src="js/main.js"></script>
 		<script src="js/quickfit.js"></script>
+		<script src="assets/json-objects.js"></script>
+
+		<!-- modals -->
+		<script src="js/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen" />
+
 
 		<!-- bootstrap -->
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -211,10 +218,29 @@
 								<p>What is the Code of Conduct?</p>
 							</div>
 							<div class='answer'>
-								<p>The <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>MLH Code of Conduct</a> ensures that all participants guests have a positive experience at our hackathon!</p>
+								<p>The <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>MLH Code of Conduct</a> ensures that all `s guests have a positive experience at our hackathon!</p>
 							</div>
 						</div>
 					</div>
+			</div>
+		</section>
+
+		<section id='modals' style="display: none;">
+			<div id="sponsor-modal">
+				<!-- <div class="row">
+					<h1 style="font-size: medium;"></h1>
+					<h2> This is sparta!</h2>
+				</div> -->
+				<div class="row">
+					<div class="col-md-12">
+						<img style="max-width: 450px;">
+					</div>
+					</div>
+					<div class="row">
+					<div class="col-md-12">
+						<p id="sponsor-description" style="font-size: medium;"></p>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -229,16 +255,21 @@
 				<div class='small-spacer'></div>
 				<div class='row'>
 					<div class="col-md-12 sponsor-lg">
-						<img id="edtech" src='assets/sponsors/edtech2.png'>
+						<a class="data-modal" >
+							<img id="edtech" src='assets/sponsors/edtech2.png'>
+						</a>
 					</div>
 					<div class="col-md-12 sponsor-lg">
-						<img id='coil' src='assets/sponsors/coil.png'>
+						<a class="data-modal">
+							<img id='coil' src='assets/sponsors/coil.png'>
+						</a>
 					</div>
 				</div>
 				<div class='small-spacer'></div>
 
 				<h3 class='darkBlue section-header'>// thanks to our <span class='lightBlue'>sponsors</span></h3>
 
+				<div id="sponsor-list"></div>
 				<div class='divider scrolly-divider'></div>
 				<div class='tinyhexagon desktop-only'>
 					<span class='glyphicon glyphicon-cog'></span>

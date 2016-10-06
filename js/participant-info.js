@@ -28,7 +28,12 @@ $(document).ready( function() {
 			+ sectionTitle 
 			+ '</a></li>')
 	})
+
+
 	var sponsors = Info["sponsors"];
+	console.log(sponsors);
+
+
 	
 
 	var testHTML = '';

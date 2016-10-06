@@ -11,7 +11,7 @@ var Info = { "sponsors":
 	    	"description": "Zonoff empowers the world's leading brands to deliver smart, seamless living to their consumers. Zonoff is here to help our partners leverage the market potential of the Internet of Things by building superior core technology that fills a real need. Our world-class consumer IoT platform was purposefully built to be protocol agnostic, enable interoperability and be responsive and reliable."
 	    }, 
 	    {
-	    	"name":"Penn State World Campus", 
+	    	"name":"edtech", 
 	    	"logo":"http://news.psu.edu/sites/default/files/styles/threshold-992/public/EdTech-Network-Mark.jpg?itok=4qTvlAIs", 
 	    	"description": "World Campus is the digital component of Penn State, with the EdTech Network being an organization within it that focuses on improving the experience of it's students through technological forwardness and innovation. The EdTech Network promotes active collaboration among companies, students, faculty, staff, and alumni to foster transformational education technology. We support Penn State World Campus' continuous growth towards 45,000 students, the educational technology work going on throughout Penn State, and the global online learning community. "
 	    }, 
@@ -36,7 +36,7 @@ var Info = { "sponsors":
 	    	"description": "Erie Insurance is a national provider of home, business, life, and auto insurance. While not your average tech company, Erie leverages tools such as drones and VR to help survey sites and make insurance decisions, providing a leading edge in an industry whose tech side is developing solutions to make a great experience for its customers."
 	    }, 
 	    {
-	    	"name":"COIL", 
+	    	"name":"coil", 
 	    	"logo":"assets/sponsors/coil.jpg", 
 	    	"description": "Penn State created the Center for Online Innovation in Learning (COIL) in 2012 as a cross-discipline research and development center focused on building and sustaining a culture of innovation, collaboration, and invention focused on improving teaching and learning. In pursuit of its mission, COIL engages the University's extensive research enterprise across multiple disciplines in order to improve learning through online innovations at and beyond Penn State."
 	    }, 
