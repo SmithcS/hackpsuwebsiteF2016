@@ -171,6 +171,62 @@ table {
 
 /*=================================================*/
 
+/*============TIMELINE=============*/
+#timeline {
+	text-align: left;
+	margin-top: 50px;
+	height:120px;
+}
+#timeline-bar {
+	width:100%;
+	height:4px;
+	background-color: white;
+	margin: 0;
+	margin-top:-60px;
+
+}
+.timeline-circle {
+	background-color:#FFCC66;
+	width:30px;
+	height:30px;
+	border-radius: 50%;
+	position: relative;
+	transition: all 0.8s ease;
+} .timeline-circle:hover {
+	background-color:#3399CC;
+	z-index: 1000;
+	transition: all 0.3s ease;
+}
+.selected-event {
+	background-color: #3399CC;
+	transition: all 0.3s ease;
+}
+
+.schedule tr {
+	transition: all 0.8s ease;
+}
+.time-marker {
+	
+	margin-bottom:10px;
+	font-size: 14px;
+	color:white;
+	position:relative;
+}
+.time-marker:nth-child(2){
+	top:-25px;
+	left:10%;
+}
+.time-marker:nth-child(3){
+	top:-50px;
+	left:47%;
+}
+.time-marker:nth-child(4){
+	top:-80px;
+	left:87%;
+}
+
+/*=================================================*/
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-weight: 500;
@@ -407,6 +463,20 @@ a {
 	height:auto;
 	padding:20px;
 }
+
+/*=================  MAP =======================*/
+
+#map {
+	background-color: rgba(58, 45, 64, 0.5);
+}
+
+#map div.collapse {
+	background-color: rgba(58,45,64,0.6);
+}
+#map div.collapse p {
+		color: white;
+		padding: 20px;
+	}
 
 
 /*================= SCHEDULE ==================*/

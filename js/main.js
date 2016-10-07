@@ -161,6 +161,41 @@
 		return false;
 	})
 
+	eventTimes = [0,2,3,5,9,14,22.5,26,27,27.5,28.5,30];
+	for (var i=0; i<12; i++) {
+		console.log($('#timeline-bar').width());
+		distance = (eventTimes[i]/30 * $('#timeline-bar').width()) - 15;
+		if (i < 6 ) {
+			whichDay = '#day1';
+		} else {
+			whichDay = '#day2';
+		}
+		
+		$('#timeline').append($('<div>')
+			.addClass('timeline-circle')
+			.css( {
+				'left' : eventTimes[i]/30 * $('#timeline-bar').width() - 15, 
+				'top' : (-30 * i)-18 
+			})
+			.attr("data-whichDay",whichDay)
+			.attr("data-tableRow", i % 6 + 1)
+		);
+	};
+
+	$('.timeline-circle').each( function() {
+		$(this).hover( function() {
+			selectorString = $(this).attr('data-whichDay') + ' tr:nth-child(' +  $(this).attr('data-tableRow') + ')';
+			$(selectorString).toggleClass('selected-event');
+		})
+	})
+
+	$('#venue-header').hover(function() {
+		$(this).children().attr("style", "color:lightBlue;")
+	}, function() {
+		$(this).children().attr("style", "color:white;")
+	})
+
+
 	// var workshops = Info["workshops"];
 	// for (var key in workshops) {
 	// 	var workshop = workshops[key];
