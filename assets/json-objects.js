@@ -1,23 +1,30 @@
 var Info = { 
-	"partners":
-	[
-	    {
-	    	"name":"coil", 
-	    	"logo":"assets/sponsors/coil.jpg", 
-	    	"description": "Penn State created the Center for Online Innovation in Learning (COIL) in 2012 as a cross-discipline research and development center focused on building and sustaining a culture of innovation, collaboration, and invention focused on improving teaching and learning. In pursuit of its mission, COIL engages the University's extensive research enterprise across multiple disciplines in order to improve learning through online innovations at and beyond Penn State."
-	    },
-	    {
-	    	"name":"edtech", 
-	    	"logo":"http://news.psu.edu/sites/default/files/styles/threshold-992/public/EdTech-Network-Mark.jpg?itok=4qTvlAIs", 
-	    	"description": "World Campus is the digital component of Penn State, with the EdTech Network being an organization within it that focuses on improving the experience of it's students through technological forwardness and innovation. The EdTech Network promotes active collaboration among companies, students, faculty, staff, and alumni to foster transformational education technology. We support Penn State World Campus' continuous growth towards 45,000 students, the educational technology work going on throughout Penn State, and the global online learning community. "
-	    }
-	],
 	"sponsors":
 	[
+		{
+	    	"name":"edtech", 
+	    	"logo":"assets/sponsors/edtech.png", 
+	    	"description": "World Campus is the digital component of Penn State, with the EdTech Network being an organization within it that focuses on improving the experience of it's students through technological forwardness and innovation. The EdTech Network promotes active collaboration among companies, students, faculty, staff, and alumni to foster transformational education technology. We support Penn State World Campus' continuous growth towards 45,000 students, the educational technology work going on throughout Penn State, and the global online learning community. "
+	    },
+		{
+	    	"name":"coil", 
+	    	"logo":"assets/sponsors/coil.png", 
+	    	"description": "Penn State created the Center for Online Innovation in Learning (COIL) in 2012 as a cross-discipline research and development center focused on building and sustaining a culture of innovation, collaboration, and invention focused on improving teaching and learning. In pursuit of its mission, COIL engages the University's extensive research enterprise across multiple disciplines in order to improve learning through online innovations at and beyond Penn State."
+	    },
 		{
 	    	"name":"IBM", 
 	    	"logo":"assets/sponsors/ibm.png", 
 	    	"description": "IBM (International Business Machines) is by far the world's largest information technology company in terms of revenue and by most other measures, a position it has held for about the past 50 years. IBM products include hardware and software for a line of business servers, storage products, custom-designed microchips, and application software."
+	    },
+	    {
+	    	"name":"Optum",
+	    	"logo":"assets/sponsors/optum.png",
+	    	"description": "Optum is a health services and innovation company helping to make the health system work better for everyone. By collaborating with partners across the system, they are leading change in health care by offering system-wide technologies built to meet clients' changing needs and modernize the health care system."
+	    },
+	    {
+	    	"name":"Invent Penn State",
+	    	"logo":"assets/sponsors/inventpsu.png",
+	    	"description":"Invent Penn State is a Commonwealth-wide initiative to spur economic development, job creation, and student career success. Launched in 2015 by Penn State President Dr. Eric Barron, Invent Penn State is a coordinated effort to create a University environment that welcomes and encourages entrepreneurship. Invent Penn State leverages Penn State's research, knowledge, and entrepreneurial spirit in collaboration amongst industry, entrepreneurs, and academia to develop products and services that will benefit Pennsylvanians and humankind."
 	    },
 	    {
 	    	"name":"Launchbox", 
