@@ -126,7 +126,7 @@
 	for (var i = 0; i < sponsors.length; i++) {
 		var sponsor1 = sponsors[i], sponsor2 = sponsors[++i]; sponsor3 = sponsors[++i];
 		var createHTML = function (sponsor) {
-			return '<div class="sponsor-list-image col-md-4"><a href="#sponsor-modal" class="data-modal"><img style="max-width: 350px;" id="'
+			return '<div class="col-md-4 sponsor-med"><a href="#sponsor-modal" class="data-modal"><img id="'
 	   				+ sponsor.name + '" src="'
 	   				+ sponsor.logo
 	   				+ '"></a></div>'

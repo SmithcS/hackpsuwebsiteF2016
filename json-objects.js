@@ -14,25 +14,25 @@ var Info = {
 	],
 	"sponsors":
 	[
-		{
-	    	"name":"IBM", 
-	    	"logo":"assets/sponsors/ibm.png", 
-	    	"description": "IBM (International Business Machines) is by far the world's largest information technology company in terms of revenue and by most other measures, a position it has held for about the past 50 years. IBM products include hardware and software for a line of business servers, storage products, custom-designed microchips, and application software."
+	    {
+	    	"name":"Global Entrepreneurship Week at PSU", 
+	    	"logo":"assets/sponsors/gew.png", 
+	    	"description": "Global Entrepreneurship Week is a world wide event meant to bring a focus to the entrepreneurship community, with it's own branch at PSU. Each year, GEW hosts speakers, workshops, and events to promote its cause and "
 	    },
 	    {
 	    	"name":"Launchbox", 
 	    	"logo":"assets/sponsors/launchbox.png", 
 	    	"description": "Happy Valley LaunchBox is a robust no-cost toolbox for local early-stage entrepreneurs that accelerates business concepts into early stage startup companies and advances them to the point that they win their first customer or are ready to seek their first investment. With a recent grand opening of their facilities on Allen Street here in State College, they're ready to accept students who want to take control of their futures."
 	    },
-	    {
-	    	"name":"Global Entrepreneurship Week at PSU", 
-	    	"logo":"assets/sponsors/gew.png", 
-	    	"description": "Global Entrepreneurship Week is a world wide event meant to bring a focus to the entrepreneurship community, with it's own branch at PSU. Each year, GEW hosts speakers, workshops, and events to promote its cause and "
-	    },
 	   	{
 	    	"name":"Namecheap", 
 	    	"logo":"assets/sponsors/namecheap.png", 
 	    	"description": "Namecheap is a leading ICANN-accredited domain name registrar and web hosting company. To date, they have over a million customers and more than three million domains under management. Namecheap offers domain names at some of the best prices in the industry, along with full-featured hosting packages, secure SSL certificates, WhoisGuard privacy protection service, and more."
+	    },
+	    {
+	    	"name":"IBM", 
+	    	"logo":"assets/sponsors/ibm.png", 
+	    	"description": "IBM (International Business Machines) is by far the world's largest information technology company in terms of revenue and by most other measures, a position it has held for about the past 50 years. IBM products include hardware and software for a line of business servers, storage products, custom-designed microchips, and application software."
 	    }
 	],
 	"workshops":
