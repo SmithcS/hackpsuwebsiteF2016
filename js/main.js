@@ -74,6 +74,19 @@
 		$('p span',this).toggleClass('rotated');
 	});
 
+	$("#maps-icon").hover(function() {
+		$(this).animate({
+			height: '+=5',
+			width: '+=5'
+		}, "fast")
+		console.log("hover triggered");
+	}, function() {
+		$(this).animate({
+			height: '-=5',
+			width: '-=5'
+		}, "fast")
+	})
+
 	$('.question p').prepend('<span class="glyphicon glyphicon-triangle-right"></span>  ');
 
 	
