@@ -19,7 +19,7 @@ var Info = {
 	    {
 	    	"name":"Optum",
 	    	"logo":"assets/sponsors/optum.png",
-	    	"description": "Optum is a health services and innovation company helping to make the health system work better for everyone. By collaborating with partners across the system, they are leading change in health care by offering system-wide technologies built to meet clients' changing needs and modernize the health care system."
+	    	"description": "Optum is a health services and innovation company working to make the health system better for everyone. By collaborating with partners across the system, they are leading change in health care by offering system-wide technologies built to meet clients' changing needs and modernize the health care system."
 	    },
 	    {
 	    	"name":"Invent Penn State",
