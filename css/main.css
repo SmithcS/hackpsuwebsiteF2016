@@ -188,7 +188,9 @@ table {
 .timeline-circle {
 	background-color:#FFCC66;
 	width:30px;
+	max-width: 30px;
 	height:30px;
+	max-height: 30px;
 	border-radius: 50%;
 	position: relative;
 	transition: all 0.8s ease;
@@ -206,7 +208,6 @@ table {
 	transition: all 0.8s ease;
 }
 .time-marker {
-	
 	margin-bottom:10px;
 	font-size: 14px;
 	color:white;
@@ -565,33 +566,44 @@ a {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding:50px 0;
 }
+.sponsor-med a {/* properly centers the logos vertically 
+	and horizontally in divs */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-height: 250px;
+}
 .sponsor-med img {
-	max-width: 100%;
-	width:auto;
-	height:auto;
-	max-height:250px;
+	width: 400px;
+	height: auto;
 	padding:30px;
 }
-.sponsor-list-image img {
-	max-width: 300px;
-	max-height: 150px;
-	width:auto;
-	height:auto;
+.sponsor-lg a {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 .sponsor-lg img {
-	max-width: 600px;
-	width: 100%;
+	width: 500px;
 	height:auto;
 	padding:20px;
-	position: relative;
-	top: 50%;
 }
 #sponsors div p a:hover {
 	color:#2A202F;
 }
 
-#edtech {
-	max-width: 450px;
+#Edtech {
+	max-width: 350px;
+}
+
+#Coil {
+	max-width: 400px;
+}
+
+#Namecheap {
+	max-width: 300px;
 }
 
 

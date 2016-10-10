@@ -131,31 +131,48 @@
 	}
 
 	var sponsors = Info["sponsors"];
-	// console.log(sponsors);
 
+	//TODO: Change this to simply retrieving the logos and show three logos in a row
+	//Then popup modal with the sponsor's info when clicked
 
-//TODO: Change this to simply retrieving the logos and show three logos in a row
-		//Then popup modal with the sponsor's info when clicked
-	for (var i = 0; i < sponsors.length; i++) {
+	for (var i = 2; i < sponsors.length; i++) {
 		var sponsor1 = sponsors[i], sponsor2 = sponsors[++i]; sponsor3 = sponsors[++i];
-		var createHTML = function (sponsor) {
-			return '<div class="sponsor-list-image col-md-4"><a href="#sponsor-modal" class="data-modal"><img style="max-width: 350px;" id="'
+		
+		var createSponsorHTML = function (sponsor) {
+			return '<div class="col-md-4 sponsor-med"><a href="#sponsor-modal" class="data-modal"><img id="'
 	   				+ sponsor.name + '" src="'
 	   				+ sponsor.logo
 	   				+ '"></a></div>'
 		}
 
-		try{
-	   	var sponsorHTML =
-	   	'<div class="row">' + createHTML(sponsor1) + createHTML(sponsor2) + createHTML(sponsor3) + '</div>';
-	   } catch (err) {
-	   	if (sponsor2 == null) {
-	   		sponsorHTML = '<div class="row">' + createHTML(sponsor1) + '</div>'
-	   	}
-	   	else if (sponsor3 == null) {
-	   		sponsorHTML = '<div class="row">' + createHTML(sponsor1) + createHTML(sponsor2) + '</div>'
-	   	}
-	   }  	
+		// Second function for HTML in 'In coordination with' section
+		var createPartnerHTML = function (partner) {
+			return '<div class="col-md-12 sponsor-lg"><a href="#sponsor-modal" class="data-modal"><img id="'
+	   				+ partner.name + '" src="'
+	   				+ partner.logo
+	   				+ '"></a></div>'
+		}
+
+		// Only run once to populate partner-list
+		if (i == 4) {
+			var partner1 = sponsors[0];
+			var partner2 = sponsors[1];
+			var partnerHTML = '<div class="row">' + createPartnerHTML(partner1) + createPartnerHTML(partner2) + '</div>';
+			$('#partner-list').append(partnerHTML);
+		}
+
+		try {
+	   		var sponsorHTML = '<div class="row">' + createSponsorHTML(sponsor1) + createSponsorHTML(sponsor2) + createSponsorHTML(sponsor3) + '</div>';
+	  	} 
+	  	catch (err) {
+	   		if (sponsor2 == null) {
+	   			sponsorHTML = '<div class="row">' + createSponsorHTML(sponsor1) + '</div>'
+	   		}
+	   		else if (sponsor3 == null) {
+	   			sponsorHTML = '<div class="row">' + createSponsorHTML(sponsor1) + createSponsorHTML(sponsor2) + '</div>'
+	   		}
+	   	}  	
+
 	   	$('#sponsor-list').append(sponsorHTML);
 	   }
 
@@ -174,39 +191,39 @@
 		return false;
 	})
 
-	eventTimes = [0,2,3,5,9,14,22.5,26,27,27.5,28.5,30];
-	for (var i=0; i<12; i++) {
-		console.log($('#timeline-bar').width());
-		distance = (eventTimes[i]/30 * $('#timeline-bar').width()) - 15;
-		if (i < 6 ) {
-			whichDay = '#day1';
-		} else {
-			whichDay = '#day2';
-		}
+	// eventTimes = [0,2,3,5,9,14,22.5,26,27,27.5,28.5,30];
+	// for (var i=0; i<12; i++) {
+	// 	console.log($('#timeline-bar').width());
+	// 	distance = (eventTimes[i]/30 * $('#timeline-bar').width()) - 15;
+	// 	if (i < 6 ) {
+	// 		whichDay = '#day1';
+	// 	} else {
+	// 		whichDay = '#day2';
+	// 	}
 		
-		$('#timeline').append($('<div>')
-			.addClass('timeline-circle')
-			.css( {
-				'left' : eventTimes[i]/30 * $('#timeline-bar').width() - 15, 
-				'top' : (-30 * i)-18 
-			})
-			.attr("data-whichDay",whichDay)
-			.attr("data-tableRow", i % 6 + 1)
-		);
-	};
+	// 	$('#timeline').append($('<div>')
+	// 		.addClass('timeline-circle')
+	// 		.css( {
+	// 			'left' : eventTimes[i]/30 * $('#timeline-bar').width() - 15, 
+	// 			'top' : (-30 * i)-18 
+	// 		})
+	// 		.attr("data-whichDay",whichDay)
+	// 		.attr("data-tableRow", i % 6 + 1)
+	// 	);
+	// };
 
-	$('.timeline-circle').each( function() {
-		$(this).hover( function() {
-			selectorString = $(this).attr('data-whichDay') + ' tr:nth-child(' +  $(this).attr('data-tableRow') + ')';
-			$(selectorString).toggleClass('selected-event');
-		})
-	})
+	// $('.timeline-circle').each( function() {
+	// 	$(this).hover( function() {
+	// 		selectorString = $(this).attr('data-whichDay') + ' tr:nth-child(' +  $(this).attr('data-tableRow') + ')';
+	// 		$(selectorString).toggleClass('selected-event');
+	// 	})
+	// })
 
-	$('#venue-header').hover(function() {
-		$(this).children().attr("style", "color:lightBlue;")
-	}, function() {
-		$(this).children().attr("style", "color:white;")
-	})
+	// $('#venue-header').hover(function() {
+	// 	$(this).children().attr("style", "color:lightBlue;")
+	// }, function() {
+	// 	$(this).children().attr("style", "color:white;")
+	// })
 
 
 	// var workshops = Info["workshops"];
