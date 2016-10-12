@@ -74,6 +74,19 @@
 		$('p span',this).toggleClass('rotated');
 	});
 
+	$("#maps-icon").hover(function() {
+		$(this).animate({
+			height: '+=5',
+			width: '+=5'
+		}, "fast")
+		console.log("hover triggered");
+	}, function() {
+		$(this).animate({
+			height: '-=5',
+			width: '-=5'
+		}, "fast")
+	})
+
 	$('.question p').prepend('<span class="glyphicon glyphicon-triangle-right"></span>  ');
 
 	
@@ -176,7 +189,67 @@
 		$('#sponsor-modal p').text(sponsor.description)
 		$('#sponsor-modal img').attr("src", sponsor.logo)
 		return false;
-	})
+	});
+	
+	var schedule = Info["schedule"];
+	
+	$('#calendar').fullCalendar({
+		header : {
+			center : '',
+			right: ''
+		},
+		views : {
+			agendaTwoDay : {
+				type: 'agenda',
+				duration : { days: 2 },
+		 		buttonText : '2 day'
+			}
+		},
+		defaultDate : '2016-11-12',
+		eventSources:  {
+			events: schedule,
+		},
+		eventColor : 'rgb(58,45,64)',
+		eventBorderColor : 'white',
+		slotEventOverlap: false,
+		aspectRatio : '2',
+		allDaySlot : false,
+		defaultView : 'agendaTwoDay',
+		eventClick : function (calEvent, jsEvent, view) {
+			$('#event-modal').jmodal({
+			showClose: false,
+			fadeDuration: 250,
+			fadeDelay: 0.5
+		})
+		$('#event-modal h3').text(calEvent.title)
+		$('#event-modal p').text(calEvent.description)
+		// $('#event-modal p').toggleClass('blocker')
+		}
+	});
+	
+	$('')
+	
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
 
 	// eventTimes = [0,2,3,5,9,14,22.5,26,27,27.5,28.5,30];
 	// for (var i=0; i<12; i++) {
