@@ -52,8 +52,6 @@ $(document).ready( function() {
 	   	$('#sponsor-list').append(sponsorHTML);
 	}
 
-	var schedule = Info["schedule"];
-	
 	var workshops = Info["workshops"];
 	for (var key in workshops) {
 		var workshop = workshops[key];
