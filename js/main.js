@@ -190,6 +190,43 @@
 		$('#sponsor-modal img').attr("src", sponsor.logo)
 		return false;
 	})
+	
+	var schedule = Info["schedule"];
+	
+	$('#calendar').fullCalendar({
+		header : {
+			center : '',
+			right: ''
+		},
+		views : {
+			agendaTwoDay : {
+				type: 'agenda',
+				duration : { days: 2 },
+		 		buttonText : '2 day'
+			}
+		},
+		defaultDate : '2016-11-12',
+		eventSources:  {
+			events: schedule,
+		},
+		eventColor : 'rgb(58,45,64)',
+		eventBorderColor : 'white',
+		slotEventOverlap: false,
+		aspectRatio : '2',
+		allDaySlot : false,
+		defaultView : 'agendaTwoDay',
+		eventClick : function (calEvent, jsEvent, view) {
+			$('#event-modal').jmodal({
+			showClose: false,
+			fadeDuration: 250,
+			fadeDelay: 0.5
+		})
+		$('#event-modal h3').text(calEvent.title)
+		$('#event-modal p').text(calEvent.description)
+		}
+	});
+	
+	$('')
 
 	// eventTimes = [0,2,3,5,9,14,22.5,26,27,27.5,28.5,30];
 	// for (var i=0; i<12; i++) {

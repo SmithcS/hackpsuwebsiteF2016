@@ -493,34 +493,47 @@ a {
 	background-color: white;
 }
 #schedule-container {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 15px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #FFCC66;
+	border-radius: 5px;
 	z-index: 20;
 }
-#schedule table {
-	margin:20px;
-}
-
-#schedule td {
-	padding:10px;
-	font-size: smaller;
-}
-#schedule td:first-child { 
-    color: #FFCC66;
-    font-weight: 300;
-    font-size: large;
-    letter-spacing: 2px;
-}#schedule td:last-child {
-	color:white;
+#schedule-container th span {
+	font-size: 32px;
 	font-weight: 600;
-	text-transform: uppercase;
-	font-size: large;
-	letter-spacing: 5px
 }
-#schedule-container div h4 {
-	font-size: smaller;
-	padding:10px;
-	text-align: left;
-	background-color: #3399CC;
+#schedule-container tbody tr {
 }
+/*#schedule table {*/
+/*	margin:20px;*/
+/*}*/
+
+/*#schedule td {*/
+/*	padding:10px;*/
+/*	font-size: smaller;*/
+/*}*/
+/*#schedule td:first-child { */
+/*    color: #FFCC66;*/
+/*    font-weight: 300;*/
+/*    font-size: large;*/
+/*    letter-spacing: 2px;*/
+/*}#schedule td:last-child {*/
+/*	color:white;*/
+/*	font-weight: 600;*/
+/*	text-transform: uppercase;*/
+/*	font-size: large;*/
+/*	letter-spacing: 5px*/
+/*}*/
+/*#schedule-container div h4 {*/
+/*	font-size: smaller;*/
+/*	padding:10px;*/
+/*	text-align: left;*/
+/*	background-color: #3399CC;*/
 
 /*================= FAQ ==================*/
 
