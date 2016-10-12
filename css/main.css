@@ -145,6 +145,7 @@ table {
 		font-size: 60%
 	}
 }
+
 @media (min-width: 650px) {
 	#banner-text h1 {
 		font-size: 120%;
@@ -183,7 +184,6 @@ table {
 	background-color: white;
 	margin: 0;
 	margin-top:-60px;
-
 }
 .timeline-circle {
 	background-color:#FFCC66;
@@ -251,6 +251,7 @@ body {
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover;
+	/*padding-top: 50px;*/
 }
 section {
 	display: block;
@@ -258,9 +259,30 @@ section {
 a {
 
 } a:hover {
-	
 	text-decoration: none;
 }	
+
+/*============NAVBAR=============*/
+
+nav {
+	background-color: rgba(58, 45, 64, 0.6);
+}
+.navbar img {
+		float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	max-width: 35px;
+}
+.nav-tabs {
+	border: 0;
+}
+.nav-tabs li a {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #FFCC66;
+}
+
 
 /*======================= CUSTOM ===========================*/
 
@@ -374,6 +396,7 @@ a {
 	width:100%;
 	position: relative;
 	z-index: 500;
+	/*top: 58px;*/
 }
 #hackpsu-logo {
 	text-align: center;	
@@ -412,7 +435,6 @@ a {
 	letter-spacing:20px;
 	font-size: larger;
 }
-
 
 /*========= ABOUT ==========*/
 
@@ -495,7 +517,6 @@ a {
 #schedule-container {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: 15px;
-	color: black;
 	background-color: white;
 	border-style: solid;
 	border-width: 5px;

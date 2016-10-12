@@ -376,19 +376,6 @@ var Info = {
 	"schedule":
 	[
 		{
-			"id" : "1",
-			"title": "Setup Group 1",
-			"description" : "This is the first event",
-			"start": "2016-11-12T06:00:00",
-			"end" : "2016-11-12T10:00:00"
-		},
-		{
-			"id" : "2",
-			"title": "Setup Group 2",
-			"start": "2016-11-12T08:00:00",
-			"end" : "2016-11-12T10:00:00"
-		},
-		{
 			"id" : "3",
 			"title": "Registration",
 			"start": "2016-11-12T10:00:00",
@@ -514,20 +501,6 @@ var Info = {
 			"title": "Breakfast",
 			"start": "2016-11-13T07:30:00",
 			"end" : "2016-11-13T09:30:00",
-			'overlap' : 'true'
-		},
-		{
-			"id" : "23",
-			"title": "Sleep Shift 1",
-			"start": "2016-11-13T00:30:00",
-			"end" : "2016-11-13T05:30:00"
-		},
-		{
-			"id" : "24",
-			"title": "Sleep Shift 2",
-			"start": "2016-11-13T05:30:00",
-			"end" : "2016-11-13T10:20:00",
-			'overlap': 'true'
 		},
 		{
 			"id" : "25",
