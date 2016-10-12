@@ -510,6 +510,10 @@ nav {
 		padding: 10px;
 	}
 
+/*================= COLLAPSE ==================*/
+.glyphicon-collapse-down {
+	margin-left: 15px;
+}
 
 /*================= SCHEDULE ==================*/
 

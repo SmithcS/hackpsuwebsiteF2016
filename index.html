@@ -57,9 +57,10 @@
 	      				</a>
 						<ul class="nav nav-tabs navbar-collapse">
 				  			<li role="presentation"><a href="#faq">FAQs</a></li>
+								<li role="presentation"><a href="#map">Venue</a></li>
 						  	<li role="presentation"><a href="#sponsors">Sponsors</a></li>
-						  	<li role="presentation"><a href="#map">Venue</a></li>
 						  	<li role="presentation"><a href="#schedule">Schedule</a></li>
+								<li role="presentation"><a href="#info"> Info </a></li>
 						</ul>
 					</nav>
 			</section>
@@ -239,6 +240,45 @@
 				</div>
 			</section>
 
+			<!-- Leaving this out until everything else is ready for release  -->
+					<section id="map">
+							<div class="container">
+								<a href="#venue-container" data-toggle="collapse" id="venue-header">
+								<h3 class="white section-header">// Venue</h3>
+								</a>
+								<div class='alt-divider scrolly-divider'></div>
+									<div class='tinyhexagon desktop-only'>
+										<span class='glyphicon glyphicon-cog white'></span>
+									</div>
+								<div id="venue-container" class="collapse in">
+									<div class="row ">
+										<div class="col-lg-6">
+											<iframe src="http://www.map.psu.edu/?#0995087"></iframe>
+										</div>
+										<div class="col-md-6">
+											<div class="row">
+												<div class="col-sm-9">
+												<h4 class="white section-header-center">Arrival</h4>
+												</div>
+												<div class="col-sm-2">
+												<a href="http://maps.apple.com/?daddr=40.803089, -77.865833">
+													<img src="assets/icons/Maps.png" id="maps-icon" style="width: 50px; height: 50px; margin-top: 10px;">
+												</a>
+												</div>
+											</div>
+											<div class="row">
+												<p> Check in will begin at 10 AM in the foyer of the Business Building, located near the corner of Park Avenue and Shortlidge Road. Please have a valid ID!
+												</p>
+												<p>
+												Parking is free for the weekend in the East Parking Deck, a quick stroll from the Business Building and right behind the Berkey Creamery. If you get lost driving through campus, just look for signs for the Creamery, because they are LITERALLY everywhere.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
 			<section id='modals' style="display: none;">
 				<div id="sponsor-modal">
 					<div class="row">
@@ -260,6 +300,7 @@
 						</div>
 						<div class="row">
 						<div class="col-md-12">
+							<p id="event-location" style="font-size: medium"></p>
 							<p id="event-description" style="font-size: medium;"></p>
 						</div>
 					</div>
@@ -276,18 +317,6 @@
 
 					<div class='small-spacer'></div>
 					<div id='partner-list'></div>
-<!-- 					<div class='row'>
-						<div class="col-md-12 sponsor-lg">
-							<a class="data-modal" >
-								<img id="edtech" src='assets/sponsors/edtech2.png'>
-							</a>
-						</div>
-						<div class="col-md-12 sponsor-lg">
-							<a class="data-modal">
-								<img id='coil' src='assets/sponsors/coil.png'>
-							</a>
-						</div>
-					</div> -->
 					<div class='small-spacer'></div>
 
 					<h3 class='darkBlue section-header'>// thanks to our <span class='lightBlue'>sponsors</span></h3>
@@ -304,46 +333,7 @@
 				</div>
 			</section>
 
-<!-- Leaving this out until everything else is ready for release  -->
-		<section id="map">
-				<div class="container">
-					<a href="#venue-container" data-toggle="collapse" id="venue-header">
-					<h3 class="white section-header">// Venue</h3>
-					</a>
-					<div class='alt-divider scrolly-divider'></div>
-						<div class='tinyhexagon desktop-only'>
-							<span class='glyphicon glyphicon-cog white'></span>
-						</div>
-					<div id="venue-container" class="collapse in">
-						<div class="row ">
-							<div class="col-lg-6">
-								<iframe src="http://www.map.psu.edu/?#0995087" style="width: 500px; height: 500px;"></iframe>
-							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-sm-9">
-									<h4 class="white section-header-center">Arrival</h4>
-									</div>
-									<div class="col-sm-2">
-									<a href="http://maps.apple.com/?daddr=40.803089, -77.865833">
-										<img src="assets/icons/Maps.png" id="maps-icon" style="width: 50px; height: 50px; margin-top: 10px;">
-									</a>
-									</div>
-								</div>
-								<div class="row">
-									<p> Check in will begin at 10 AM in the foyer of the Business Building, located near the corner of Park Avenue and Shortlidge Road. Please have a valid ID!
-									</p>
-									<p>
-									Parking is free for the weekend in the East Parking Deck, a quick stroll from the Business Building and right behind the Berkey Creamery. If you get lost driving through campus, just look for signs for the Creamery, because they are LITERALLY everywhere.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			
+
 			<section id="schedule">
 				<div class="container">
 					<a href="#schedule-container" data-toggle="collapse" id="schedule-header">
