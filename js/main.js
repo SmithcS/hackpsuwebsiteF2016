@@ -240,7 +240,7 @@
 		}
 	});
 
-	$('')
+	// $('')
 
   $("a").on('click', function(event) {
 
