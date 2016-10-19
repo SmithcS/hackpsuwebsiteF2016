@@ -7,7 +7,7 @@
 	if ( window.innerWidth > 600 ) {
 		imdobile = false;
 	}
-
+	
 	console.log(imdobile)
 
 	if ( imdobile == false ) {
@@ -35,6 +35,10 @@
 		$('.desktop-only').css('display', 'none');
 
 	}
+	
+	//Set map url
+	$('iframe').attr("src", "http://www.map.psu.edu/?#0995087")
+
 
 
     function scrollyDividers() {
@@ -60,8 +64,6 @@
 				})
 		});
 	}
-
-
 
 	// all used for styling
 	$('.question').hover( function() {
@@ -131,10 +133,6 @@
 	}
 
 	var sponsors = Info["sponsors"];
-
-	//TODO: Change this to simply retrieving the logos and show three logos in a row
-	//Then popup modal with the sponsor's info when clicked
-
 	for (var i = 2; i < sponsors.length; i++) {
 		var sponsor1 = sponsors[i], sponsor2 = sponsors[++i]; sponsor3 = sponsors[++i];
 
@@ -199,6 +197,8 @@
 	$('.collapse').on('show.bs.collapse', function() {
 		var x = $(this).parent().find('.glyphicon-collapse-down').remove()
 	})
+	
+	$('.collapse').not('#schedule-container').collapse('hide');
 
 
 
@@ -242,7 +242,7 @@
 
 	// $('')
 
-  $("a").on('click', function(event) {
+  $("#li>a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -316,42 +316,42 @@
 
 	//    	$('#workshop-block').append(workshopHTML);
 	// }
-	// var prizes = Info["prizes"];
-	// for (var key in prizes) {
-	// 	var prize = prizes[key];
+	var prizes = Info["prizes"];
+	for (var key in prizes) {
+		var prize = prizes[key];
 
-	//    	var workshopHTML =
-	//    	'<tr><td><span style="font-weight:800">'
-	//    	+ prize.name
-	//    	+ '</span><br><span class="lightBlue">'
-	//    	+ prize.sponsor
-	//    	+ '</span></td><td>'
-	//    	+ prize.value
-	//    	+ '</td><td>'
-	//    	+ prize.requirements
-	//    	+ '</td><td>'
-	//    	+ prize.judging
-	//    	+ '</td></tr>';
+	    	var prizeHTML =
+	    	'<tr><td><span style="font-weight:800">'
+	    	+ prize.name
+	    	+ '</span><br><span class="lightBlue">'
+	    	+ prize.sponsor
+	    	+ '</span></td><td>'
+	    	+ prize.value
+	    	+ '</td><td>'
+	    	+ prize.requirements
+	    	+ '</td><td>'
+	    	+ prize.judging
+	    	+ '</td></tr>';
 
-	//    	$('#prize-list').append(workshopHTML);
+	    	$('#prize-list').append(prizeHTML);
 
-	// }
-	// var judges = Info["judges"];
-	// for (var key in judges) {
-	// 		var judge = judges[key];
-	// 	   	var judgeHTML =
-	// 	   	'<div class="row"><div class="sponsor-list-image col-md-4"><div style="background-image:url('
-	// 	   	+ judge.image
-	// 	   	+ ')"></div></div><div class="col-md-8"><h5>'
-	// 	   	+ judge.name
-	// 	   	+ '</h5>'
-	// 	   	+ judge.tagline
-	// 	   	+ '<p class="judge-description">'
-	// 	   	+ judge.description
-	// 	   	+ '</p></div></div>';
+	}	
+	var judges = Info["judges"];
+	for (var key in judges) {
+			var judge = judges[key];
+		   	var judgeHTML =
+		   	'<div class="row"><div class="sponsor-list-image col-md-4"><div style="background-image:url('
+		   	+ judge.image
+		   	+ ')"></div></div><div class="col-md-8"><h5>'
+		   	+ judge.name
+		   	+ '</h5>'
+		   	+ judge.tagline
+		   	+ '<p class="judge-description">'
+		   	+ judge.description
+		   	+ '</p></div></div>';
 
-	// 	   	$('#judges-list').append(judgeHTML);
-	// }
+		   	$('#judges-list').append(judgeHTML);
+	}
 	// var hardware = Info["hardware"];
 	// for (var key in hardware) {
 	// 		var item = hardware[key];

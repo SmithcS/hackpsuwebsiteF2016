@@ -172,62 +172,6 @@ table {
 
 /*=================================================*/
 
-/*============TIMELINE=============*/
-#timeline {
-	text-align: left;
-	margin-top: 50px;
-	height:120px;
-}
-#timeline-bar {
-	width:100%;
-	height:4px;
-	background-color: white;
-	margin: 0;
-	margin-top:-60px;
-}
-.timeline-circle {
-	background-color:#FFCC66;
-	width:30px;
-	max-width: 30px;
-	height:30px;
-	max-height: 30px;
-	border-radius: 50%;
-	position: relative;
-	transition: all 0.8s ease;
-} .timeline-circle:hover {
-	background-color:#3399CC;
-	z-index: 1000;
-	transition: all 0.3s ease;
-}
-.selected-event {
-	background-color: #3399CC;
-	transition: all 0.3s ease;
-}
-
-.schedule tr {
-	transition: all 0.8s ease;
-}
-.time-marker {
-	margin-bottom:10px;
-	font-size: 14px;
-	color:white;
-	position:relative;
-}
-.time-marker:nth-child(2){
-	top:-25px;
-	left:10%;
-}
-.time-marker:nth-child(3){
-	top:-50px;
-	left:47%;
-}
-.time-marker:nth-child(4){
-	top:-80px;
-	left:87%;
-}
-
-/*=================================================*/
-
 h1, h2, h3, h4, h5 {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-weight: 500;
@@ -256,9 +200,7 @@ body {
 section {
 	display: block;
 }
-a {
-
-} a:hover {
+a:hover {
 	text-decoration: none;
 }
 
@@ -453,7 +395,7 @@ nav {
 #learnbuildshare-icon-container {
 	margin: 0;
 	background: url('../assets/backgrounds/typeformBackground.png') no-repeat center center;
-	background-color: none
+	background-color: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -489,29 +431,28 @@ nav {
 
 /*=================  MAP =======================*/
 
-#map {
-	background-color: rgba(58, 45, 64, 0.5);
-}
+/*#map {}*/
 
 #map div.collapse {
-	background-color: rgba(31,63,96,0.8);
-	border-width: 5px;
-	border-style: solid;
-	border-color: black;
-	border-radius: 5px;
+	background-color: rgba(58, 45, 64, 0.9);
+	/*border-width: 5px;*/
+	/*border-style: solid;*/
+	/*border-color: #2A202F;*/
+	/*border-radius: 5px;*/	
+	padding: 15px;
 }
 #map div.collapse p {
-		color: white;
-		padding: 20px;
-		font-family: 'Oswald', 'Arial', sans-serif;
-		text-align: justify;
-		margin-right: 25px;
-	}
-	#map iframe {
-		width: 500px;
-		height: 500px;
-		padding: 10px;
-	}
+	color: white;
+	padding: 20px;
+	font-family: 'Oswald', 'Arial', sans-serif;
+	text-align: justify;
+	margin-right: 25px;
+}
+#map iframe {
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+}
 
 /*================= COLLAPSE ==================*/
 .glyphicon-collapse-down {
@@ -526,15 +467,41 @@ nav {
 	text-align: justify;
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: large;
-	padding: 10px;
-	border-style: solid;
-	border-width: medium;
-	border-color: black;
-	border-radius: 5px;
+	padding: 15px;
 }
 
 #info-container p {
 	padding-top: 5px;
+	font-size: medium;
+}
+#info-container h3 {
+	text-align: left;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+#info-contianer li a {
+	vertical-align: middle;
+}
+#info-container img {
+	max-width: 45px;
+	display: inline;
+	vertical-align: middle;
+	visibility: hidden;
+}
+#info-container li a:hover img {
+	visibility: visible;
+}
+#info-container li a:hover {
+	background-color: transparent;
+	border: none;
+}
+#info-container li.active a {
+	color: #FFCC66;
+	background-color: transparent;
+	border: none;
+}
+#info-container li.active a img {
+	visibility: visible;
 }
 /*#info-container .nav {
 	background-color: rgba(58, 45, 64, 0.6);
@@ -544,8 +511,7 @@ nav {
 /*================= SCHEDULE ==================*/
 
 #schedule {
-	background-color: #2A202F;
-	padding:50px 0;
+	background-color: rgba(58, 45, 64, 0.7);
 }
 #schedule p {
 	color: white;
@@ -567,38 +533,11 @@ nav {
 	font-size: 32px;
 	font-weight: 600;
 }
-#schedule-container tbody tr {
-}
-/*#schedule table {*/
-/*	margin:20px;*/
-/*}*/
-
-/*#schedule td {*/
-/*	padding:10px;*/
-/*	font-size: smaller;*/
-/*}*/
-/*#schedule td:first-child { */
-/*    color: #FFCC66;*/
-/*    font-weight: 300;*/
-/*    font-size: large;*/
-/*    letter-spacing: 2px;*/
-/*}#schedule td:last-child {*/
-/*	color:white;*/
-/*	font-weight: 600;*/
-/*	text-transform: uppercase;*/
-/*	font-size: large;*/
-/*	letter-spacing: 5px*/
-/*}*/
-/*#schedule-container div h4 {*/
-/*	font-size: smaller;*/
-/*	padding:10px;*/
-/*	text-align: left;*/
-/*	background-color: #3399CC;*/
 
 /*================= FAQ ==================*/
 
 #faq {
-	background: rgba(58, 45, 64, 0.5);
+	background: rgba(58, 45, 64, 0.7);
 	-webkit-background-size: auto;
 	-moz-background-size: auto;
 	-o-background-size: auto;
@@ -683,7 +622,7 @@ nav {
 /*========= CONTACT ==========*/
 
 #contact {
-	background-color: rgba(58, 45, 64, 0.5);
+	background-color: rgba(58, 45, 64, 0.7);
 }
 
 #contact-icon-container {
@@ -800,4 +739,5 @@ nav {
     45% { opacity:1; }
     55% { opacity:0; }
     100% { opacity:0; }
-};
+}
+order: none;
