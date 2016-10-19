@@ -438,7 +438,7 @@ nav {
 	/*border-width: 5px;*/
 	/*border-style: solid;*/
 	/*border-color: #2A202F;*/
-	/*border-radius: 5px;*/	
+	/*border-radius: 5px;*/
 	padding: 15px;
 }
 #map div.collapse p {
@@ -468,6 +468,7 @@ nav {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: large;
 	padding: 15px;
+	position: relative;
 }
 
 #info-container p {
@@ -481,7 +482,10 @@ nav {
 }
 #info-contianer li a {
 	vertical-align: middle;
+	border-bottom: none;
 }
+/* TODO: nav-tabs border bttom field is set... that will require overriding */
+
 #info-container img {
 	max-width: 45px;
 	display: inline;
@@ -493,15 +497,35 @@ nav {
 }
 #info-container li a:hover {
 	background-color: transparent;
-	border: none;
+	border-bottom: 1 px solid #ddd;
 }
 #info-container li.active a {
 	color: #FFCC66;
 	background-color: transparent;
-	border: none;
+	/*border: none;*/
 }
 #info-container li.active a img {
 	visibility: visible;
+}
+#info-tabs {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+.glyphicon-menu-right {
+	color: white;
+	max-width: 30px;
+	position: absolute;
+	z-index: 5;
+	right: 0px;
+	top: 30px;
+}
+.glyphicon-menu-left {
+	color: white;
+	position: absolute;
+	max-width: 30px;
+	z-index: 5;
+	left: 0px;
+	top: 30px;
 }
 /*#info-container .nav {
 	background-color: rgba(58, 45, 64, 0.6);

@@ -7,7 +7,7 @@
 	if ( window.innerWidth > 600 ) {
 		imdobile = false;
 	}
-	
+
 	console.log(imdobile)
 
 	if ( imdobile == false ) {
@@ -35,7 +35,7 @@
 		$('.desktop-only').css('display', 'none');
 
 	}
-	
+
 	//Set map url
 	$('iframe').attr("src", "http://www.map.psu.edu/?#0995087")
 
@@ -197,7 +197,7 @@
 	$('.collapse').on('show.bs.collapse', function() {
 		var x = $(this).parent().find('.glyphicon-collapse-down').remove()
 	})
-	
+
 	$('.collapse').not('#schedule-container').collapse('hide');
 
 
@@ -242,7 +242,7 @@
 
 	// $('')
 
-  $("#li>a").on('click', function(event) {
+  $("#nav-bar a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
@@ -264,58 +264,38 @@
     } // End if
   });
 
-	// eventTimes = [0,2,3,5,9,14,22.5,26,27,27.5,28.5,30];
-	// for (var i=0; i<12; i++) {
-	// 	console.log($('#timeline-bar').width());
-	// 	distance = (eventTimes[i]/30 * $('#timeline-bar').width()) - 15;
-	// 	if (i < 6 ) {
-	// 		whichDay = '#day1';
-	// 	} else {
-	// 		whichDay = '#day2';
-	// 	}
 
-	// 	$('#timeline').append($('<div>')
-	// 		.addClass('timeline-circle')
-	// 		.css( {
-	// 			'left' : eventTimes[i]/30 * $('#timeline-bar').width() - 15,
-	// 			'top' : (-30 * i)-18
-	// 		})
-	// 		.attr("data-whichDay",whichDay)
-	// 		.attr("data-tableRow", i % 6 + 1)
-	// 	);
-	// };
+	//SECTION Info
+	$('#info-container .glyphicon-menu-left').click(function() {
+		$('#info-tabs').animate( {
+			// console.log("scrolling");
+			scrollLeft: $('#info-tabs').scrollLeft() - 500
+		}, 1000)
+	})
+	$('#info-container .glyphicon-menu-right').click(function() {
+		$('#info-tabs').animate( {
+			// console.log("scrolling");
+			scrollLeft: $('#info-tabs').scrollLeft() + 500
+		}, 1000)
+	})
 
-	// $('.timeline-circle').each( function() {
-	// 	$(this).hover( function() {
-	// 		selectorString = $(this).attr('data-whichDay') + ' tr:nth-child(' +  $(this).attr('data-tableRow') + ')';
-	// 		$(selectorString).toggleClass('selected-event');
-	// 	})
-	// })
+		var workshops = Info["workshops"];
+	for (var key in workshops) {
+		var workshop = workshops[key];
 
-	// $('#venue-header').hover(function() {
-	// 	$(this).children().attr("style", "color:lightBlue;")
-	// }, function() {
-	// 	$(this).children().attr("style", "color:white;")
-	// })
+	   	var workshopHTML =
+	   	'<tr><td>'
+	   	+ workshop.time
+	   	+'</td><td>'
+	   	+ workshop.name
+	   	+ '</td><td>'
+	   	+ workshop.instructor
+	   	+ '</td><td>'
+	   	+ workshop.location
+	   	+ '</td></tr>';
 
-
-	// var workshops = Info["workshops"];
-	// for (var key in workshops) {
-	// 	var workshop = workshops[key];
-
-	//    	var workshopHTML =
-	//    	'<tr><td>'
-	//    	+ workshop.time
-	//    	+'</td><td>'
-	//    	+ workshop.name
-	//    	+ '</td><td>'
-	//    	+ workshop.instructor
-	//    	+ '</td><td>'
-	//    	+ workshop.location
-	//    	+ '</td></tr>';
-
-	//    	$('#workshop-block').append(workshopHTML);
-	// }
+	   	$('#workshop-block').append(workshopHTML);
+	}
 	var prizes = Info["prizes"];
 	for (var key in prizes) {
 		var prize = prizes[key];
@@ -335,7 +315,7 @@
 
 	    	$('#prize-list').append(prizeHTML);
 
-	}	
+	}
 	var judges = Info["judges"];
 	for (var key in judges) {
 			var judge = judges[key];
@@ -352,22 +332,22 @@
 
 		   	$('#judges-list').append(judgeHTML);
 	}
-	// var hardware = Info["hardware"];
-	// for (var key in hardware) {
-	// 		var item = hardware[key];
-	// 	   	var itemHTML =
-	// 	   	'<tr><td>'
-	// 	   	+ item.quantity
-	// 	   	+ '</td><td>'
-	// 	   	+ item.type
-	// 	   	+ '</td></tr>';
+	var hardware = Info["hardware"];
+	for (var key in hardware) {
+			var item = hardware[key];
+		   	var itemHTML =
+		   	'<tr><td>'
+		   	+ item.quantity
+		   	+ '</td><td>'
+		   	+ item.type
+		   	+ '</td></tr>';
 
-	// 	if ( key < 7) {
-	// 	   	$('#hardware-list-1').append(itemHTML);
-	// 	} else {
-	// 		$('#hardware-list-2').append(itemHTML);
-	// 	}
-	// };
+		// if ( key < 7) {
+		   	$('#hardware-list').append(itemHTML);
+		// } else {
+		// 	$('#hardware-list-2').append(itemHTML);
+		// }
+	};
 	// var rubric = Info["rubric"];
 	// for ( var key in rubric ) {
 	// 		var rubricArea = rubric[key]; var questionsHTML = '';
