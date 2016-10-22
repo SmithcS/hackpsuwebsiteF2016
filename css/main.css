@@ -480,7 +480,21 @@ nav {
 	margin-top: 12px;
 	margin-left: 15px;
 }
-#info-contianer li a {
+#info-container #rules-list {
+	list-style-position: inside;
+}
+#info-container #rules-list li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e019";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -10px;
+		/*margin-right: 10px;*/
+    color: #FFF;
+}
+#info-container li a {
 	vertical-align: middle;
 	border-bottom: none;
 }
@@ -497,12 +511,14 @@ nav {
 }
 #info-container li a:hover {
 	background-color: transparent;
-	border-bottom: 1 px solid #ddd;
+	border: none;
+	border-bottom: 1px solid #ddd;
 }
 #info-container li.active a {
 	color: #FFCC66;
 	background-color: transparent;
-	/*border: none;*/
+	border: none;
+	border-bottom: solid #ddd;
 }
 #info-container li.active a img {
 	visibility: visible;
