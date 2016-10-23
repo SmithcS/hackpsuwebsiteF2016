@@ -34,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	/*padding-top: 51px;*/
 }
 ol, ul {
 	list-style: none;
@@ -210,10 +211,16 @@ nav {
 	background-color: rgba(58, 45, 64, 0.6);
 }
 .navbar img {
-		float: left;
-	margin-top: 10px;
-	margin-left: 10px;
+	/*float: left;*/
+	margin-top: -5px;
+	margin-left: -5px;
 	max-width: 35px;
+}
+.icon-bar {
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    background-color: #FFF;
 }
 .nav-tabs {
 	border: 0;
@@ -223,6 +230,12 @@ nav {
 	font-size: 24px;
 	font-weight: 600;
 	color: #FFCC66;
+}
+
+#divider-top {
+	background-color: rgba(58, 45, 64, 0.5);
+	height: 55px;
+	width: auto;
 }
 
 
@@ -458,6 +471,9 @@ nav {
 .glyphicon-collapse-down {
 	margin-left: 15px;
 }
+.glyphicon-collapse-up {
+	margin-left: 15px;
+}
 
 /*================= INFO ==================*/
 
@@ -465,17 +481,16 @@ nav {
 	background-color: rgba(31,63,96,0.8);
 	color: white;
 	text-align: justify;
-	font-family: 'Oswald', 'Arial', sans-serif;
+	font-family: 'Open-Sans', sans-serif;
 	font-size: large;
 	padding: 15px;
 	position: relative;
 }
-
 #info-container p {
 	padding-top: 5px;
 	font-size: large;
 }
-#info-container h3 {
+#info-container h2 {
 	text-align: left;
 	margin-top: 12px;
 	margin-left: 15px;
@@ -505,12 +520,10 @@ nav {
 
 #info-container .table-striped>tbody>tr:nth-child(even)>td,
 .table-striped>tbody>tr:nth-child(even)>th {
-   color: white; // Choose your own color here
+   color: white;
 }
 
-/* TODO: nav-tabs border bttom field is set... that will require overriding */
-
-#info-container img {
+#info-container li img {
 	max-width: 45px;
 	display: inline;
 	vertical-align: middle;
@@ -522,7 +535,7 @@ nav {
 #info-container li a:hover {
 	background-color: transparent;
 	border: none;
-	border-bottom: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;*/
 }
 #info-container li.active a {
 	color: #FFCC66;
@@ -537,9 +550,28 @@ nav {
 	overflow-x: auto;
 	white-space: nowrap;
 }
+#rules-list {
+	font-size: larger;
+}
+#rules-list li {
+	padding-top: 10px;
+}
+#prizes #table-headings {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.judge-list-image img {
+	max-width: 300px;
+	padding-top: 15px;
+	/*height: 150px;*/
+}
+
 .glyphicon-menu-right {
 	color: white;
 	max-width: 30px;
+	font-size: x-large;
 	position: absolute;
 	z-index: 5;
 	right: 0px;
@@ -549,6 +581,7 @@ nav {
 	color: white;
 	position: absolute;
 	max-width: 30px;
+	font-size: x-large;
 	z-index: 5;
 	left: 0px;
 	top: 30px;
@@ -573,10 +606,6 @@ nav {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: 15px;
 	background-color: white;
-	border-style: solid;
-	border-width: 5px;
-	border-color: #FFCC66;
-	border-radius: 5px;
 	z-index: 20;
 }
 #schedule-container th span {
@@ -790,4 +819,3 @@ nav {
     55% { opacity:0; }
     100% { opacity:0; }
 }
-order: none;

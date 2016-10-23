@@ -193,9 +193,11 @@
 	//Collapsible setup
 	$('.collapse').on('hidden.bs.collapse', function() {
 		var x = $(this).parent().find('h3').append('<span class="glyphicon glyphicon-collapse-down white"></span>')
+		var x = $(this).parent().find('.glyphicon-collapse-up').remove()
 	})
 	$('.collapse').on('show.bs.collapse', function() {
 		var x = $(this).parent().find('.glyphicon-collapse-down').remove()
+		var x = $(this).parent().find('h3').append('<span class="glyphicon glyphicon-collapse-up white"></span>')
 	})
 
 	$('.collapse').not('#schedule-container').collapse('hide');
@@ -280,6 +282,7 @@
 	})
 
 		var workshops = Info["workshops"];
+		console.log(workshops);
 	for (var key in workshops) {
 		var workshop = workshops[key];
 
@@ -297,6 +300,7 @@
 	   	$('#workshop-block').append(workshopHTML);
 	}
 	var prizes = Info["prizes"];
+	console.log(judges);
 	for (var key in prizes) {
 		var prize = prizes[key];
 
@@ -320,9 +324,9 @@
 	for (var key in judges) {
 			var judge = judges[key];
 		   	var judgeHTML =
-		   	'<div class="row"><div class="sponsor-list-image col-md-4"><div style="background-image:url('
+		   	'<div class="row"><div class="judge-list-image col-md-4"><img src="'
 		   	+ judge.image
-		   	+ ')"></div></div><div class="col-md-8"><h5>'
+		   	+ '"></div><div class="col-md-8"><h5>'
 		   	+ judge.name
 		   	+ '</h5>'
 		   	+ judge.tagline
@@ -333,6 +337,7 @@
 		   	$('#judges-list').append(judgeHTML);
 	}
 	var hardware = Info["hardware"];
+	console.log(hardware);
 	for (var key in hardware) {
 			var item = hardware[key];
 		   	var itemHTML =
