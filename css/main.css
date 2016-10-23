@@ -473,7 +473,7 @@ nav {
 
 #info-container p {
 	padding-top: 5px;
-	font-size: medium;
+	font-size: large;
 }
 #info-container h3 {
 	text-align: left;
@@ -489,15 +489,25 @@ nav {
     font-family: 'Glyphicons Halflings';
     font-size: 15px;
     float: left;
-    margin-top: 4px;
+    /*margin-top: 4px;*/
     margin-left: -10px;
-		/*margin-right: 10px;*/
+		margin-right: 10px;
     color: #FFF;
 }
 #info-container li a {
 	vertical-align: middle;
 	border-bottom: none;
 }
+
+#info-container li {
+	margin-top: 5px;
+}
+
+#info-container .table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+   color: white; // Choose your own color here
+}
+
 /* TODO: nav-tabs border bttom field is set... that will require overriding */
 
 #info-container img {
