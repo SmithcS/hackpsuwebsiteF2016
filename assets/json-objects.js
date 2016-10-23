@@ -42,6 +42,7 @@ var Info = {
 	    	"description": "Namecheap is a leading ICANN-accredited domain name registrar and web hosting company. To date, they have over a million customers and more than three million domains under management. Namecheap offers domain names at some of the best prices in the industry, along with full-featured hosting packages, secure SSL certificates, WhoisGuard privacy protection service, and more."
 	    }
 	],
+	//TODO: update the workshop description
 	"workshops":
 	[
 		{
@@ -98,6 +99,7 @@ var Info = {
 			"instructor":"Kenneth K Au<br>Matt Kremer"
 		}
 	],
+	//TODO: update final prizes
 	"prizes":
 	[
 		{
@@ -220,26 +222,63 @@ var Info = {
 			"judging":"(1) Is the tool scalable? <br>(2) Is the data set easily tagged, searched? <br>(3) Is it accurate? "
 		},
 	],
+	//TODO: Update judges list
 	"judges":
 	[
-		{
-	    	"name":"Scott Woods",
-	    	"image":"assets/judges/scottwoods.png",
-	    	"tagline":"West Arete, CEO",
-	    	"description": "Adventurer by day and President of West Arete, a successful custom software development company. He has spent his life creating an eco-friendly company that builds sophisticated web and mobile applications for forward thinking companies both locally, in State College, and around the country."
+		// {
+	 //   	"name":"Scott Woods",
+	 //   	"image":"assets/judges/scottwoods.png",
+	 //   	"tagline":"West Arete, CEO",
+	 //   	"description": "Adventurer by day and President of West Arete, a successful custom software development company. He has spent his life creating an eco-friendly company that builds sophisticated web and mobile applications for forward thinking companies both locally, in State College, and around the country."
+	 //   },
+	 //   {
+	 //   	"name":"Emma Roudabush",
+	 //   	"image":"assets/judges/emmaroudabush.png",
+	 //   	"tagline":"Intern Ambassador, Microsoft",
+	 //   	"description": "Microsoft Intern Summer of '13, '14, and '15. Former CodePSU Head Director. Soon-to-be Microsoft Employee in the Developer Division."
+	 //   },
+		// {
+	 //   	"name":"Justin Merrell",
+	 //   	"image":"assets/judges/justinmerrell.png",
+	 //   	"tagline":"Director, Catalyst Space ",
+	 //   	"description": "Justin Merrell is from Gaithersburg Maryland where his passion for technology and business began. Attending Penn State Altoona for engineering and business he saw an opportunity to bring STEM and entrepreneurship to the area, resulting in Catalyst Space. In the process he developed an access management system that grew into a technology company of its own."
+	 //   },
+	    {
+	    	"name":"Jessica Menold",
+	    	"image":"assets/judges/jessicamenold.png",
+	    	"tagline":"",
+	    	"description": ""
 	    },
 	    {
-	    	"name":"Emma Roudabush",
-	    	"image":"assets/judges/emmaroudabush.png",
-	    	"tagline":"Intern Ambassador, Microsoft",
-	    	"description": "Microsoft Intern Summer of '13, '14, and '15. Former CodePSU Head Director. Soon-to-be Microsoft Employee in the Developer Division."
+	    	"name":"Christian Baum",
+	    	"image":"assets/judges/christianbaum.png",
+	    	"tagline":"Co.space Founder",
+	    	"description": ""
 	    },
-		{
-	    	"name":"Justin Merrell",
-	    	"image":"assets/judges/justinmerrell.png",
-	    	"tagline":"Director, Catalyst Space ",
-	    	"description": "Justin Merrell is from Gaithersburg Maryland where his passion for technology and business began. Attending Penn State Altoona for engineering and business he saw an opportunity to bring STEM and entrepreneurship to the area, resulting in Catalyst Space. In the process he developed an access management system that grew into a technology company of its own."
-	    }
+	    {
+	    	"name":"Bob Beaury",
+	    	"image":"assets/judges/bobbeaury.png",
+	    	"tagline":"Enterpreneurship Professor",
+	    	"description": ""
+	    },
+	    {
+	    	"name":"Margarita Zobnina",
+	    	"image":"assets/judges/margaritazobnina.png",
+	    	"tagline":"",
+	    	"description": ""
+	    },
+	    {
+	    	"name":"Avery Verhade",
+	    	"image":"assets/judges/averyverhade.png",
+	    	"tagline":"AWC President",
+	    	"description": ""
+	    },
+	    {
+	    	"name":"Arun Kumar",
+	    	"image":"assets/judges/arunkumar.jpg",
+	    	"tagline":"AWC President",
+	    	"description": ""
+	    },
 
 	],
 	"rubric":
@@ -318,6 +357,7 @@ var Info = {
 
 
 	],
+	//TODO: update hardware list
 	"hardware":
 	[
 		{
@@ -373,13 +413,16 @@ var Info = {
 			"quantity":1
 		},
 	],
+	//TODO: ADD Location and Description to all schedule items
 	"schedule":
 	[
 		{
 			"id" : "3",
 			"title": "Registration",
 			"start": "2016-11-12T10:00:00",
-			"end" : "2016-11-12T18:30:00"
+			"end" : "2016-11-12T18:30:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "4",

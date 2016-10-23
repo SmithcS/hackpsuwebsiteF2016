@@ -37,7 +37,7 @@
 	}
 
 	//Set map url
-	$('iframe').attr("src", "http://www.map.psu.edu/?#0995087")
+	$('#venue-container iframe').attr("src", "http://www.map.psu.edu/?#0023001")
 
 
 
