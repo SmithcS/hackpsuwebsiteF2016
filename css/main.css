@@ -444,7 +444,9 @@ nav {
 
 /*=================  MAP =======================*/
 
-/*#map {}*/
+#map {
+	background-color: rgba(58, 45, 64, 0.7)
+}
 
 #map div.collapse {
 	background-color: rgba(58, 45, 64, 0.9);
@@ -476,7 +478,6 @@ nav {
 }
 
 /*================= INFO ==================*/
-
 #info-container {
 	background-color: rgba(31,63,96,0.8);
 	color: white;
@@ -561,6 +562,34 @@ nav {
 	font-size: 24px;
 	font-weight: 600;
 }
+
+
+/*Can remove these when their sections are updated.*/
+#prizes #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+#judges #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+#workshops #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+#hardware #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+
 
 .judge-list-image img {
 	max-width: 300px;
@@ -684,17 +713,26 @@ nav {
 #sponsors div p a:hover {
 	color:#2A202F;
 }
-
 #Edtech {
 	max-width: 350px;
 }
-
 #Coil {
 	max-width: 400px;
 }
-
 #Namecheap {
 	max-width: 300px;
+}
+#Brazen {
+	max-width: 315px;
+}
+#Invent-Penn-State {
+	max-width: 325px;
+}
+#IBM {
+	max-width: 325px;
+}
+#GEW {
+	max-width: 335px;
 }
 
 
