@@ -22,19 +22,34 @@ var Info = {
 	    	"description": "Optum is a health services and innovation company helping to make the health system work better for everyone. By collaborating with partners across the system, they are leading change in health care by offering system-wide technologies built to meet clients' changing needs and modernize the health care system."
 	    },
 	    {
-	    	"name":"Invent Penn State",
+	    	"name":"Invent-Penn-State",
 	    	"logo":"assets/sponsors/inventpsu.png",
-	    	"description":"Invent Penn State is a Commonwealth-wide initiative to spur economic development, job creation, and student career success. Launched in 2015 by Penn State President Dr. Eric Barron, Invent Penn State is a coordinated effort to create a University environment that welcomes and encourages entrepreneurship. Invent Penn State leverages Penn State's research, knowledge, and entrepreneurial spirit in collaboration amongst industry, entrepreneurs, and academia to develop products and services that will benefit Pennsylvanians and humankind."
+	    	"description": "Invent Penn State is a Commonwealth-wide initiative to spur economic development, job creation, and student career success. Launched in 2015 by Penn State President Dr. Eric Barron, Invent Penn State is a coordinated effort to create a University environment that welcomes and encourages entrepreneurship. Invent Penn State leverages Penn State's research, knowledge, and entrepreneurial spirit in collaboration amongst industry, entrepreneurs, and academia to develop products and services that will benefit Pennsylvanians and humankind."
+	    },
+	    {
+	    	"name":"National-Instruments",
+	    	"logo":"assets/sponsors/ni.png",
+	    	"description": "NI provides powerful, flexible technology solutions that accelerate productivity and drive rapid innovation. From daily tasks to grand challenges, NI helps engineers and scientists overcome complexity to exceed even their own expectations. Customers in nearly every industry - from healthcare and automotive to consumer electronics and particle physics - use NI's integrated hardware and software platform to improve our world."
+	    },
+	    {
+	    	"name":"Brazen",
+	    	"logo":"assets/sponsors/brazen.png",
+	    	"description": "Everyone deserves a job they love. At Brazen, our mission is to help people make more meaningful connections in the easiest way possible. Together we're changing the way people engage and we know it takes nothing short of being brilliant every day to make it a reality."
+	    },
+	    {
+	    	"name":"AccuWeather",
+	    	"logo":"assets/sponsors/accuweather.png",
+	    	"description": "Every day over a billion people worldwide rely on AccuWeather to help them plan their lives, protect their businesses, and get more from their day. Founded in 1962 by Dr. Joel N. Myers, AccuWeather delivers a wide range of highly-customized enterprise solutions to media, business, government, and institutions, as well as news, weather content, and video for more than 180,000 third-party websites. "
+	    },
+	    {
+	    	"name":"GEW",
+	    	"logo":"assets/sponsors/gew.png",
+	    	"description": "Global Entrepreneurship Week is a world wide event meant to bring a focus to the entrepreneurship community, with it's own branch at PSU. Each year, GEW hosts speakers, workshops, and events to promote its cause."
 	    },
 	    {
 	    	"name":"Launchbox",
 	    	"logo":"assets/sponsors/launchbox.png",
 	    	"description": "Happy Valley LaunchBox is a robust no-cost toolbox for local early-stage entrepreneurs that accelerates business concepts into early stage startup companies and advances them to the point that they win their first customer or are ready to seek their first investment. With a recent grand opening of their facilities on Allen Street here in State College, they're ready to accept students who want to take control of their futures."
-	    },
-	    {
-	    	"name":"Global Entrepreneurship Week at PSU",
-	    	"logo":"assets/sponsors/gew.png",
-	    	"description": "Global Entrepreneurship Week is a world wide event meant to bring a focus to the entrepreneurship community, with it's own branch at PSU. Each year, GEW hosts speakers, workshops, and events to promote its cause and "
 	    },
 	   	{
 	    	"name":"Namecheap",
