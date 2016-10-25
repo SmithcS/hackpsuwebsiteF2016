@@ -1,6 +1,6 @@
 /*=============== *** CSS RESET *** =================*/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,8 +14,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -26,14 +26,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers 
+/* HTML5 display-role reset for older browsers
 */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	/*padding-top: 51px;*/
 }
 ol, ul {
 	list-style: none;
@@ -104,7 +105,7 @@ table {
 	}
 	.tagline {
 		padding: 10px;
-	}	
+	}
 	a .button {
 		font-size: 40%;
 	}
@@ -171,63 +172,6 @@ table {
 
 /*=================================================*/
 
-/*============TIMELINE=============*/
-#timeline {
-	text-align: left;
-	margin-top: 50px;
-	height:120px;
-}
-#timeline-bar {
-	width:100%;
-	height:4px;
-	background-color: white;
-	margin: 0;
-	margin-top:-60px;
-
-}
-.timeline-circle {
-	background-color:#FFCC66;
-	width:30px;
-	max-width: 30px;
-	height:30px;
-	max-height: 30px;
-	border-radius: 50%;
-	position: relative;
-	transition: all 0.8s ease;
-} .timeline-circle:hover {
-	background-color:#3399CC;
-	z-index: 1000;
-	transition: all 0.3s ease;
-}
-.selected-event {
-	background-color: #3399CC;
-	transition: all 0.3s ease;
-}
-
-.schedule tr {
-	transition: all 0.8s ease;
-}
-.time-marker {
-	margin-bottom:10px;
-	font-size: 14px;
-	color:white;
-	position:relative;
-}
-.time-marker:nth-child(2){
-	top:-25px;
-	left:10%;
-}
-.time-marker:nth-child(3){
-	top:-50px;
-	left:47%;
-}
-.time-marker:nth-child(4){
-	top:-80px;
-	left:87%;
-}
-
-/*=================================================*/
-
 h1, h2, h3, h4, h5 {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-weight: 500;
@@ -246,21 +190,52 @@ body {
 	font-family: 'Open-Sans', sans-serif;
 	font-size: xx-large;
 	background:url('../assets/backgrounds/smealexpo.jpg') no-repeat center center fixed;
-	background-color: #CCFFFF; 
-	-webkit-background-size: cover;  
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
+	background-color: #CCFFFF;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 section {
 	display: block;
 }
-a {
-
-} a:hover {
-	
+a:hover {
 	text-decoration: none;
-}	
+}
+
+/*============NAVBAR=============*/
+
+nav {
+	background-color: rgba(58, 45, 64, 0.6);
+}
+.navbar img {
+	/*float: left;*/
+	margin-top: -5px;
+	margin-left: -5px;
+	max-width: 35px;
+}
+.icon-bar {
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    background-color: #FFF;
+}
+.nav-tabs {
+	border: 0;
+}
+.nav-tabs li a {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #FFCC66;
+}
+
+#divider-top {
+	background-color: rgba(58, 45, 64, 0.5);
+	height: 55px;
+	width: auto;
+}
+
 
 /*======================= CUSTOM ===========================*/
 
@@ -311,8 +286,8 @@ a {
 	background-color: #3399CC
 }
 .divider {
-	height:2px; 
-	width:100%; 
+	height:2px;
+	width:100%;
 	background:#2A202F;
 }
 .center-divider-left {
@@ -328,13 +303,13 @@ a {
 	background:#2A202F;
 }
 .alt-divider {
-	height:2px; 
-	width:100%; 
+	height:2px;
+	width:100%;
 	background: white;
 }
 .thick-divider {
-	height:4px; 
-	width:100%; 
+	height:4px;
+	width:100%;
 	margin: 10px 0;
 	background:#2A202F;
 }
@@ -376,7 +351,7 @@ a {
 	z-index: 500;
 }
 #hackpsu-logo {
-	text-align: center;	
+	text-align: center;
 	height:auto;
 	z-index: 500;
 }
@@ -408,7 +383,7 @@ a {
 	margin-left: auto;
 }
 #date {
-	margin:0; 
+	margin:0;
 	letter-spacing:20px;
 	font-size: larger;
 }
@@ -431,10 +406,10 @@ a {
 #learnbuildshare-icon-container {
 	margin: 0;
 	background: url('../assets/backgrounds/typeformBackground.png') no-repeat center center;
-	background-color: none 
-	-webkit-background-size: cover;  
-	-moz-background-size: cover; 
-	-o-background-size: cover; 
+	background-color: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	border-bottom: 10px #FFCC66 solid;
 	border-top: 10px #FFCC66 solid;
@@ -468,23 +443,185 @@ a {
 /*=================  MAP =======================*/
 
 #map {
-	background-color: rgba(58, 45, 64, 0.5);
+	background-color: rgba(58, 45, 64, 0.7)
 }
 
 #map div.collapse {
-	background-color: rgba(58,45,64,0.6);
+	background-color: rgba(58, 45, 64, 0.9);
+	/*border-width: 5px;*/
+	/*border-style: solid;*/
+	/*border-color: #2A202F;*/
+	/*border-radius: 5px;*/
+	padding: 15px;
 }
 #map div.collapse p {
-		color: white;
-		padding: 20px;
-	}
+	color: white;
+	padding: 20px;
+	font-family: 'Oswald', 'Arial', sans-serif;
+	text-align: justify;
+	margin-right: 25px;
+}
+#map iframe {
+	width: 500px;
+	height: 500px;
+	padding: 10px;
+}
+
+/*================= COLLAPSE ==================*/
+.glyphicon-collapse-down {
+	margin-left: 15px;
+}
+.glyphicon-collapse-up {
+	margin-left: 15px;
+}
+
+/*================= INFO ==================*/
+#info-container {
+	background-color: rgba(31,63,96,0.8);
+	color: white;
+	text-align: justify;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: large;
+	padding: 15px;
+	position: relative;
+}
+#info-container p {
+	padding-top: 5px;
+	font-size: large;
+}
+#info-container h2 {
+	text-align: left;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+#info-container #rules-list {
+	list-style-position: inside;
+}
+#info-container #rules-list li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e019";
+    font-family: 'Glyphicons Halflings';
+    font-size: 15px;
+    float: left;
+    /*margin-top: 4px;*/
+    margin-left: -10px;
+		margin-right: 10px;
+    color: #FFF;
+}
+#info-container li a {
+	vertical-align: middle;
+	border-bottom: none;
+}
+
+#info-container li {
+	margin-top: 5px;
+}
+
+#info-container .table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+   color: white;
+}
+
+#info-container li img {
+	max-width: 45px;
+	display: inline;
+	vertical-align: middle;
+	visibility: hidden;
+}
+#info-container li a:hover img {
+	visibility: visible;
+}
+#info-container li a:hover {
+	background-color: transparent;
+	border: none;
+	/*border-bottom: 1px solid #ddd;*/
+}
+#info-container li.active a {
+	color: #FFCC66;
+	background-color: transparent;
+	border: none;
+	border-bottom: solid #ddd;
+}
+#info-container li.active a img {
+	visibility: visible;
+}
+#info-tabs {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+#rules-list {
+	font-size: larger;
+}
+#rules-list li {
+	padding-top: 10px;
+}
+#prizes #table-headings {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+
+/*Can remove these when their sections are updated.*/
+#prizes #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+#judges #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+#workshops #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+#hardware #temp-message {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 72px;
+	font-weight: 600;
+	text-align: center;
+}
+
+
+.judge-list-image img {
+	max-width: 300px;
+	padding-top: 15px;
+	/*height: 150px;*/
+}
+
+.glyphicon-menu-right {
+	color: white;
+	max-width: 30px;
+	font-size: x-large;
+	position: absolute;
+	z-index: 5;
+	right: 0px;
+	top: 30px;
+}
+.glyphicon-menu-left {
+	color: white;
+	position: absolute;
+	max-width: 30px;
+	font-size: x-large;
+	z-index: 5;
+	left: 0px;
+	top: 30px;
+}
+/*#info-container .nav {
+	background-color: rgba(58, 45, 64, 0.6);
+}*/
 
 
 /*================= SCHEDULE ==================*/
 
 #schedule {
-	background-color: #2A202F;
-	padding:50px 0;
+	background-color: rgba(58, 45, 64, 0.7);
 }
 #schedule p {
 	color: white;
@@ -493,6 +630,9 @@ a {
 	background-color: white;
 }
 #schedule-container {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-size: 15px;
+	background-color: white;
 	z-index: 20;
 }
 #schedule table {
@@ -525,10 +665,10 @@ a {
 /*================= FAQ ==================*/
 
 #faq {
-	background: rgba(58, 45, 64, 0.5);
-	-webkit-background-size: auto;  
-	-moz-background-size: auto; 
-	-o-background-size: auto; 
+	background: rgba(58, 45, 64, 0.7);
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
 	background-size: auto;
 	padding:50px 0;
 }
@@ -545,11 +685,11 @@ a {
 }
 .question p span{
 	transition: ease-out .5s;
-} 
+}
 .answer{
 	background-color:white;
 	color: #2A202F;
-	display: none; 
+	display: none;
 }
 .answer p{
 	line-height:120%;
@@ -566,7 +706,7 @@ a {
 	background-color: rgba(255, 255, 255, 0.8);
 	padding:50px 0;
 }
-.sponsor-med a {/* properly centers the logos vertically 
+.sponsor-med a {/* properly centers the logos vertically
 	and horizontally in divs */
 	display: flex;
     justify-content: center;
@@ -593,29 +733,42 @@ a {
 #sponsors div p a:hover {
 	color:#2A202F;
 }
-
 #Edtech {
 	max-width: 350px;
 }
-
 #Coil {
 	max-width: 400px;
 }
-
 #Namecheap {
 	max-width: 300px;
+}
+#Brazen {
+	max-width: 315px;
+}
+#Invent-Penn-State {
+	max-width: 325px;
+}
+#IBM {
+	max-width: 325px;
+}
+#GEW {
+	max-width: 335px;
 }
 
 
 /*========= CONTACT ==========*/
 
 #contact {
-	background-color: rgba(58, 45, 64, 0.5);
-} 
-
+	background-color: rgba(58, 45, 64, 0.7);
+}
 #contact-icon-container {
 	margin-right: auto;
 	margin-left: auto;
+}
+#volunteer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
 }
 .social-media-icon {
 	width:80px;
@@ -697,8 +850,8 @@ a {
 	z-index: 0;
 	opacity: 0.3;
 	display: inline-block
-	
-} 
+
+}
 .gear1 img {
 	animation:spin 6s infinite linear;
 	height: 130px
@@ -727,6 +880,4 @@ a {
     45% { opacity:1; }
     55% { opacity:0; }
     100% { opacity:0; }
-};
-
-
+}
