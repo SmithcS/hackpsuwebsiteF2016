@@ -83,8 +83,6 @@
 		$('p span',this).toggleClass('rotated');
 	});
 
-<<<<<<< HEAD
-=======
 	$("#maps-icon").hover(function() {
 		$(this).animate({
 			height: '+=5',
@@ -97,7 +95,6 @@
 		}, "fast")
 	})
 
->>>>>>> gh-pages-sub
 	$('.question p').prepend('<span class="glyphicon glyphicon-triangle-right"></span>  ');
 
 
