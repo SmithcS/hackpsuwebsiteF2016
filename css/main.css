@@ -655,7 +655,7 @@ nav {
 	padding:10px;
 	font-size: smaller;
 }
-#schedule td:first-child { 
+#schedule td:first-child {
     color: #FFCC66;
     font-weight: 300;
     font-size: large;
@@ -745,7 +745,9 @@ nav {
 #sponsors div p a:hover {
 	color:#2A202F;
 }
-/*#Edtech {
+
+@media screen and (min-width: 600px) {
+#Edtech {
 	max-width: 350px;
 }
 #Coil {
@@ -765,7 +767,8 @@ nav {
 }
 #GEW {
 	max-width: 335px;
-}*/
+}
+}
 
 
 /*========= CONTACT ==========*/
