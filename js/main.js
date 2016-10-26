@@ -37,6 +37,13 @@
 	}
 
 	//Set map url
+	if(imdobile) {
+		$('#map-container iframe').removeClass('iframe-map');
+		$('#map-container').addClass('embed-responsive');
+		$('#map-container').addClass('embed-responsive-4by3');
+		$('#map-container iframe').addClass('embed-responsive-item');
+		$('#map-container').css("padding-bottom", "125%");
+	}
 	$('#venue-container iframe').attr("src", "http://www.map.psu.edu/?#0023001")
 
 
@@ -76,6 +83,21 @@
 		$('p span',this).toggleClass('rotated');
 	});
 
+<<<<<<< HEAD
+=======
+	$("#maps-icon").hover(function() {
+		$(this).animate({
+			height: '+=5',
+			width: '+=5'
+		}, "fast")
+	}, function() {
+		$(this).animate({
+			height: '-=5',
+			width: '-=5'
+		}, "fast")
+	})
+
+>>>>>>> gh-pages-sub
 	$('.question p').prepend('<span class="glyphicon glyphicon-triangle-right"></span>  ');
 
 
@@ -124,7 +146,7 @@
 		var sponsor1 = sponsors[i], sponsor2 = sponsors[++i]; sponsor3 = sponsors[++i];
 
 		var createSponsorHTML = function (sponsor) {
-			return '<div class="col-md-4 sponsor-med"><a href="#sponsor-modal" class="data-modal"><img id="'
+			return '<div class="col-md-4 sponsor-med"><a href="#sponsor-modal" class="data-modal"><img class="img-responsive" id="'
 	   				+ sponsor.name + '" src="'
 	   				+ sponsor.logo
 	   				+ '"></a></div>'
@@ -132,7 +154,7 @@
 
 		// Second function for HTML in 'In coordination with' section
 		var createPartnerHTML = function (partner) {
-			return '<div class="col-md-12 sponsor-lg"><a href="#sponsor-modal" class="data-modal"><img id="'
+			return '<div class="col-md-12 sponsor-lg"><a href="#sponsor-modal" class="data-modal"><img class="img-responsive" id="'
 	   				+ partner.name + '" src="'
 	   				+ partner.logo
 	   				+ '"></a></div>'
@@ -176,7 +198,6 @@
 		$('#sponsor-modal img').attr("src", sponsor.logo)
 		return false;
 	});
-
 	//Collapsible setup
 	$('.collapse').on('hidden.bs.collapse', function() {
 		var x = $(this).parent().find('h3').append('<span class="glyphicon glyphicon-collapse-down white"></span>')
@@ -251,10 +272,24 @@
         window.location.hash = hash;
       });
     } // End if
+		$('.navbar-toggle').click()
   });
 
 
 	//SECTION Info
+
+	if(imdobile) {
+		//TODO: hide the arrows and collapse nav
+		$('.glyphicon-menu-left, .glyphicon-menu-right').hide();
+// 		$('#info-tabs').on('show.bs.collapse', function() {
+//     $('.nav-tabs').addClass('nav-stacked');
+// 		});
+//
+// //Unstack menu when not collapsed
+// 		$('#info-tabs').on('hide.bs.collapse', function() {
+//     $('.nav-tabs').removeClass('nav-stacked');
+// 		});
+	}
 	$('#info-container .glyphicon-menu-left').click(function() {
 		$('#info-tabs').animate( {
 			scrollLeft: $('#info-tabs').scrollLeft() - 500
