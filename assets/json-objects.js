@@ -32,6 +32,11 @@ var Info = {
 	    	"description": "NI provides powerful, flexible technology solutions that accelerate productivity and drive rapid innovation. From daily tasks to grand challenges, NI helps engineers and scientists overcome complexity to exceed even their own expectations. Customers in nearly every industry - from healthcare and automotive to consumer electronics and particle physics - use NI's integrated hardware and software platform to improve our world."
 	    },
 	    {
+	    	"name":"Instructure",
+	    	"logo":"assets/sponsors/instructure.png",
+	    	"description":"Instructure makes software that makes smarter people. It all started with Canvas in 2011 and the goal to make teaching and learning a lot easier. In 2015, we launched Bridge, which aims to change the way you (and, more importantly, your employees) think about employee engagement and corporate training. Today, more than 2,000 universities, school districts and institutions around the world use (and love) our products. We're out to make the world smarter with better software because we hate mediocre technology as much as you do. Probably more. OK, yeah, we hate it more."
+	    },
+	    {
 	    	"name":"Brazen",
 	    	"logo":"assets/sponsors/brazen.png",
 	    	"description": "Everyone deserves a job they love. At Brazen, our mission is to help people make more meaningful connections in the easiest way possible. Together we're changing the way people engage and we know it takes nothing short of being brilliant every day to make it a reality."
