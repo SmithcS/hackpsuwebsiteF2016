@@ -146,7 +146,6 @@ table {
 		font-size: 60%
 	}
 }
-
 @media (min-width: 650px) {
 	#banner-text h1 {
 		font-size: 120%;
@@ -197,7 +196,6 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/*padding-top: 50px;*/
 }
 section {
 	display: block;
@@ -352,7 +350,6 @@ nav {
 	width:100%;
 	position: relative;
 	z-index: 500;
-	/*top: 58px;*/
 }
 #hackpsu-logo {
 	text-align: center;
@@ -391,6 +388,7 @@ nav {
 	letter-spacing:20px;
 	font-size: larger;
 }
+
 
 /*========= ABOUT ==========*/
 
@@ -649,9 +647,31 @@ nav {
 	background-color: white;
 	z-index: 20;
 }
-#schedule-container th span {
-	font-size: 32px;
+#schedule table {
+	margin:20px;
+}
+
+#schedule td {
+	padding:10px;
+	font-size: smaller;
+}
+#schedule td:first-child {
+    color: #FFCC66;
+    font-weight: 300;
+    font-size: large;
+    letter-spacing: 2px;
+}#schedule td:last-child {
+	color:white;
 	font-weight: 600;
+	text-transform: uppercase;
+	font-size: large;
+	letter-spacing: 5px
+}
+#schedule-container div h4 {
+	font-size: smaller;
+	padding:10px;
+	text-align: left;
+	background-color: #3399CC;
 }
 
 /*================= FAQ ==================*/
@@ -725,7 +745,9 @@ nav {
 #sponsors div p a:hover {
 	color:#2A202F;
 }
-/*#Edtech {
+
+@media screen and (min-width: 600px) {
+#Edtech {
 	max-width: 350px;
 }
 #Coil {
@@ -745,7 +767,8 @@ nav {
 }
 #GEW {
 	max-width: 335px;
-}*/
+}
+}
 
 
 /*========= CONTACT ==========*/

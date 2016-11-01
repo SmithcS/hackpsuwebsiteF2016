@@ -212,40 +212,40 @@
 	//Schedule calendar
 	var schedule = Info["schedule"];
 
-	$('#calendar').fullCalendar({
-		header : {
-			center : '',
-			right: ''
-		},
-		views : {
-			agendaTwoDay : {
-				type: 'agenda',
-				duration : { days: 2 },
-		 		buttonText : '2 day'
-			}
-		},
-		defaultDate : '2016-11-12',
-		eventSources:  {
-			events: schedule,
-		},
-		eventColor : 'rgb(58,45,64)',
-		eventBorderColor : 'white',
-		slotEventOverlap: false,
-		aspectRatio : '2',
-		allDaySlot : false,
-		defaultView : 'agendaTwoDay',
-		eventClick : function (calEvent, jsEvent, view) {
-			$('#event-modal').jmodal({
-			showClose: false,
-			fadeDuration: 250,
-			fadeDelay: 0.5
-		})
-		$('#event-modal h3').text(calEvent.title)
-		$('#event-description').text(calEvent.description)
-		$('#event-location').text("Location: " + calEvent.location);
-		// $('#event-modal p').toggleClass('blocker')
-		}
-	});
+	// $('#calendar').fullCalendar({
+	// 	header : {
+	// 		center : '',
+	// 		right: ''
+	// 	},
+	// 	views : {
+	// 		agendaTwoDay : {
+	// 			type: 'agenda',
+	// 			duration : { days: 2 },
+	// 	 		buttonText : '2 day'
+	// 		}
+	// 	},
+	// 	defaultDate : '2016-11-12',
+	// 	eventSources:  {
+	// 		events: schedule,
+	// 	},
+	// 	eventColor : 'rgb(58,45,64)',
+	// 	eventBorderColor : 'white',
+	// 	slotEventOverlap: false,
+	// 	aspectRatio : '2',
+	// 	allDaySlot : false,
+	// 	defaultView : 'agendaTwoDay',
+	// 	eventClick : function (calEvent, jsEvent, view) {
+	// 		$('#event-modal').jmodal({
+	// 		showClose: false,
+	// 		fadeDuration: 250,
+	// 		fadeDelay: 0.5
+	// 	})
+	// 	$('#event-modal h3').text(calEvent.title)
+	// 	$('#event-description').text(calEvent.description)
+	// 	$('#event-location').text("Location: " + calEvent.location);
+	// 	// $('#event-modal p').toggleClass('blocker')
+	// 	}
+	// });
 
 	// $('')
 
@@ -289,13 +289,11 @@
 	}
 	$('#info-container .glyphicon-menu-left').click(function() {
 		$('#info-tabs').animate( {
-			// console.log("scrolling");
 			scrollLeft: $('#info-tabs').scrollLeft() - 500
 		}, 1000)
 	})
 	$('#info-container .glyphicon-menu-right').click(function() {
 		$('#info-tabs').animate( {
-			// console.log("scrolling");
 			scrollLeft: $('#info-tabs').scrollLeft() + 500
 		}, 1000)
 	})
