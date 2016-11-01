@@ -443,26 +443,34 @@ var Info = {
 			"id" : "4",
 			"title": "Opening Ceremony",
 			"start": "2016-11-12T11:30:00",
-			"end" : "2016-11-12T13:00:00"
+			"end" : "2016-11-12T13:00:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "11",
 			"title": "Hacking",
 			"start": "2016-11-12T14:00:00",
-			"end" : "2016-11-13T12:00:00"
+			"end" : "2016-11-13T12:00:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "6",
 			"title": "Lunch",
 			"start": "2016-11-12T13:00:00",
 			"end" : "2016-11-12T14:30:00",
-			"color" : "1b5e20"
+			"color" : "1b5e20",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "7",
 			"title": "Team Formation",
 			"start": "2016-11-12T13:00:00",
-			"end" : "2016-11-12T14:30:00"
+			"end" : "2016-11-12T14:30:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "7",
@@ -514,7 +522,9 @@ var Info = {
 			"title": "Dinner",
 			"start": "2016-11-12T19:00:00",
 			"end" : "2016-11-12T20:30:00",
-			"color" : "1b5e20"
+			"color" : "1b5e20",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "13",
@@ -601,38 +611,50 @@ var Info = {
 			"title": "Breakfast",
 			"start": "2016-11-13T07:30:00",
 			"end" : "2016-11-13T09:30:00",
-			"color" : "1b5e20"
+			"color" : "1b5e20",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "25",
 			"title": "Hacks Submitted",
 			"start": "2016-11-13T12:00:00",
 			"end" : "2016-11-13T13:00:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "26",
 			"title": "Lunch",
 			"start": "2016-11-13T11:30:00",
 			"end" : "2016-11-13T13:00:00",
-			"color" : "1b5e20"
+			"color" : "1b5e20",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "27",
 			"title": "Hacking Wrap up",
 			"start": "2016-11-13T11:30:00",
 			"end" : "2016-11-13T13:00:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "28",
 			"title": "Expo",
 			"start": "2016-11-13T13:00:00",
 			"end" : "2016-11-13T13:00:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 		{
 			"id" : "29",
 			"title": "Demo & Closing Ceremony",
 			"start": "2016-11-13T15:00:00",
 			"end" : "2016-11-13T16:30:00",
+			"location": "Business Building Entrance",
+			"description": ""
 		},
 
 	]

@@ -193,7 +193,7 @@ body {
 	background:url('../assets/backgrounds/smealexpo.jpg') no-repeat center center fixed;
 	background-color: #CCFFFF;
 	-webkit-background-size: cover;
-	background-size: 100% 100%;
+	background-size: contain;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
