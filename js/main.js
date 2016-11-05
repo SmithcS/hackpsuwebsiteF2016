@@ -190,6 +190,7 @@
 			fadeDuration: 250,
 			fadeDelay: 0.5
 		})
+		$('#sponsor-modal a').attr("href", sponsor.url)
 		$('#sponsor-modal h1').text(sponsor.name)
 		$('#sponsor-modal p').text(sponsor.description)
 		$('#sponsor-modal img').attr("src", sponsor.logo)

@@ -462,17 +462,19 @@ nav {
 	text-align: justify;
 	margin-right: 25px;
 }
-.iframe-map, #business-map{
+.iframe-map{
 	width: 500px;
 	height: 500px;
 	padding: 10px;
 }
 
+#business-map {
+	display: block;
+	margin: auto;
+}
+
 #venue-container h5{
 	padding: 10px;
-}
-#venue-container h6 {
-	font-size: inherit;
 }
 /*================= COLLAPSE ==================*/
 .glyphicon-collapse-down {
@@ -735,6 +737,7 @@ nav {
     align-items: center;
     height: 100%;
     max-height: 250px;
+		padding: 10px;
 }
 /*.sponsor-med img {
 	width: 400px;
@@ -746,6 +749,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: auto;
+		padding: 10px;
 }
 /*.sponsor-lg img {
 	width: 500px;
@@ -778,6 +782,10 @@ nav {
 #GEW {
 	max-width: 335px;
 }
+}
+
+.blocker {
+	z-index: 1031;
 }
 
 

@@ -4,62 +4,74 @@ var Info = {
 		{
 	    	"name":"edtech",
 	    	"logo":"assets/sponsors/edtech.png",
-	    	"description": "World Campus is the digital component of Penn State, with the EdTech Network being an organization within it that focuses on improving the experience of it's students through technological forwardness and innovation. The EdTech Network promotes active collaboration among companies, students, faculty, staff, and alumni to foster transformational education technology. We support Penn State World Campus' continuous growth towards 45,000 students, the educational technology work going on throughout Penn State, and the global online learning community. "
+	    	"description": "World Campus is the digital component of Penn State, with the EdTech Network being an organization within it that focuses on improving the experience of it's students through technological forwardness and innovation. The EdTech Network promotes active collaboration among companies, students, faculty, staff, and alumni to foster transformational education technology. We support Penn State World Campus' continuous growth towards 45,000 students, the educational technology work going on throughout Penn State, and the global online learning community. ",
+				"url":"http://edtechnetwork.psu.edu/"
 	    },
 		{
 	    	"name":"coil",
 	    	"logo":"assets/sponsors/coil.png",
-	    	"description": "Penn State created the Center for Online Innovation in Learning (COIL) in 2012 as a cross-discipline research and development center focused on building and sustaining a culture of innovation, collaboration, and invention focused on improving teaching and learning. In pursuit of its mission, COIL engages the University's extensive research enterprise across multiple disciplines in order to improve learning through online innovations at and beyond Penn State."
+	    	"description": "Penn State created the Center for Online Innovation in Learning (COIL) in 2012 as a cross-discipline research and development center focused on building and sustaining a culture of innovation, collaboration, and invention focused on improving teaching and learning. In pursuit of its mission, COIL engages the University's extensive research enterprise across multiple disciplines in order to improve learning through online innovations at and beyond Penn State.",
+				"url":"http://coil.psu.edu"
 	    },
 		{
 	    	"name":"IBM",
 	    	"logo":"assets/sponsors/ibm.png",
-	    	"description": "IBM (International Business Machines) is by far the world's largest information technology company in terms of revenue and by most other measures, a position it has held for about the past 50 years. IBM products include hardware and software for a line of business servers, storage products, custom-designed microchips, and application software."
+	    	"description": "IBM (International Business Machines) is by far the world's largest information technology company in terms of revenue and by most other measures, a position it has held for about the past 50 years. IBM products include hardware and software for a line of business servers, storage products, custom-designed microchips, and application software.",
+				"url":"http://www.ibm.com/us-en/"
 	    },
 	    {
 	    	"name":"Optum",
 	    	"logo":"assets/sponsors/optum.png",
-	    	"description": "Optum is a health services and innovation company working to make the health system better for everyone. By collaborating with partners across the system, they are leading change in health care by offering system-wide technologies built to meet clients' changing needs and modernize the health care system."
+	    	"description": "Optum is a health services and innovation company working to make the health system better for everyone. By collaborating with partners across the system, they are leading change in health care by offering system-wide technologies built to meet clients' changing needs and modernize the health care system.",
+				"url":"http://www.optum.com"
 	    },
 	    {
 	    	"name":"Invent-Penn-State",
 	    	"logo":"assets/sponsors/inventpsu.png",
-	    	"description": "Invent Penn State is a Commonwealth-wide initiative to spur economic development, job creation, and student career success. Launched in 2015 by Penn State President Dr. Eric Barron, Invent Penn State is a coordinated effort to create a University environment that welcomes and encourages entrepreneurship. Invent Penn State leverages Penn State's research, knowledge, and entrepreneurial spirit in collaboration amongst industry, entrepreneurs, and academia to develop products and services that will benefit Pennsylvanians and humankind."
+	    	"description": "Invent Penn State is a Commonwealth-wide initiative to spur economic development, job creation, and student career success. Launched in 2015 by Penn State President Dr. Eric Barron, Invent Penn State is a coordinated effort to create a University environment that welcomes and encourages entrepreneurship. Invent Penn State leverages Penn State's research, knowledge, and entrepreneurial spirit in collaboration amongst industry, entrepreneurs, and academia to develop products and services that will benefit Pennsylvanians and humankind.",
+				"url":"http://invent.psu.edu"
 	    },
 	    {
 	    	"name":"National-Instruments",
 	    	"logo":"assets/sponsors/ni.png",
-	    	"description": "NI provides powerful, flexible technology solutions that accelerate productivity and drive rapid innovation. From daily tasks to grand challenges, NI helps engineers and scientists overcome complexity to exceed even their own expectations. Customers in nearly every industry - from healthcare and automotive to consumer electronics and particle physics - use NI's integrated hardware and software platform to improve our world."
+	    	"description": "NI provides powerful, flexible technology solutions that accelerate productivity and drive rapid innovation. From daily tasks to grand challenges, NI helps engineers and scientists overcome complexity to exceed even their own expectations. Customers in nearly every industry - from healthcare and automotive to consumer electronics and particle physics - use NI's integrated hardware and software platform to improve our world.",
+				"url":"http://www.ni.com/en-us.html"
 	    },
 	    {
 	    	"name":"Instructure",
 	    	"logo":"assets/sponsors/instructure.png",
-	    	"description":"Instructure makes software that makes smarter people. It all started with Canvas in 2011 and the goal to make teaching and learning a lot easier. In 2015, we launched Bridge, which aims to change the way you (and, more importantly, your employees) think about employee engagement and corporate training. Today, more than 2,000 universities, school districts and institutions around the world use (and love) our products. We're out to make the world smarter with better software because we hate mediocre technology as much as you do. Probably more. OK, yeah, we hate it more."
+	    	"description":"Instructure makes software that makes smarter people. It all started with Canvas in 2011 and the goal to make teaching and learning a lot easier. In 2015, we launched Bridge, which aims to change the way you (and, more importantly, your employees) think about employee engagement and corporate training. Today, more than 2,000 universities, school districts and institutions around the world use (and love) our products. We're out to make the world smarter with better software because we hate mediocre technology as much as you do. Probably more. OK, yeah, we hate it more.",
+				"url":"http://www.instructure.com"
 	    },
 	    {
 	    	"name":"Brazen",
 	    	"logo":"assets/sponsors/brazen.png",
-	    	"description": "Everyone deserves a job they love. At Brazen, our mission is to help people make more meaningful connections in the easiest way possible. Together we're changing the way people engage and we know it takes nothing short of being brilliant every day to make it a reality."
+	    	"description": "Everyone deserves a job they love. At Brazen, our mission is to help people make more meaningful connections in the easiest way possible. Together we're changing the way people engage and we know it takes nothing short of being brilliant every day to make it a reality.",
+				"url":"http://www.brazen.com"
 	    },
 	    {
 	    	"name":"AccuWeather",
 	    	"logo":"assets/sponsors/accuweather.png",
-	    	"description": "Every day over a billion people worldwide rely on AccuWeather to help them plan their lives, protect their businesses, and get more from their day. Founded in 1962 by Dr. Joel N. Myers, AccuWeather delivers a wide range of highly-customized enterprise solutions to media, business, government, and institutions, as well as news, weather content, and video for more than 180,000 third-party websites. "
+	    	"description": "Every day over a billion people worldwide rely on AccuWeather to help them plan their lives, protect their businesses, and get more from their day. Founded in 1962 by Dr. Joel N. Myers, AccuWeather delivers a wide range of highly-customized enterprise solutions to media, business, government, and institutions, as well as news, weather content, and video for more than 180,000 third-party websites. ",
+				"url":"http://www.accuweather.com"
 	    },
 	    {
 	    	"name":"GEW",
 	    	"logo":"assets/sponsors/gew.png",
-	    	"description": "Global Entrepreneurship Week is a world wide event meant to bring a focus to the entrepreneurship community, with it's own branch at PSU. Each year, GEW hosts speakers, workshops, and events to promote its cause."
+	    	"description": "Global Entrepreneurship Week is a world wide event meant to bring a focus to the entrepreneurship community, with it's own branch at PSU. Each year, GEW hosts speakers, workshops, and events to promote its cause.",
+				"url":"http://gew.psu.edu"
 	    },
 	    {
 	    	"name":"Launchbox",
 	    	"logo":"assets/sponsors/launchbox.png",
-	    	"description": "Happy Valley LaunchBox is a robust no-cost toolbox for local early-stage entrepreneurs that accelerates business concepts into early stage startup companies and advances them to the point that they win their first customer or are ready to seek their first investment. With a recent grand opening of their facilities on Allen Street here in State College, they're ready to accept students who want to take control of their futures."
+	    	"description": "Happy Valley LaunchBox is a robust no-cost toolbox for local early-stage entrepreneurs that accelerates business concepts into early stage startup companies and advances them to the point that they win their first customer or are ready to seek their first investment. With a recent grand opening of their facilities on Allen Street here in State College, they're ready to accept students who want to take control of their futures.",
+				"url":"http://launchbox.psu.edu"
 	    },
 	   	{
 	    	"name":"Namecheap",
 	    	"logo":"assets/sponsors/namecheap.png",
-	    	"description": "Namecheap is a leading ICANN-accredited domain name registrar and web hosting company. To date, they have over a million customers and more than three million domains under management. Namecheap offers domain names at some of the best prices in the industry, along with full-featured hosting packages, secure SSL certificates, WhoisGuard privacy protection service, and more."
+	    	"description": "Namecheap is a leading ICANN-accredited domain name registrar and web hosting company. To date, they have over a million customers and more than three million domains under management. Namecheap offers domain names at some of the best prices in the industry, along with full-featured hosting packages, secure SSL certificates, WhoisGuard privacy protection service, and more.",
+				"url":"http://www.namecheap.com"
 	    }
 	],
 	//TODO: update the workshop description
