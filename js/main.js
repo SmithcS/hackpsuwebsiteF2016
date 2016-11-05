@@ -190,7 +190,6 @@
 			fadeDuration: 250,
 			fadeDelay: 0.5
 		})
-		$('#sponsor-modal a').attr("href", sponsor.url)
 		$('#sponsor-modal h1').text(sponsor.name)
 		$('#sponsor-modal p').text(sponsor.description)
 		$('#sponsor-modal img').attr("src", sponsor.logo)
@@ -360,11 +359,16 @@
 			var item = hardware[key];
 		   	var itemHTML =
 		   	'<tr><td>'
-		   	+ item.type
-		   	+ '</td><td>'
 		   	+ item.quantity
+		   	+ '</td><td>'
+		   	+ item.type
 		   	+ '</td></tr>';
+
+		// if ( key < 7) {
 		   	$('#hardware-list').append(itemHTML);
+		// } else {
+		// 	$('#hardware-list-2').append(itemHTML);
+		// }
 	};
 	// var rubric = Info["rubric"];
 	// for ( var key in rubric ) {
