@@ -359,16 +359,11 @@
 			var item = hardware[key];
 		   	var itemHTML =
 		   	'<tr><td>'
-		   	+ item.quantity
-		   	+ '</td><td>'
 		   	+ item.type
+		   	+ '</td><td>'
+		   	+ item.quantity
 		   	+ '</td></tr>';
-
-		// if ( key < 7) {
 		   	$('#hardware-list').append(itemHTML);
-		// } else {
-		// 	$('#hardware-list-2').append(itemHTML);
-		// }
 	};
 	// var rubric = Info["rubric"];
 	// for ( var key in rubric ) {

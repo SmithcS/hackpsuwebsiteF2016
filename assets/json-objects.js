@@ -381,56 +381,96 @@ var Info = {
 	"hardware":
 	[
 		{
+			"type": "Alienware laptop",
+			"quantity":3
+		},
+		{
+			"type": "Alienware X51 + Monitor",
+			"quantity":1
+		},
+		{
+			"type": "Amazon Echo",
+			"quantity":6
+		},
+		{
+			"type": "Amazon Fire Phone",
+			"quantity":2
+		},
+		{
+			"type": "Arduino 101",
+			"quantity":10
+		},
+		{
+			"type": "Base Shield",
+			"quantity":10
+		},//TODO: Complete updating hardware list
+		{
+			"type": "Dell Gaming Laptop",
+			"quantity":1
+		},
+		{
+			"type": "Dell Monitor",
+			"quantity":2
+		},
+		{
+			"type": "Dell Tablet",
+			"quantity":3
+		},
+		{
+			"type": "Dell XPS 13 Windows",
+			"quantity":3
+		},
+		{
+			"type": "Dell XPS Ubuntu",
+			"quantity":1
+		},
+		{
+			"type": "Grove Kit",
+			"quantity":1
+		},
+		{
 			"type": "Intel Edison",
 			"quantity":10
 		},
 		{
-			"type": "Arduino",
+			"type": "Leap Motion",
 			"quantity":6
 		},
 		{
-			"type": "Firephone",
-			"quantity":3
+			"type": "Muse Headband",
+			"quantity":1
 		},
 		{
-			"type": "Leap",
-			"quantity":10
+			"type": "Nest Cam",
+			"quantity":1
 		},
 		{
-			"type": "Muse",
-			"quantity":3
+			"type": "Nest Thermostat",
+			"quantity":1
 		},
 		{
-			"type": "Oculus",
-			"quantity":12
+			"type": "Oculus CV1",
+			"quantity":6
 		},
 		{
-			"type": "Pebble",
-			"quantity":20
+			"type": "Pebble Classic",
+			"quantity":8
+		},
+		{
+			"type": "Pebble Round",
+			"quantity":1
+		},
+		{
+			"type": "Pebble Time",
+			"quantity":6
+		},
+		{
+			"type": "Samsung Gear VR",
+			"quantity":4
 		},
 		{
 			"type": "Sparkcore",
-			"quantity":10
-		},
-		{
-			"type": "Myo",
-			"quantity":24
-		},
-		{
-			"type": "Dell Monitor",
-			"quantity":3
-		},
-		{
-			"type": "Dell XPS Laptop",
-			"quantity":2
-		},
-		{
-			"type": "Dell Alienware Laptop",
-			"quantity":2
-		},
-		{
-			"type": "Nest",
-			"quantity":1
+			"quantity":6
 		},
 	],
 	//TODO: ADD Location and Description to all schedule items

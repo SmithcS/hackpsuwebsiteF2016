@@ -172,7 +172,7 @@ table {
 
 /*=================================================*/
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6{
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-weight: 500;
 	text-align: center;
@@ -462,12 +462,18 @@ nav {
 	text-align: justify;
 	margin-right: 25px;
 }
-.iframe-map {
+.iframe-map, #business-map{
 	width: 500px;
 	height: 500px;
 	padding: 10px;
 }
 
+#venue-container h5{
+	padding: 10px;
+}
+#venue-container h6 {
+	font-size: inherit;
+}
 /*================= COLLAPSE ==================*/
 .glyphicon-collapse-down {
 	margin-left: 15px;
@@ -556,7 +562,7 @@ nav {
 #rules-list li {
 	padding-top: 10px;
 }
-#prizes #table-headings {
+#table-headings {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
@@ -582,10 +588,10 @@ nav {
 	font-weight: 600;
 	text-align: center;
 }
-#hardware #temp-message {
+#hardware p{
 	font-family: 'Oswald', 'Arial', sans-serif;
-	font-size: 72px;
-	font-weight: 600;
+	font-size: x-large;
+	/*font-weight: 600;*/
 	text-align: center;
 }
 
@@ -598,6 +604,10 @@ nav {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	/*white-space: nowrap;*/
 	font-size: x-large;
+}
+
+#hardware thead {
+	font-weight: bold;
 }
 
 
