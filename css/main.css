@@ -172,7 +172,7 @@ table {
 
 /*=================================================*/
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5 {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-weight: 500;
 	text-align: center;
@@ -192,7 +192,7 @@ body {
 	background:url('../assets/backgrounds/smealexpo.jpg') no-repeat center center fixed;
 	background-color: #CCFFFF;
 	-webkit-background-size: cover;
-	background-size: contain;
+	background-size: 100% 100%;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -462,21 +462,12 @@ nav {
 	text-align: justify;
 	margin-right: 25px;
 }
-.iframe-map{
+.iframe-map {
 	width: 500px;
 	height: 500px;
 	padding: 10px;
 }
 
-#business-map {
-	display: block;
-	margin: auto;
-	margin-top: 30px;
-}
-
-#venue-container h5{
-	padding: 10px;
-}
 /*================= COLLAPSE ==================*/
 .glyphicon-collapse-down {
 	margin-left: 15px;
@@ -565,7 +556,7 @@ nav {
 #rules-list li {
 	padding-top: 10px;
 }
-#table-headings {
+#prizes #table-headings {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: 24px;
 	font-weight: 600;
@@ -591,10 +582,10 @@ nav {
 	font-weight: 600;
 	text-align: center;
 }
-#hardware p{
+#hardware #temp-message {
 	font-family: 'Oswald', 'Arial', sans-serif;
-	font-size: x-large;
-	/*font-weight: 600;*/
+	font-size: 72px;
+	font-weight: 600;
 	text-align: center;
 }
 
@@ -607,10 +598,6 @@ nav {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	/*white-space: nowrap;*/
 	font-size: x-large;
-}
-
-#hardware thead {
-	font-weight: bold;
 }
 
 
@@ -738,7 +725,6 @@ nav {
     align-items: center;
     height: 100%;
     max-height: 250px;
-		padding: 10px;
 }
 /*.sponsor-med img {
 	width: 400px;
@@ -750,7 +736,6 @@ nav {
     justify-content: center;
     align-items: center;
     height: auto;
-		padding: 10px;
 }
 /*.sponsor-lg img {
 	width: 500px;
@@ -783,10 +768,6 @@ nav {
 #GEW {
 	max-width: 335px;
 }
-}
-
-.blocker {
-	z-index: 1031;
 }
 
 
