@@ -82,18 +82,21 @@ var Info = {
 			"location":"",
 			"time":"3:00 PM",
 			"instructor":"Happy Valley Launchbox <br> Tyler Etter <br> Cam Piasecki",
+			"description": "What you don’t know can hurt you, especially when it comes to legal issues. Learn how to figure out what type of company to set up, how to structure co-founder agreements, employee agreements, and avoid issues now that can reek havoc with your company later."
 		},
 		{
 			"name":"Data Visualization with D3",
 			"location":"",
 			"time":"3:00 PM",
 			"instructor":"Kenneth Au",
+			"description": "Learn how to make eye-catching data visualization that will impress, inspire, and inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. Visualize live data or map out this year’s election polling. Be prepared with your computer, your favorite text editor, and a baseline knowledge of JavaScript and web technologies."
 		},
 		{
 			"name":"Help yourself: DIY tools to make Canvas better for students",
 			"location":"",
 			"time":"3:00 PM",
 			"instructor":"Instructure",
+			"description": ""
 
 		},
 		{
@@ -101,70 +104,77 @@ var Info = {
 			"location":"",
 			"time":"4:15 PM",
 			"instructor":"National Instruments <br> Kevin Wenner <br> Brad Sherman",
-
+			"description": "Interested in how LabVIEW can be used in your project?  In this workshop, we will cover the basics of the LabVIEW and then share some of the possible ways it could make your project awesome.  Come learn how LabVIEW allows developers to leverage many different hardware and software platforms using the same language."
 		},
 		{
 			"name":"Building Cognitive Applications using IBM Watson",
 			"location":"",
 			"time":"4:15 PM",
 			"instructor":"IBM",
-
+			"description": ""
 		},
 		{
 			"name":"The Accuweather API",
 			"location":"",
 			"time":"4:15 PM",
 			"instructor":"Accuweather",
-
+			"description": ""
 		},
 		{
 			"name":"How to make an API",
 			"location":"",
 			"time":"5:30 PM",
 			"instructor":"Josh Li <br> Mayank Makwana",
-
+			"description": ""
 		},
 		{
 			"name":"Creating your own AI Machine Learning model",
 			"location":"",
 			"time":"5:30 PM",
-			"instructor":"AI Association <br> Jason Tu"
+			"instructor":"AI Association <br> Jason Tu",
+			"description": "Without any previous knowledge on AI, we will help you to build your own Spam Email Classifier that can identify any spam email in an hour! "
 		},
 		{
 			"name":"Introduction to Machine Learning",
 			"location":"",
 			"time":"5:30 PM",
-			"instructor":"Nittany Data Labs <br> Yuya Ong"
+			"instructor":"Nittany Data Labs <br> Yuya Ong",
+			"description": "In this workshop, we will cover basics on what machine learning is, how we can use it to solve many problems and how you can quickly get started with Machine Learning through an introduction of a few libraries to be able to learn from data."
 		},
 		{
 			"name":"The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
 			"location":"",
 			"time":"8:00 PM",
-			"instructor":"Alex Patin <br> David de Matheu"
+			"instructor":"Alex Patin <br> David de Matheu",
+			"description": "Join Microsoft Student Ambassadors, Alex and David, as they harness the power of awesome APIs, such as Project Oxford and LUIS.ai, bringing your dreams of building Skynet one step closer to reality."
 		},
 		{
 			"name":"VR Development",
-			"location":"",
+			"location":"yolo swag",
 			"time":"8:00 PM",
-			"instructor":"Matt Young"
+			"instructor":"Matt Young",
+			"description": ""
 		},
 		{
 			"name":"Introduction to Arduino",
 			"location":"",
 			"time":"8:00 PM",
-			"instructor":"IEEE"
+			"instructor":"IEEE",
+			"description": ""
 		},
 		{
 			"name":"React Native",
 			"location":"",
 			"time":"9:15 PM",
-			"instructor":"Mayank Makwana"
+			"instructor":"Mayank Makwana",
+			"description": ""
 		},
 		{
 			"name":"Socket.io - A Useful NodeJS Library for Realtime Applications",
 			"location":"",
 			"time":"8:00 PM",
-			"instructor":"Evelyn Pan"
+			"instructor":"Evelyn Pan",
+			"description": "Have you ever wanted to make realtime applications like online chatrooms, multiplayer web games, or even document collaboration on the same webpage? Learn how to do all these things and more using Socket.io, a powerful took built on top of NodeJS."
 		}
 
 	],

@@ -304,6 +304,7 @@
 	for (var key in workshops) {
 		var workshop = workshops[key];
 
+		//TODO: Fix the escaping of characters
 	   	var workshopHTML =
 	   	'<tr><td>'
 	   	+ workshop.time
@@ -311,6 +312,8 @@
 	   	+ workshop.name
 	   	+ '</td><td>'
 	   	+ workshop.instructor
+	   	+ '</td><td>'
+	   	+ workshop.description
 	   	+ '</td><td>'
 	   	+ workshop.location
 	   	+ '</td></tr>';
