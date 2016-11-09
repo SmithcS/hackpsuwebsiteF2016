@@ -444,7 +444,7 @@ nav {
 /*=================  MAP =======================*/
 
 #map {
-	background-color: rgba(58, 45, 64, 0.7)
+	background-color: rgba(58, 45, 64, 0);
 }
 
 #map div.collapse {
@@ -651,40 +651,59 @@ nav {
 #schedule p {
 	color: white;
 }
+
 #schedule .divider {
-	background-color: white;
+	background-color: #111;
 }
+
+#event-header {
+	font-family: 'Oswald', 'Arial', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+    font-size: larger;
+}
+
 #schedule-container {
 	font-family: 'Oswald', 'Arial', sans-serif;
 	font-size: 15px;
 	background-color: white;
 	z-index: 20;
-}
-#schedule table {
-	margin:20px;
+	border: 1px black;
+	border-radius: 10px;
 }
 
 #schedule td {
 	padding:10px;
-	font-size: smaller;
 }
+
 #schedule td:first-child {
     color: #FFCC66;
     font-weight: 300;
-    font-size: large;
-    letter-spacing: 2px;
-}#schedule td:last-child {
+    font-size: larger;
+    letter-spacing: 1px;
+}
+#schedule th>span {
+    color: black;
+    font-weight: 300;
+    font-size: xx-large;
+    letter-spacing: 1px;
+}
+
+#schedule td:last-child {
 	color:white;
 	font-weight: 600;
 	text-transform: uppercase;
-	font-size: large;
-	letter-spacing: 5px
+	font-size: medium;
+	letter-spacing: 1px;
 }
+
 #schedule-container div h4 {
 	font-size: smaller;
 	padding:10px;
 	text-align: left;
-	background-color: #3399CC;
+	background-color: #3399FC;
 }
 
 /*================= FAQ ==================*/

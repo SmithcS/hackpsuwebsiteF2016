@@ -78,58 +78,95 @@ var Info = {
 	"workshops":
 	[
 		{
-			"name":"Intro to Swift<br>Intro to Java MVC Application Development and Swing",
-			"location":"102<br>104",
+			"name":"Legal Advice Startups Need to Know",
+			"location":"",
 			"time":"3:00 PM",
-			"instructor":"Kenneth K Au<br>Binh Hyunh",
+			"instructor":"Happy Valley Launchbox <br> Tyler Etter <br> Cam Piasecki",
 		},
 		{
-			"name":"Vantiv Keynote",
-			"location":"110",
-			"time":"4:00 PM",
-			"instructor":"Shawn McCarthy",
+			"name":"Data Visualization with D3",
+			"location":"",
+			"time":"3:00 PM",
+			"instructor":"Kenneth Au",
 		},
 		{
-			"name":"React-native Development<br>Intro to HTML, CSS, and JS<br>Microsoft Azure Development",
-			"location":"102<br>104<br>110",
-			"time":"5:00 PM",
-			"instructor":"Max Marze<br>Scott Miller<br>Alex Patin",
+			"name":"Help yourself: DIY tools to make Canvas better for students",
+			"location":"",
+			"time":"3:00 PM",
+			"instructor":"Instructure",
 
 		},
 		{
-			"name":"Virtual Reality Development with Unity<br>Frontend Development with Bootstrap ",
-			"location":"102<br>104",
-			"time":"6:00 PM",
-			"instructor":"Matt Young<br>Spencer McCullough ",
+			"name":"LabVIEW: A Programming Language (And some cool ways to use it)",
+			"location":"",
+			"time":"4:15 PM",
+			"instructor":"National Instruments <br> Kevin Wenner <br> Brad Sherman",
 
 		},
 		{
-			"name":"Django + SQLlite Web Application Development<br>Intro to Android Development",
-			"location":"102<br>104",
+			"name":"Building Cognitive Applications using IBM Watson",
+			"location":"",
+			"time":"4:15 PM",
+			"instructor":"IBM",
+
+		},
+		{
+			"name":"The Accuweather API",
+			"location":"",
+			"time":"4:15 PM",
+			"instructor":"Accuweather",
+
+		},
+		{
+			"name":"How to make an API",
+			"location":"",
+			"time":"5:30 PM",
+			"instructor":"Josh Li <br> Mayank Makwana",
+
+		},
+		{
+			"name":"Creating your own AI Machine Learning model",
+			"location":"",
+			"time":"5:30 PM",
+			"instructor":"AI Association <br> Jason Tu"
+		},
+		{
+			"name":"Introduction to Machine Learning",
+			"location":"",
+			"time":"5:30 PM",
+			"instructor":"Nittany Data Labs <br> Yuya Ong"
+		},
+		{
+			"name":"The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
+			"location":"",
 			"time":"8:00 PM",
-			"instructor":"Brittany Chiu<br>Audra Stafursky",
-
+			"instructor":"Alex Patin <br> David de Matheu"
 		},
 		{
-			"name":"Data Science 1",
-			"location":"110",
-			"time":"9:00 PM",
-			"instructor":"Chris Sharkey",
-
+			"name":"VR Development",
+			"location":"",
+			"time":"8:00 PM",
+			"instructor":"Matt Young"
 		},
 		{
-			"name":"Data Science 2<br>iOS + Swift Programming",
-			"location":"110<br>104",
-			"time":"10:30 PM",
-			"instructor":"Chris Sharkey<br>Emma Roudaboush",
-
+			"name":"Introduction to Arduino",
+			"location":"",
+			"time":"8:00 PM",
+			"instructor":"IEEE"
 		},
 		{
-			"name":"Programming with Hugo, the modern static site generator<br>Intro to SQL",
-			"location":"104<br>102",
-			"time":"11:30 PM",
-			"instructor":"Kenneth K Au<br>Matt Kremer"
+			"name":"React Native",
+			"location":"",
+			"time":"9:15 PM",
+			"instructor":"Mayank Makwana"
+		},
+		{
+			"name":"Socket.io - A Useful NodeJS Library for Realtime Applications",
+			"location":"",
+			"time":"8:00 PM",
+			"instructor":"Evelyn Pan"
 		}
+
 	],
 	//TODO: update final prizes
 	"prizes":
@@ -257,24 +294,6 @@ var Info = {
 	//TODO: Update judges list
 	"judges":
 	[
-		// {
-	 //   	"name":"Scott Woods",
-	 //   	"image":"assets/judges/scottwoods.png",
-	 //   	"tagline":"West Arete, CEO",
-	 //   	"description": "Adventurer by day and President of West Arete, a successful custom software development company. He has spent his life creating an eco-friendly company that builds sophisticated web and mobile applications for forward thinking companies both locally, in State College, and around the country."
-	 //   },
-	 //   {
-	 //   	"name":"Emma Roudabush",
-	 //   	"image":"assets/judges/emmaroudabush.png",
-	 //   	"tagline":"Intern Ambassador, Microsoft",
-	 //   	"description": "Microsoft Intern Summer of '13, '14, and '15. Former CodePSU Head Director. Soon-to-be Microsoft Employee in the Developer Division."
-	 //   },
-		// {
-	 //   	"name":"Justin Merrell",
-	 //   	"image":"assets/judges/justinmerrell.png",
-	 //   	"tagline":"Director, Catalyst Space ",
-	 //   	"description": "Justin Merrell is from Gaithersburg Maryland where his passion for technology and business began. Attending Penn State Altoona for engineering and business he saw an opportunity to bring STEM and entrepreneurship to the area, resulting in Catalyst Space. In the process he developed an access management system that grew into a technology company of its own."
-	 //   },
 	    {
 	    	"name":"Jessica Menold",
 	    	"image":"assets/judges/jessicamenold.png",
@@ -531,47 +550,66 @@ var Info = {
 		},
 		{
 			"id" : "7",
-			"title": "Workshop R1",
+			"title": "Workshop: Legal Advice Startups Need to Know",
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
-			"location" : "Room 1",
-			"description" : "This workshop is blurbblurblurb",
+			"location" : "",
+			"description" : "What you don’t know can hurt you, especially when it comes to legal issues. \
+			Learn how to figure out what type of company to set up, how to structure co-founder agreements, \
+			employee agreements, and avoid issues now that can wreak havoc with your company later.",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "8",
-			"title": "Workshop R2",
+			"title": "Workshop: Data Visualization with D3.js",
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
-			"location" : "Room 2",
-			"description" : "This workshop is blurbblurblurb",
+			"location" : "",
+			"description" : "Learn how to make eye-catching data visualization that will impress, inspire, and \
+			inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. \
+			Visualize live data or map out this year’s election polling. Be prepared with your computer, your favorite \
+			text editor, and a baseline knowledge of JavaScript and web technologies. <br> <span style='font-weight: 700'> Requirements </span> \
+			 Basic knowledge of JavaScript and web technologies.",
+			"color" : "ffa726"
+		},
+		{
+			"id" : "1",
+			"title": "Workshop: Help Yourself: DIY Tools to Make Canvas Better for Students",
+			"start": "2016-11-12T15:00:00",
+			"end" : "2016-11-12T16:00:00",
+			"location" : "",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "9",
-			"title": "Workshop R1",
-			"start": "2016-11-12T16:30:00",
-			"end" : "2016-11-12T17:30:00",
-			"location" : "Room 1",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Workshop: LabVIEW: A Programming Language (and some cool ways to use it)",
+			"start": "2016-11-12T16:15:00",
+			"end" : "2016-11-12T17:15:00",
+			"location" : "",
+			"description" : "Interested in how LabVIEW can be used in your project?  In this workshop, \
+			we will cover the basics of the LabVIEW and then share some of the possible ways it could make\
+			 your project awesome.  Come learn how LabVIEW allows developers to leverage many different\
+			  hardware and software platforms using the same language. <br> <span style='font-weight: 700'> Requirements: </span> \
+			  None; General programming, software, or hardware knoweldge is helpful.",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "10",
-			"title": "Workshop R2",
-			"start": "2016-11-12T16:30:00",
-			"end" : "2016-11-12T17:30:00",
-			"location" : "Room 2",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Workshop: Building Cognitive Applications using IBM Watson",
+			"start": "2016-11-12T16:15:00",
+			"end" : "2016-11-12T17:15:00",
+			"location" : "",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "5",
-			"title": "Workshop R3",
-			"start": "2016-11-12T16:30:00",
-			"end" : "2016-11-12T17:30:00",
-			"location" : "Room 3",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Workshop: The AccuWeather API",
+			"start": "2016-11-12T16:15:00",
+			"end" : "2016-11-12T17:15:00",
+			"location" : "",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
@@ -585,65 +623,84 @@ var Info = {
 		},
 		{
 			"id" : "13",
-			"title": "Workshop R1",
-			"start": "2016-11-12T20:00:00",
-			"end" : "2016-11-12T21:00:00",
-			"location" : "Room 1",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Workshop: How to Make an API",
+			"start": "2016-11-12T17:30:00",
+			"end" : "2016-11-12T18:30:00",
+			"location" : "",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "14",
-			"title": "Workshop R2",
-			"start": "2016-11-12T20:00:00",
-			"end" : "2016-11-12T21:00:00",
-			"location" : "Room 2",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Workshop: Introduction to Machine Learning",
+			"start": "2016-11-12T17:30:00",
+			"end" : "2016-11-12T18:30:00",
+			"location" : "",
+			"description" : "In this workshop, we will cover basics on what\
+			 machine learning is, how we can use it to solve many problems and how \
+			 you can quickly get started with Machine Learning through an introduction \
+			 of a few libraries to be able to learn from data. <br> <span style='font-weight: 700'> Requirements: </span> Basic knowledge of Python is helpful",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "15",
-			"title": "Workshop R1",
-			"start": "2016-11-12T21:30:00",
-			"end" : "2016-11-12T22:30:00",
-			"location" : "Room 1",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Create Your Own Machine Learning Model",
+			"start": "2016-11-12T17:30:00",
+			"end" : "2016-11-12T18:30:00",
+			"location" : "",
+			"description" : "Without any previous knowledge on AI, we will help you to \
+			build your own Spam Email Classifier that can identify any spam email in an hour! \
+			<br><span style='font-weight: 700'>Requirements: </span> Python development environment",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "16",
-			"title": "Workshop R2",
-			"start": "2016-11-12T21:30:00",
-			"end" : "2016-11-12T22:30:00",
-			"location" : "Room 2",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
+			"start": "2016-11-12T20:00:00",
+			"end" : "2016-11-12T21:00:00",
+			"location" : "",
+			"description" : "Join Microsoft Student Ambassadors, Alex and David, as they harness\
+			 the power of awesome APIs, such as Project Oxford and LUIS.ai, bringing your dreams\
+			  of building Skynet one step closer to reality.",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "17",
-			"title": "Workshop R3",
-			"start": "2016-11-12T21:30:00",
-			"end" : "2016-11-12T22:30:00",
-			"location" : "Room 3",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "VR Development",
+			"start": "2016-11-12T20:00:00",
+			"end" : "2016-11-12T21:00:00",
+			"location" : "",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "18",
-			"title": "Workshop R1",
-			"start": "2016-11-12T23:00:00",
-			"end" : "2016-11-12T24:00:00",
-			"location" : "Room 1",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "Introduction to Arduino",
+			"start": "2016-11-12T20:00:00",
+			"end" : "2016-11-12T21:00:00",
+			"location" : "",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
 			"id" : "19",
-			"title": "Workshop R2",
-			"start": "2016-11-12T23:00:00",
-			"end" : "2016-11-12T24:00:00",
-			"location" : "Room 2",
-			"description" : "This workshop is blurbblurblurb",
+			"title": "React Native",
+			"start": "2016-11-12T21:15:00",
+			"end" : "2016-11-12T22:15:00",
+			"location" : "",
+			"description" : "",
+			"color" : "ffa726"
+		},
+		{
+			"id" : "30",
+			"title": "Socket.io - A Useful NodeJS Library for Realtime Applications",
+			"start": "2016-11-12T21:15:00",
+			"end" : "2016-11-12T22:15:00",
+			"location" : "",
+			"description" : "Have you ever wanted to make realtime applications like online\
+			 chatrooms, multiplayer web games, or even document collaboration on the same webpage?\
+			  Learn how to do all these things and more using Socket.io, a powerful took built on\
+			   top of NodeJS.<br><span style='font-weight: 700'>Requirements:</span> Basic knowledge of JavaScript and web technologies.",
 			"color" : "ffa726"
 		},
 		{
