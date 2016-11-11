@@ -614,6 +614,21 @@ nav {
 }
 
 
+#keynote #title {
+	text-align: center;
+	color: #D0EBF3;
+	font-size: 42px;
+	font-weight: 500;
+	font-family: 'Oswald', 'Arial', sans-serif;
+}
+#keynote #speaker {
+	text-align: center;
+	color: #FFCC66;
+	font-size: 36px;
+	font-weight: 500;
+	font-family: 'Oswald', 'Arial', sans-serif;
+}
+
 .judge-list-image img {
 	max-width: 150px;
 	padding-top: 15px;
