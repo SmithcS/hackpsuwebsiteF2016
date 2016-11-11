@@ -203,6 +203,13 @@ var Info = {
 			"judging":"HackPSU General Judging Criteria"
 		},
 		{
+			"name":"Retro Hack",
+			"sponsor":"HackPSU",
+			"value":"New NES Game System",
+			"requirements":"Create a hack using a few modern tools as possible. Extra points the smaller you hack is in size (i.e. 1024 KB hack)",
+			"judging":"HackPSU General Judging Criteria"
+		},
+		{
 			"name":"Club Cup",
 			"sponsor":"HackPSU",
 			"value":"$500 and pizza party for your club",
