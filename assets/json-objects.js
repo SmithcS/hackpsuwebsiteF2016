@@ -82,14 +82,14 @@ var Info = {
 			"location":"",
 			"time":"3:00 PM",
 			"instructor":"Happy Valley Launchbox <br> Tyler Etter <br> Cam Piasecki",
-			"description": "What you don’t know can hurt you, especially when it comes to legal issues. Learn how to figure out what type of company to set up, how to structure co-founder agreements, employee agreements, and avoid issues now that can reek havoc with your company later."
+			"description": "What you don't know can hurt you, especially when it comes to legal issues. Learn how to figure out what type of company to set up, how to structure co-founder agreements, employee agreements, and avoid issues now that can reek havoc with your company later."
 		},
 		{
 			"name":"Data Visualization with D3",
 			"location":"",
 			"time":"3:00 PM",
 			"instructor":"Kenneth Au",
-			"description": "Learn how to make eye-catching data visualization that will impress, inspire, and inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. Visualize live data or map out this year’s election polling. Be prepared with your computer, your favorite text editor, and a baseline knowledge of JavaScript and web technologies."
+			"description": "Learn how to make eye-catching data visualization that will impress, inspire, and inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. Visualize live data or map out this year's election polling. Be prepared with your computer, your favorite text editor, and a baseline knowledge of JavaScript and web technologies."
 		},
 		{
 			"name":"Help yourself: DIY tools to make Canvas better for students",
@@ -100,7 +100,7 @@ var Info = {
 
 		},
 		{
-			"name":"LabVIEW: A Programming Language (And some cool ways to use it)",
+			"name":"LabVIEW - A Programming Language (And some cool ways to use it)",
 			"location":"",
 			"time":"4:15 PM",
 			"instructor":"National Instruments <br> Kevin Wenner <br> Brad Sherman",
@@ -111,14 +111,14 @@ var Info = {
 			"location":"",
 			"time":"4:15 PM",
 			"instructor":"IBM",
-			"description": ""
+			"description": "Introduction to the IBM watson cognitive technology system, and how to integrate it into your hack."
 		},
 		{
 			"name":"The Accuweather API",
 			"location":"",
 			"time":"4:15 PM",
 			"instructor":"Accuweather",
-			"description": ""
+			"description": "An introduction in how to implement the Accuweather API, and how to integrate it into your hack."
 		},
 		{
 			"name":"How to make an API",
@@ -142,7 +142,7 @@ var Info = {
 			"description": "In this workshop, we will cover basics on what machine learning is, how we can use it to solve many problems and how you can quickly get started with Machine Learning through an introduction of a few libraries to be able to learn from data."
 		},
 		{
-			"name":"The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
+			"name":"The Terminator (beta) - a journey into facial recognition, voice analysis, and natural language processing",
 			"location":"",
 			"time":"8:00 PM",
 			"instructor":"Alex Patin <br> David de Matheu",
@@ -150,7 +150,7 @@ var Info = {
 		},
 		{
 			"name":"VR Development",
-			"location":"yolo swag",
+			"location":"",
 			"time":"8:00 PM",
 			"instructor":"Matt Young",
 			"description": ""
@@ -184,122 +184,102 @@ var Info = {
 		{
 			"name":"1st Place Overall",
 			"sponsor":"HackPSU",
-			"value":"$250 prize per team member",
+			"value":"$300 prize per team member",
 			"requirements":"Submit project to Devpost on time",
-			"judging":"Judged according to judges rubric in the 'Judging' section"
+			"judging":"HackPSU General Judging Criteria"
 		},
 		{
 			"name":"2nd Place Overall",
 			"sponsor":"HackPSU",
 			"value":"$150 prize per team member",
 			"requirements":"Submit project to Devpost on time",
-			"judging":"Judged according to judges rubric in the 'Judging' section"
+			"judging":"HackPSU General Judging Criteria"
 		},
 		{
 			"name":"3rd Place Overall",
 			"sponsor":"HackPSU",
 			"value":"$100 prize per team member",
 			"requirements":"Submit project to Devpost on time",
-			"judging":"Judged according to judges rubric in the 'Judging' section"
+			"judging":"HackPSU General Judging Criteria"
 		},
 		{
 			"name":"Club Cup",
 			"sponsor":"HackPSU",
 			"value":"$500 and pizza party for your club",
 			"requirements":"Register as part of the Club Cup challenge upon check-in, and submit project to Devpost on time.",
-			"judging":"Judged according to judges rubric in the 'Judging' section"
+			"judging":"HackPSU General Judging Criteria"
 		},
 		{
-			"name":"First place",
+			"name":"MLH 1st, 2nd, 3rd Place",
 			"sponsor":"MLH",
-			"value":"Dell venue 10 tablets",
-			"requirements":"Submit project",
+			"value":"MLH first, decond, and third place medals",
+			"requirements":"Submit project to DevPost on time",
 			"judging":"As judged by Major League Hacking"
+		},
+		{
+			"name":"COIL/EdTech Challenge",
+			"sponsor":"COIL/EdTech Network",
+			"value":"1. Tickets to the 2017 EdTech Summit <br>2. A one-hour webinar featuring the winning team and their innovative idea as part of the COIL Conversation series <br>3. A hosted lunch with select EdTech leaders at Penn State",
+			"requirements":"Think of a challenge that you have faced as a student in higher education. This could be anything such as an inefficient process, poor communications, roadblocks to learning, etc. Design a technology-based solution that will solve that problem. Be prepared to describe your challenge, as well as your proposed solution.",
+			"judging":"COIL/EdTech Judging Criteria"
+		},
+		{
+			"name":"Optum Challenge",
+			"sponsor":"Optum",
+			"value":"Portable Speaker; Fast Track Recruitment into Internship or Full-Time Position; Optum SWAG",
+			"requirements":"Let's help everyone live healthier lives!  Build a technical solution/proof of concept that not only helps its users to stay informed and fit for now and their future, but also contributes to medical research and big data analytics.  What if one technical solution could improve both an individual and an entire population at the same time? More information available on DevPost.",
+			"judging":"Optum Judging Critera"
+		},
+		{
+			"name":"IBM Watson Challenge",
+			"sponsor":"IBM Corporation",
+			"value":"",
+			"requirements":"Submit project to DevPost on time. Utilize IBM's Watson Services to develop an innovative solution to improve the student experience at Penn State.",
+			"judging":"IBM Judging Criteria"
+		},
+		{
+			"name":"NI LabVIEW Challenge",
+			"sponsor":"National Instruments",
+			"value":"Each member of the winning team will receive a LabVIEW Physical Computing Kit for Raspberry Pi 2",
+			"requirements":"Submit project to DevPost on time. Use LabVIEW as part of your project, and be entered to win the NI challenge! Looking for ideas and guidance? Come to the National Instruments workshop after the opening ceremony or visit our booth at the event to explore options!",
+			"judging":"National Instruments Judging Criteria"
+		},
+		{
+			"name":"Accuweather Challenge",
+			"sponsor":"Accuweather",
+			"value":"$500 Amazon Gift Card",
+			"requirements":"Submit project to DevPost on time. Using AccuWeather’s weather data, come up with a way of how this information can improve people’s lives. Participants will have demo access to AccuWeather’s API to leverage foundational weather data for this Hack.",
+			"judging":"Innovation, Usability, Understanding of challenge"
 		},
 		{
 			"name":"Best use of AWS",
 			"sponsor":"MLH",
 			"value":"1TB hard drive",
-			"requirements":"Submit project",
+			"requirements":"Submit project to DevPost on time. Use AWS as a part of your hack.",
 			"judging":"As judged by Major League Hacking"
 		},
 		{
-			"name":"Best domain.com",
+			"name":"#HackHarassment",
 			"sponsor":"MLH",
-			"value":"domain.com swag bag",
-			"requirements":"Submit project",
+			"value":"Hack Harassment Swag Bag",
+			"requirements":"Submit project to DevPost on time. Use your tech skills for good and hack online harassment. Build a software solution that can help reduce the frequency and/or severity of online harassment.",
 			"judging":"As judged by Major League Hacking"
 		},
 		{
-			"name":"Best developer tool",
+			"name":"Watch Dogs 2 Best Device Privacy Hack",
 			"sponsor":"MLH",
-			"value":"Mona the Octocat statue",
-			"requirements":"Submit project",
+			"value":"Collector's Edition of Watch Dogs 2",
+			"requirements":"Everything is part of the internet of things now - from your phone to your fitness band to your thermostat. Build a hack that utilizes private data being collected from your devices, and show how you can turn potential vulnerabilities into something constructive.",
 			"judging":"As judged by Major League Hacking"
 		},
 		{
-			"name":"Best use of Vantiv API",
-			"sponsor":"Vantiv",
-			"value":"Roundtrip airface to Las Vegas for 2016 Money 20/20 Hackathon, Entrance fee paid for each team member, Vantiv Five for Flight t-shirt,$200 Vantiv MasterCard promotional card for miscellaneous travel costs (food, transportation, etc.)",
-			"requirements":"Best use of API.",
-			"judging":"Decided by Vantiv."
-		},
-		{
-			"name":"Best app for IT recruiters OR Best app for IT job seekers",
-			"sponsor":"TechHiring",
-			"value":"Amazon Gift Card",
-			"requirements":"TechHiring is committed to developing solutions to make the process of hiring and getting hired easier. Our challenge is simple: develop and app that is useful to IT job seekers or Tech Recruiters.",
-			"judging":"1. Originality. Has the idea been done before? <br>2. Utility.  Does this app actually solve a problem that hasn't been solved?<br>3. Completion.  How much of your idea were you able to realize?"
-		},
-		{
-			"name":"Best Use of Nessie API",
-			"sponsor":"Capital One",
-			"value":"$250 Amazon Gift Card per team member",
-			"requirements": "You are the Bank, how will you reimagine banking?",
-			"judging":"Best integration of our API, Creativity/Innovation"
-		},
-		{
-			"name":"How Can Weather Improve Our Lives?",
-			"sponsor":"AccuWeather",
-			"value":"$500 Amazon Gift Card",
-			"requirements":"Using AccuWeather's weather data, come up with a way of that this information can improve people's lives. Participants will have demo access to AccuWeather's API to leverage foundation Weather data for this Hack.",
-			"judging":"1.Overall Creativity  <br>2. Impact and usefulness <br>3. Innovative use of API"
-		},
-		{
-			"name": "Internet of Things",
-			"sponsor": "Zonoff",
-			"value": "1st) $50 Particle Photon (https://store.particle.io) gift cards for each member of team (up to 4) and Zonoff T-shirts. 2nd) $25 gift cards for each team member (up to 4) and Zonoff t-shirts.",
-			"requirements": "Develop a functioning IoT (Internet of Things) solution (or make clear progress on an Innovative IoT use case). Using a combination of hardware and software, demonstrate the flexible and automated control of one or more devices.",
-			"judging": "1. Working technical implementation with hardware and software and/or external services.  Receive extra credit for use of a phone or phone simulator. <br>2. interesting use case such as interactions of multiple devices with one as trigger and another responding or the control of a novel end device.<br>3. Demonstrate IoT platform features such as remote access (from outside local network), dynamic UI updates, or flexibility via configuration or rules engine."
-		},
-		{
-			"name":"EdTech Challenge",
-			"sponsor":"Invent Penn State/Penn State EdTech Network/COIL",
-			"value":"Tickets to the Invent Penn State Venture & Intellectual Property Conference scheduled for Oct. 6-7, 2016 in State College, as well as a one-hour webinar featuring the winning team and their innovative idea as part of the COIL Conversation series.",
-			"requirements":"Think of a challenge that students in higher education face. This could be anything such as an inefficient process, poor communications, roadtimes to learning, etc. Design a technology-based solution that will solve that problem. Be prepared to describe the challenge, as well as your proposed solution.",
-			"judging":"1. Innovation and creativity<br>2. Depth<br>3. ''Wow-factor''"
-		},
-		{
-			"name":"VR Insurance Game",
-			"sponsor":"Erie Insurance",
-			"value":"$500 Amazon Gift Card",
-			"requirements":"We want students to make a virtual reality game that is related to insurance and that would attract millennials. Some examples of games could be to demonstrate the effects of drunk driving, texting and driving, or distracted driving in general. If the students have a different idea that they feel is relevant and related to insurance, we would be open to that as well.",
-			"judging":"1. Innovation<br>2. Strategic Fit<br>3. Business Potential"
-		},
-		{
-			"name":"LabView Challenge",
-			"sponsor":"National Instruments",
-			"value":"LabVIEW Physical Computing Kit with chipKIT WF32",
-			"requirements":"Incorporate LabVIEW in your project!  Use LabVIEW in pursuit of any challenge and be entered to win an additional prize from National Instruments (see prize details below).  Winning entries will use LabVIEW more extensively, creatively, and effectively!  Feel free to utilize existing libraries and examples, but end result must be considered original work. <a href='challenge.html'>More info here</a>.",
-			"judging":"SEE DETAILS."
-		},
-		{
-			"name":"Hack Harassment Challenge",
-			"sponsor":"Hack Harassment (Intel Corp., Vox Media, Born This Way Foundation, and Re/Code)",
-			"value":"Each team member (up to 5) will be awarded a Fossil Q Reveler Black Leather Activity Tracker (value $125 each)",
-			"requirements":"Help create a solution that will allow us to capture social interactions, identify and tag if it's harassment.  You can start from existing available data sources and APIs, but a solution must be scalable across many online applications and can be tested to identify Harassment or not through unique and innovative algorithms. <a href='challenge.html'>More info here</a>",
-			"judging":"(1) Is the tool scalable? <br>(2) Is the data set easily tagged, searched? <br>(3) Is it accurate? "
-		},
+			"name":"Best Domain.com Name from Domain.com",
+			"sponsor":"MLH",
+			"value":"Domain.com Swag Bags",
+			"requirements":"Submit project to devpost on time, use Domain.com for domain registration.",
+			"judging":"As judged by Major League Hacking"
+		}
+		
 	],
 	//TODO: Update judges list
 	"judges":
@@ -519,19 +499,19 @@ var Info = {
 	[
 		{
 			"id" : "3",
-			"title": "Registration",
+			"title": "Check-in",
 			"start": "2016-11-12T10:00:00",
 			"end" : "2016-11-12T18:30:00",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Check-in, receive your RFID wristband, and pickup some swag!"
 		},
 		{
 			"id" : "4",
 			"title": "Opening Ceremony",
 			"start": "2016-11-12T11:30:00",
 			"end" : "2016-11-12T13:00:00",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Opening ceremony for HackPSU. Introducing challenges, sponsors, prizes, and more."
 		},
 		{
 			"id" : "11",
@@ -539,7 +519,7 @@ var Info = {
 			"start": "2016-11-12T14:00:00",
 			"end" : "2016-11-13T12:00:00",
 			"location": "Business Building Entrance",
-			"description": ""
+			"description": "Build something awesome!"
 		},
 		{
 			"id" : "6",
@@ -547,8 +527,8 @@ var Info = {
 			"start": "2016-11-12T13:00:00",
 			"end" : "2016-11-12T14:30:00",
 			"color" : "1b5e20",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Lunch: Subway and Jimmy Johns"
 		},
 		{
 			"id" : "7",
@@ -556,7 +536,7 @@ var Info = {
 			"start": "2016-11-12T13:00:00",
 			"end" : "2016-11-12T14:30:00",
 			"location": "Business Building Entrance",
-			"description": ""
+			"description": "Share your ideas and listen to others to find a team to build with"
 		},
 		{
 			"id" : "7",
@@ -564,7 +544,7 @@ var Info = {
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
 			"location" : "",
-			"description" : "What you don’t know can hurt you, especially when it comes to legal issues. \
+			"description" : "What you don't know can hurt you, especially when it comes to legal issues. \
 			Learn how to figure out what type of company to set up, how to structure co-founder agreements, \
 			employee agreements, and avoid issues now that can wreak havoc with your company later.",
 			"color" : "ffa726"
@@ -577,7 +557,7 @@ var Info = {
 			"location" : "",
 			"description" : "Learn how to make eye-catching data visualization that will impress, inspire, and \
 			inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. \
-			Visualize live data or map out this year’s election polling. Be prepared with your computer, your favorite \
+			Visualize live data or map out this year's election polling. Be prepared with your computer, your favorite \
 			text editor, and a baseline knowledge of JavaScript and web technologies. <br> <span style='font-weight: 700'> Requirements </span> \
 			 Basic knowledge of JavaScript and web technologies.",
 			"color" : "ffa726"
@@ -610,7 +590,7 @@ var Info = {
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
 			"location" : "",
-			"description" : "",
+			"description" : "Introduction to the IBM watson cognitive technology system, and how to integrate it into your hack.",
 			"color" : "ffa726"
 		},
 		{
@@ -619,7 +599,7 @@ var Info = {
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
 			"location" : "",
-			"description" : "",
+			"description" : "An introduction in how to implement the Accuweather API, and how to integrate it into your hack.",
 			"color" : "ffa726"
 		},
 		{
@@ -628,8 +608,8 @@ var Info = {
 			"start": "2016-11-12T19:00:00",
 			"end" : "2016-11-12T20:30:00",
 			"color" : "1b5e20",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Dinner: Kaarma Indian Cuisine"
 		},
 		{
 			"id" : "13",
@@ -654,7 +634,7 @@ var Info = {
 		},
 		{
 			"id" : "15",
-			"title": "Create Your Own Machine Learning Model",
+			"title": "Workshop: Create Your Own Machine Learning Model",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
 			"location" : "",
@@ -665,7 +645,7 @@ var Info = {
 		},
 		{
 			"id" : "16",
-			"title": "The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
+			"title": "Workshop: The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
 			"location" : "",
@@ -676,7 +656,7 @@ var Info = {
 		},
 		{
 			"id" : "17",
-			"title": "VR Development",
+			"title": "Workshop: VR Development",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
 			"location" : "",
@@ -685,7 +665,7 @@ var Info = {
 		},
 		{
 			"id" : "18",
-			"title": "Introduction to Arduino",
+			"title": "Workshop: Introduction to Arduino",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
 			"location" : "",
@@ -694,7 +674,7 @@ var Info = {
 		},
 		{
 			"id" : "19",
-			"title": "React Native",
+			"title": "Workshop: React Native",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
 			"location" : "",
@@ -703,7 +683,7 @@ var Info = {
 		},
 		{
 			"id" : "30",
-			"title": "Socket.io - A Useful NodeJS Library for Realtime Applications",
+			"title": "Workshop: Socket.io - A Useful NodeJS Library for Realtime Applications",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
 			"location" : "",
@@ -715,19 +695,27 @@ var Info = {
 		},
 		{
 			"id" : "20",
-			"title": "Mini Event 1",
-			"start": "2016-11-12T23:00:00",
-			"end" : "2016-11-12T24:00:00",
-			"location" : "Room 1",
-			"description" : "This event is blurbblurblurb"
+			"title": "Cup Stacking",
+			"start": "2016-11-12T19:00:00",
+			"end" : "2016-11-12T20:00:00",
+			"location" : "Business Building Atrium",
+			"description" : "As the saying goes, hackers make great stackers. It's time to prove yourself at a hackathon classic. "
+		},
+		{
+			"id" : "32",
+			"title": "Slideshow Karaoke",
+			"start": "2016-11-12T22:30:00",
+			"end" : "2016-11-12T23:30:00",
+			"location" : "",
+			"description" : "As the saying goes, hackers make great stackers. It's time to prove yourself at a hackathon classic. "
 		},
 		{
 			"id" : "21",
 			"title": "Ice Cream Social",
 			"start": "2016-11-13T00:00:00",
 			"end" : "2016-11-13T01:30:00",
-			"location" : "Atrium",
-			"description" : "Eat all the ice cream",
+			"location" : "Business Building Atrium",
+			"description" : "Enjoy Ice Cream provided by our friends at Global Entrepreneurship Week at Penn State (GEW)",
 			"color" : "1b5e20"
 		},
 		{
@@ -736,16 +724,16 @@ var Info = {
 			"start": "2016-11-13T07:30:00",
 			"end" : "2016-11-13T09:30:00",
 			"color" : "1b5e20",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Breakfast: Wegmans Breakfast Pizzas, Bagels, and assorted Fruits"
 		},
 		{
 			"id" : "25",
 			"title": "Hacks Submitted",
 			"start": "2016-11-13T12:00:00",
 			"end" : "2016-11-13T13:00:00",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "N/A",
+			"description": "The final deadline for submitting your hack to Devpost"
 		},
 		{
 			"id" : "26",
@@ -753,8 +741,8 @@ var Info = {
 			"start": "2016-11-13T11:30:00",
 			"end" : "2016-11-13T13:00:00",
 			"color" : "1b5e20",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Lunch: My My Chicken"
 		},
 		{
 			"id" : "27",
@@ -769,16 +757,16 @@ var Info = {
 			"title": "Expo",
 			"start": "2016-11-13T13:00:00",
 			"end" : "2016-11-13T13:00:00",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Show off your project to our judges in a science-fair style expo!"
 		},
 		{
 			"id" : "29",
 			"title": "Demo & Closing Ceremony",
 			"start": "2016-11-13T15:00:00",
 			"end" : "2016-11-13T16:30:00",
-			"location": "Business Building Entrance",
-			"description": ""
+			"location": "Business Building Atrium",
+			"description": "Select teams will demo in front of the HackPSU audience for a chance to walk home with a prize!"
 		},
 
 	]

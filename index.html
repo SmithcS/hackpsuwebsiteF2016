@@ -397,10 +397,11 @@
 					<li role="presentation" class="active"><a href="#rules" aria-controls="rules"
 						role="tab" data-toggle="tab"> <img src="assets/images/hoverimg.png">RULES<img src="assets/images/hoverimg2.png"> </a></li>
 						<li role="presentation"><a href="#prizes" aria-controls="prizes" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">PRIZES<img src="assets/images/hoverimg2.png"></a></li>
-						<li role="presentation"><a href="#reimbursement" aria-controls="reimbursement" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">REIMBURSEMENT<img src="assets/images/hoverimg2.png"></a></li>
+						<li role="presentation"><a href="#criteria" aria-controls="criteria" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">JUDGING CRITERIA<img src="assets/images/hoverimg2.png"></a></li>
 						<li role="presentation"><a href="#submission" aria-controls="submission" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">SUBMISSION<img src="assets/images/hoverimg2.png"></a></li>
 						<li role="presentation"><a href="#hardware" aria-controls="submission" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">HARDWARE<img src="assets/images/hoverimg2.png"></a></li>
-						<li role="presentation"><a href="#judges" aria-controls="submission" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">JUDGES<img src="assets/images/hoverimg2.png"></a></li>
+						<li role="presentation"><a href="#reimbursement" aria-controls="reimbursement" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">REIMBURSEMENT<img src="assets/images/hoverimg2.png"></a></li>
+						<!--li role="presentation"><a href="#judges" aria-controls="submission" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">JUDGES<img src="assets/images/hoverimg2.png"></a></li-->
 						<li role="presentation"><a href="#workshops" aria-controls="submission" role="tab" data-toggle="tab"><img src="assets/images/hoverimg.png">WORKSHOPS<img src="assets/images/hoverimg2.png"></a></li>
 						<!-- TODO: add available APIs -->
 					</ul>
@@ -413,7 +414,7 @@
 							<ul id='rules-list'>
 								<li>Another organization, PHUNC, will be using a small portion of the building throughout the weekend. We ask that you do not use or enter the facilities claimed by PHUNC, or interupt the attendees present for their event. Their facilities will be clearly marked both inside the venue and on our building map.</li>
 								<li>All participants must be older than 18, and must bring a valid form of identification.</li>
-								<li>Participants must abide by the expectations set in the <a class="yellow" href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf'>MLH Code of Conduct</a>, or will be asked to leave the event.</li>
+								<li>Participants must abide by the expectations set in the <a class="yellow" href='http://static.mlh.io/docs/mlh-code-of-conduct.pdf'>MLH Code of Conduct</a>, or you will be asked to leave the event.</li>
 								<li>Teams may be comprised of up to five members.</li>
 								<li>Projects should be original works created on site. Coming with an idea in mind is perfectly fine, working on an existing project is not.</li>
 								<li>All submissions must be recieved through DevPost by 1:00PM on Sunday.</li>
@@ -423,13 +424,8 @@
 						</div>
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="prizes">
-							<div>
-								<p id="temp-message">
-									TO BE ANNOUNCED
-								</p>
-							</div>
 							<!-- Put back in when prizes finalized. -->
-							<!-- <div class="table-responsive">
+							<<div class="table-responsive">
 								<table class="table table-striped table" id="prize-list">
 									<tr>
 										<td><span id="table-headings">TITLE</span></td>
@@ -438,7 +434,83 @@
 										<td><span id="table-headings">JUDGING CRITERIA</span></td>
 									</tr>
 								</table>
-							</div> -->
+							</div>
+						</div>
+					<div role="tabpanel" class="tab-pane fade" id="criteria">
+							<div class="table-responsive">
+								<table class="table table-striped table" id="criteria-list">
+																		
+									<tr>
+										<td><span id="table-headings">HACKPSU GENERAL JUDGING CRITERA</span></td>
+										<td>
+											<span class="yellow bolder">CREATIVITY AND ORIGINALITY (10 POINTS)</span> <br>
+											- Is the solution novel, original and not-obvious?<br>
+											- How different is the design from current solutions?<br>
+											- Does it approach the problem from an unusual or different perspective?<br>
+											- How creative is the problem statement?<br>
+											- Does the solution address a problem which is novel, original and not-obvious?<br>
+											<span class="yellow bolder">TECHNICAL SKILLS (5 POINTS)</span><br>
+											- Was the solution technically challenging? (Taking into account team size and measured relative to competition)<br>
+											- How intricate was the solution?<br>
+											- Did the solution pose a challenge to the group?<br>
+											<span class="yellow bolder">IMPLEMENTATION (15 POINTS)</span><br>
+											- Was the solution effective in addressing the problem?<br>
+											- Was the solution easy to operate for the target demographic? (user friendliness)<br>
+											- Is the solution needlessly complex?<br>
+											- Overall, is the solution viable in addressing the problem statement?<br>
+											<span class="yellow bolder">CLARITY (3 POINTS)</span><br>
+											- Was the team able to convey their ideas in a way understandable to the audience?<br>
+											- Were the topics accessible to the audience?<br>
+											Were all obscure acronyms or jargon explained?<br>
+											<span class="yellow bolder">KNOWLEDGE (12 POINTS)</span><br>
+											- How effectively did the team handle questions?<br>
+											- Did the team demonstrate knowledge of the subject matter?<br>
+										</td>
+									</tr>
+									<tr>
+										<td><span id="table-headings">COIL/EDTECH JUDGING CRITERIA</span></td>
+										<td>
+											<span class="yellow bolder">1.</span> Importance/Prevalence of the identified issue <br>
+											<span class="yellow bolder">2.</span> Creativity and feasibility of the proposed solution <br>
+											<span class="yellow bolder">3.</span> Quality of the solution and/or presentation of the idea
+										</td>
+									</tr>
+									<tr>
+										<td><span id="table-headings">OPTUM JUDGING CRITERA</span></td>
+										<td>
+											Success Criteria: <br>
+											<span class="yellow bolder">1. A solution that works!</span> <br>
+											- Should be function, although does not need to be pretty (no need to spend a lot of time on UI components) <br>
+											<span class="yellow bolder">2. Solution must incorporate an open source health related API or mobile technology</span> <br>
+											- Must be able to pull data or otherwise demonstrate integration <br>
+											<span class="yellow bolder">3. Presentation (Clear, Concise, Captivating)</span> <br>
+											- No need to have a powerpoint <br>
+											- Does not need to be on a mobile device <br>
+											<span class="yellow bolder">4. Originality</span> <br>
+											- No need to conduct full market analysis, but should acknowledge existing products
+										</td>
+									</tr>
+									<tr>
+										<td><span id="table-headings">IBM JUDGING CRITERIA</span></td>
+										<td>
+										    <span class="yellow bolder">Innovation via API usage.</span><br>
+										    - Innovative exploitation of multiple Watson API Services on IBM's Bluemix.<br>
+										    <span class="yellow bolder">Impact via a true improvement.</span><br>
+										    - Provides a palpable impact to the student experience at Penn State.<br>
+										    <span class="yellow bolder">Future potential or growth via big data.</span><br>
+										    - Clear future deployment or growth potential such as via mobile application capability or incorporating more extensive data to provide big data analytics.
+										</td>
+									</tr>
+									<tr>
+										<td><span id="table-headings">NATIONAL INSTRUMENTS JUDGING CRITERA</span></td>
+										<td>
+											<span class="yellow bolder">Creativity:</span><br>  How novel is your implementation of LabVIEW?  Does it do something cool?<br>
+											<span class="yellow bolder">Extensiveness:</span><br>  How much did you utilize LabVIEW in your project?<br> 
+											<span class="yellow bolder">Effectiveness:</span><br>  How well does your LabVIEW code work?
+										</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					<div role="tabpanel" class="tab-pane fade" id="reimbursement">
 							<div>
@@ -452,7 +524,7 @@
 					<div role="tabpanel" class="tab-pane fade" id="submission">
 							<div>
 								<p>1. Create a <a class="yellow" href='http://github.com'>Github account</a> if you do not have one already.</p>
-								<p>2. Go to <a class="yellow" href='http://hackpsu-spring-2016-3747.devpost.com/'>our Devpost event.</a></p>
+								<p>2. Go to <a class="yellow" href='https://hackpsu-fall2016.devpost.com'>our Devpost event.</a></p>
 								<p>3. Log in using your Github account. </p>
 								<p>4. Create a git repository for your project. Need help? <a class="yellow" href='http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners'>Check out this article</a>.</p>
 								<p>5. Add a project on DevPost and tell us what you've built. Add the url for your git repository. Submit!</p>
@@ -466,9 +538,6 @@
 						<!-- <div id='judges-list'></div> -->
 					</div>
 					<div role="tabpanel" class="tab-pane fade" id="workshops">
-						<!-- <p id="temp-message"> -->
-									<!-- DETAILS COMING SOON -->
-						<!-- </p> -->
 						<!-- Put back in when workshops finalized (or we have a couple) -->
 						<table class="table table-striped table" id="workshop-block">
 							<thead>

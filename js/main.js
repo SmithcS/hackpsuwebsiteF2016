@@ -8,8 +8,6 @@
 		imdobile = false;
 	}
 
-	console.log(imdobile)
-
 	if ( imdobile == false ) {
 
 
@@ -300,7 +298,7 @@
 	})
 
 		var workshops = Info["workshops"];
-		console.log(workshops);
+
 	for (var key in workshops) {
 		var workshop = workshops[key];
 
@@ -321,7 +319,7 @@
 	   	$('#workshop-block').append(workshopHTML);
 	}
 	var prizes = Info["prizes"];
-	console.log(judges);
+
 	for (var key in prizes) {
 		var prize = prizes[key];
 
@@ -358,7 +356,7 @@
 		   	$('#judges-list').append(judgeHTML);
 	}
 	var hardware = Info["hardware"];
-	console.log(hardware);
+
 	for (var key in hardware) {
 			var item = hardware[key];
 		   	var itemHTML =
