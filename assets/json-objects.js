@@ -573,6 +573,15 @@ var Info = {
 			"color" : "ffa726"
 		},
 		{
+			"id" : "35",
+			"title": "Keynote: VR, AR, and AI with Donald Clark",
+			"start": "2016-11-12T14:00:00",
+			"end" : "2016-11-12T15:00:00",
+			"location" : "",
+			"description" : "",
+			"color" : "3399CC"
+		},
+		{
 			"id" : "8",
 			"title": "Workshop: Data Visualization with D3.js",
 			"start": "2016-11-12T15:00:00",
