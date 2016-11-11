@@ -8,8 +8,6 @@
 		imdobile = false;
 	}
 
-	console.log(imdobile)
-
 	if ( imdobile == false ) {
 
 
@@ -213,40 +211,40 @@
 	//Schedule calendar
 	var schedule = Info["schedule"];
 
-	// $('#calendar').fullCalendar({
-	// 	header : {
-	// 		center : '',
-	// 		right: ''
-	// 	},
-	// 	views : {
-	// 		agendaTwoDay : {
-	// 			type: 'agenda',
-	// 			duration : { days: 2 },
-	// 	 		buttonText : '2 day'
-	// 		}
-	// 	},
-	// 	defaultDate : '2016-11-12',
-	// 	eventSources:  {
-	// 		events: schedule,
-	// 	},
-	// 	eventColor : 'rgb(58,45,64)',
-	// 	eventBorderColor : 'white',
-	// 	slotEventOverlap: false,
-	// 	aspectRatio : '2',
-	// 	allDaySlot : false,
-	// 	defaultView : 'agendaTwoDay',
-	// 	eventClick : function (calEvent, jsEvent, view) {
-	// 		$('#event-modal').jmodal({
-	// 		showClose: false,
-	// 		fadeDuration: 250,
-	// 		fadeDelay: 0.5
-	// 	})
-	// 	$('#event-modal h3').text(calEvent.title)
-	// 	$('#event-description').text(calEvent.description)
-	// 	$('#event-location').text("Location: " + calEvent.location);
-	// 	// $('#event-modal p').toggleClass('blocker')
-	// 	}
-	// });
+	$('#calendar').fullCalendar({
+		header : {
+			center : '',
+			right: ''
+		},
+		views : {
+			agendaTwoDay : {
+				type: 'agenda',
+				duration : { days: 2 },
+		 		buttonText : '2 day'
+			}
+		},
+		defaultDate : '2016-11-12',
+		eventSources:  {
+			events: schedule,
+		},
+		eventColor : 'rgb(58,45,64)',
+		eventBorderColor : 'white',
+		slotEventOverlap: false,
+		aspectRatio : '2',
+		allDaySlot : false,
+		defaultView : 'agendaTwoDay',
+		eventClick : function (calEvent, jsEvent, view) {
+			$('#event-modal').jmodal({
+			showClose: false,
+			fadeDuration: 250,
+			fadeDelay: 0.5
+		})
+		$('#event-modal #event-header').text(calEvent.title)
+		$('#event-description').html(calEvent.description)
+		$('#event-location').text(calEvent.location);
+		// $('#event-modal p').toggleClass('blocker')
+		}
+	});
 
 	// $('')
 
@@ -300,10 +298,11 @@
 	})
 
 		var workshops = Info["workshops"];
-		console.log(workshops);
+
 	for (var key in workshops) {
 		var workshop = workshops[key];
 
+		//TODO: Fix the escaping of characters
 	   	var workshopHTML =
 	   	'<tr><td>'
 	   	+ workshop.time
@@ -312,13 +311,15 @@
 	   	+ '</td><td>'
 	   	+ workshop.instructor
 	   	+ '</td><td>'
+	   	+ workshop.description
+	   	+ '</td><td>'
 	   	+ workshop.location
 	   	+ '</td></tr>';
 
 	   	$('#workshop-block').append(workshopHTML);
 	}
 	var prizes = Info["prizes"];
-	console.log(judges);
+
 	for (var key in prizes) {
 		var prize = prizes[key];
 
@@ -355,7 +356,7 @@
 		   	$('#judges-list').append(judgeHTML);
 	}
 	var hardware = Info["hardware"];
-	console.log(hardware);
+
 	for (var key in hardware) {
 			var item = hardware[key];
 		   	var itemHTML =
