@@ -174,7 +174,7 @@ var Info = {
 			"location":"",
 			"time":"8:00 PM",
 			"instructor":"Evelyn Pan",
-			"description": "Have you ever wanted to make realtime applications like online chatrooms, multiplayer web games, or even document collaboration on the same webpage? Learn how to do all these things and more using Socket.io, a powerful took built on top of NodeJS."
+			"description": "Have you ever wanted to make realtime applications like online chatrooms, multiplayer web games, or even document collaboration on the same webpage? Learn how to do all these things and more using Socket.io, a powerful tool built on top of NodeJS."
 		}
 
 	],
@@ -709,7 +709,7 @@ var Info = {
 			"location" : "",
 			"description" : "Have you ever wanted to make realtime applications like online\
 			 chatrooms, multiplayer web games, or even document collaboration on the same webpage?\
-			  Learn how to do all these things and more using Socket.io, a powerful took built on\
+			  Learn how to do all these things and more using Socket.io, a powerful tool built on\
 			   top of NodeJS.<br><span style='font-weight: 700'>Requirements:</span> Basic knowledge of JavaScript and web technologies.",
 			"color" : "ffa726"
 		},
