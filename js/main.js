@@ -204,7 +204,7 @@
 		var x = $(this).parent().find('h3').append('<span class="glyphicon glyphicon-collapse-up white"></span>')
 	})
 
-	$('.collapse').not('#schedule-container').collapse('hide');
+	// $('.collapse').not('#schedule-container').collapse('hide');
 
 
 
