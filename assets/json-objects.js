@@ -74,7 +74,6 @@ var Info = {
 				"url":"http://www.namecheap.com"
 	    }
 	],
-	//TODO: update the workshop description
 	"workshops":
 	[
 		{
@@ -206,7 +205,7 @@ var Info = {
 			"name":"Retro Hack",
 			"sponsor":"HackPSU",
 			"value":"New NES Game System",
-			"requirements":"Create a hack using a few modern tools as possible. Extra points the smaller you hack is in size (i.e. 1024 KB hack)",
+			"requirements":"Create a hack using a few modern tools as possible. Extra points the smaller your hack is in size (i.e. 1024 KB hack)",
 			"judging":"HackPSU General Judging Criteria"
 		},
 		{
@@ -241,7 +240,7 @@ var Info = {
 			"name":"IBM Watson Challenge",
 			"sponsor":"IBM Corporation",
 			"value":"",
-			"requirements":"Submit project to DevPost on time. Utilize IBM's Watson Services to develop an innovative solution to improve the student experience at Penn State.",
+			"requirements":"Submit project to DevPost on time. In coordination with HackPSU, the Penn State EdTech Network is working to promote, encourage, and inspire hackers to solve the real problems that students are facing today. HackPSU is focused on generating opportunities for innovation by combining technology with the creativity and genius of students. <br>Visit:<a class='yellow' href='http://edtechnetwork.psu.edu/hackpsu'> Edtech Network </a> for more details.",
 			"judging":"IBM Judging Criteria"
 		},
 		{
@@ -255,7 +254,7 @@ var Info = {
 			"name":"Accuweather Challenge",
 			"sponsor":"Accuweather",
 			"value":"$500 Amazon Gift Card",
-			"requirements":"Submit project to DevPost on time. Using AccuWeather’s weather data, come up with a way of how this information can improve people’s lives. Participants will have demo access to AccuWeather’s API to leverage foundational weather data for this Hack.",
+			"requirements":"Submit project to DevPost on time. Using AccuWeather's weather data, come up with a way of how this information can improve people's lives. Participants will have demo access to AccuWeather's API to leverage foundational weather data for this Hack.",
 			"judging":"Innovation, Usability, Understanding of challenge"
 		},
 		{
@@ -286,45 +285,63 @@ var Info = {
 			"requirements":"Submit project to devpost on time, use Domain.com for domain registration.",
 			"judging":"As judged by Major League Hacking"
 		}
-		
+
 	],
 	//TODO: Update judges list
 	"judges":
 	[
 	    {
 	    	"name":"Jessica Menold",
-	    	"image":"assets/judges/jessicamenold.png",
-	    	"tagline":"",
+	    	"image":"assets/judges/jessicamenold.jpg",
+	    	"tagline":"Mechanical Engineering Doctoral Student at Penn State",
 	    	"description": ""
 	    },
 	    {
 	    	"name":"Christian Baum",
-	    	"image":"assets/judges/christianbaum.png",
-	    	"tagline":"Co.space Founder",
+	    	"image":"assets/judges/christianbaum.jpg",
+	    	"tagline":"Co.space & New Leaf Initiative Founder",
 	    	"description": ""
 	    },
 	    {
 	    	"name":"Bob Beaury",
-	    	"image":"assets/judges/bobbeaury.png",
-	    	"tagline":"Enterpreneurship Professor",
+	    	"image":"assets/judges/bobbeaury.jpg",
+	    	"tagline":"Interim director of the Engineering Entrepreneurship minor in the School of Engineering Design",
 	    	"description": ""
 	    },
 	    {
 	    	"name":"Margarita Zobnina",
-	    	"image":"assets/judges/margaritazobnina.png",
-	    	"tagline":"",
+	    	"image":"assets/judges/noimage.png",
+	    	"tagline":"Invent Penn State",
 	    	"description": ""
 	    },
 	    {
 	    	"name":"Avery Verhade",
-	    	"image":"assets/judges/averyverhade.png",
-	    	"tagline":"AWC President",
+	    	"image":"assets/judges/noimage.png",
+	    	"tagline":"President of Penn State Association of Women in Computing",
 	    	"description": ""
 	    },
 	    {
 	    	"name":"Arun Kumar",
 	    	"image":"assets/judges/arunkumar.jpg",
 	    	"tagline":"AWC President",
+	    	"description": ""
+	    },
+			{
+	    	"name":"Gerry Santoro",
+	    	"image":"assets/judges/gerrysantoro.jpg",
+	    	"tagline":"Founding Associate Professor in the College of IST",
+	    	"description": ""
+	    },
+			{
+	    	"name":"Alex Patin",
+	    	"image":"assets/judges/alexpatin.jpg",
+	    	"tagline":"Founder of Musical Mind",
+	    	"description": ""
+	    },
+			{
+	    	"name":"Peter Whalen",
+	    	"image":"assets/judges/peterwhalen.jpg",
+	    	"tagline":"Clinical Associate Professor of Entrepreneurship",
 	    	"description": ""
 	    },
 
@@ -395,7 +412,7 @@ var Info = {
 	    },
 	    {
 	    	"type":"presentation",
-	    	"criteria":"Knowledge (12 points",
+	    	"criteria":"Knowledge (12 points)",
 	    	"questions":
 	    	[
 	    		"How effectively did the team handle questions?",
@@ -405,7 +422,6 @@ var Info = {
 
 
 	],
-	//TODO: update hardware list
 	"hardware":
 	[
 		{
@@ -431,7 +447,7 @@ var Info = {
 		{
 			"type": "Base Shield",
 			"quantity":10
-		},//TODO: Complete updating hardware list
+		},
 		{
 			"type": "Dell Gaming Laptop",
 			"quantity":1
@@ -702,11 +718,13 @@ var Info = {
 		},
 		{
 			"id" : "20",
-			"title": "Cup Stacking",
+			"title": "MLH: Capture the flag",
 			"start": "2016-11-12T19:00:00",
 			"end" : "2016-11-12T20:00:00",
 			"location" : "Business Building Atrium",
-			"description" : "As the saying goes, hackers make great stackers. It's time to prove yourself at a hackathon classic. "
+			"description" : "If you’re the fastest to defeat the first challenge at your event you’ll win a copy of Watch Dogs 2, upon release. \
+			If you have the fastest time to defeat all the challenges on December 31st, you will win a trip for two to Montreal, QC to meet the\
+			 developers of Watch Dogs 2."
 		},
 		{
 			"id" : "32",
@@ -724,6 +742,22 @@ var Info = {
 			"location" : "Business Building Atrium",
 			"description" : "Enjoy Ice Cream provided by our friends at Global Entrepreneurship Week at Penn State (GEW)",
 			"color" : "1b5e20"
+		},
+		{
+			"id" : "32",
+			"title": "Big Hero 6 Movie",
+			"start": "2016-11-13T00:00:00",
+			"end" : "2016-11-13T01:30:00",
+			"location" : "Business Building Atrium",
+			"description" : "Come watch the movie Big Hero 6 with us on one of our giant TVs.",
+		},
+		{
+			"id" : "31",
+			"title": "Cup Stacking",
+			"start": "2016-11-13T02:00:00",
+			"end" : "2016-11-13T03:00:00",
+			"location" : "Business Building Atrium",
+			"description" : "As the saying goes, hackers make great stackers. It's time to prove yourself at a hackathon classic."
 		},
 		{
 			"id" : "22",

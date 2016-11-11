@@ -340,21 +340,47 @@
 
 	}
 	var judges = Info["judges"];
-	for (var key in judges) {
-			var judge = judges[key];
-		   	var judgeHTML =
-		   	'<div class="row"><div class="judge-list-image col-md-4"><img src="'
-		   	+ judge.image
-		   	+ '"></div><div class="col-md-8"><h5>'
-		   	+ judge.name
-		   	+ '</h5>'
-		   	+ judge.tagline
-		   	+ '<p class="judge-description">'
-		   	+ judge.description
-		   	+ '</p></div></div>';
+	// for (var key in judges) {
+	// 		var judge = judges[key];
+	// 	   	var judgeHTML =
+	// 	   	'<div class="row"><div class="judge-list-image col-md-4"><img src="'
+	// 	   	+ judge.image
+	// 	   	+ '"></div><div class="col-md-8"><h5>'
+	// 	   	+ judge.name
+	// 	   	+ '</h5>'
+	// 	   	+ judge.tagline
+	// 	   	+ '<p class="judge-description">'
+	// 	   	+ judge.description
+	// 	   	+ '</p></div></div>';
 
-		   	$('#judges-list').append(judgeHTML);
-	}
+				for (var i = 0; i < judges.length; i++) {
+					var judge1 = judges[i], judge2 = judges[++i]; judge3 = judges[++i];
+
+					var createJudgeHTML = function (judge) {
+						return '<div class="col-md-4"><div class="row judge-list-image"><img class="img-responsive" src="'
+				   				+ judge.image
+				   				+ '"></div><div class="row"><h5>'
+									+ judge.name
+									+'</h5></div><div class="row"><p class="judge-tagline text-center">'
+									+	judge.tagline
+									+ '</div><div class="row"><p class="judge-description text-center">'
+									+ judge.description
+									+ '</p></div></div>'
+					}
+					try {
+				   		var judgesHTML = '<div class="row">' + createJudgeHTML(judge1) + createJudgeHTML(judge2) + createJudgeHTML(judge3) + '</div>';
+				  	}
+				  	catch (err) {
+				   		if (sponsor2 == null) {
+				   			sponsorHTML = '<div class="row">' + createJudgeHTML(judge1) + '</div>'
+				   		}
+				   		else if (sponsor3 == null) {
+				   			sponsorHTML = '<div class="row">' + createJudgeHTML(judge1) + createJudgeHTML(judge2) + '</div>'
+				   		}
+				   	}
+
+		   	$('#judges-list').append(judgesHTML);
+			}
 	var hardware = Info["hardware"];
 
 	for (var key in hardware) {

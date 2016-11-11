@@ -615,9 +615,19 @@ nav {
 
 
 .judge-list-image img {
-	max-width: 300px;
+	max-width: 150px;
 	padding-top: 15px;
-	/*height: 150px;*/
+	margin: 0 auto;
+	max-height: 150px;
+	border-radius: 50%;
+}
+
+#judges-list h5 {
+	padding-top: 5px;
+}
+
+.judge-tagline, .judge-description {
+	line-height: 100%;
 }
 
 .glyphicon-menu-right {
@@ -672,6 +682,10 @@ nav {
 	z-index: 20;
 	border: 1px black;
 	border-radius: 10px;
+}
+
+.fc-event .fc-bg {
+	opacity: 0.1;
 }
 
 #schedule td {
