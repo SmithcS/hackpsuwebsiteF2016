@@ -120,7 +120,7 @@ var Info = {
 			"description": "An introduction in how to implement the Accuweather API, and how to integrate it into your hack."
 		},
 		{
-			"name":"Build and eploy your own Python Backend in an hour",
+			"name":"Build and Deploy your own Python Backend in an hour",
 			"location":"Business Building 121",
 			"time":"5:30 PM",
 			"instructor":"Josh Li <br> Mayank Makwana",
@@ -187,7 +187,7 @@ var Info = {
 			"location":"Business Building 121",
 			"time":"10:30 PM",
 			"instructor":"Cordell Yee",
-			"description": ""
+			"description": "For hackers interested in design, or at least some nice shortcuts and resources for hackathon projects. Learn how to ideate and design a website, app, or project! Stop by if you want to learn how to make things look pretty and shiny for demos!"
 		},
 
 	],
@@ -776,7 +776,7 @@ var Info = {
 			"start": "2016-11-12T22:30:00",
 			"end" : "2016-11-12T23:30:00",
 			"location" : "Business Building 125",
-			"description" : "",
+			"description" : "For hackers interested in design, or at least some nice shortcuts and resources for hackathon projects. Learn how to ideate and design a website, app, or project! Stop by if you want to learn how to make things look pretty and shiny for demos!",
 			"color" : "ffa726"
 		},
 		{
