@@ -316,7 +316,7 @@ var Info = {
 	    },
 	    {
 	    	"name":"Avery Verhade",
-	    	"image":"assets/judges/noimage.png",
+	    	"image":"assets/judges/averyverhade.png",
 	    	"tagline":"President of Penn State Association of Women in Computing",
 	    	"description": ""
 	    },

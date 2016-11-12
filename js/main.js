@@ -206,7 +206,48 @@
 
 	// $('.collapse').not('#schedule-container').collapse('hide');
 
+	//timer
+	currentTime = (new Date().getTime())/1000;
+	startTime = 1478962800;
+	endTime = 1479056400;
 
+	if ( currentTime < startTime) {
+		$('#countdown-text').text('until hackpsu!')
+		getTimeRemaining(currentTime, startTime);
+		isBeforeEvent = 1;
+	} else if (currentTime < endTime ){
+		$('#countdown-text').text('remains!')
+		getTimeRemaining(currentTime, endTime);
+		isBeforeEvent = 0;
+	}
+	function getTimeRemaining(currentTime, countdownTime) {
+		timeTill = countdownTime - currentTime;
+		$('#days div').text(Math.floor(timeTill / 86400));
+		timeTill = timeTill % 86400;
+		$('#hours div').text(Math.floor(timeTill / 3600));
+		timeTill = timeTill % 3600;
+		$('#minutes div').text(Math.floor(timeTill / 60));
+		$('#seconds div').text(Math.floor(timeTill % 60));
+		countDown(currentTime, countdownTime);
+	}
+
+	function countDown(currentTime, countdownTime) {
+		setTimeout(function() {
+			currentTime++;
+			if ((countdownTime - currentTime) == 0) {
+				if ( isBeforeEvent == 1) {
+					$('#countdown-text').text('remains!')
+					getTimeRemaining(currentTime, endTime);
+				} else {
+					$('.unit > div').each(function() {
+						$(this).text('0');
+					})
+				}
+			} else {
+				getTimeRemaining(currentTime, countdownTime);
+			}
+		},1000);
+	}
 
 	//Schedule calendar
 	var schedule = Info["schedule"];
