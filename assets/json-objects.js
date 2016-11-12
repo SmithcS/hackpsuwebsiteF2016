@@ -204,7 +204,7 @@ var Info = {
 		{
 			"name":"2nd Place Overall",
 			"sponsor":"HackPSU",
-			"value":"$150 prize per team member",
+			"value":"$200 prize per team member",
 			"requirements":"Submit project to Devpost on time",
 			"judging":"HackPSU General Judging Criteria"
 		},
