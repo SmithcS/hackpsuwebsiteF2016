@@ -208,8 +208,8 @@
 
 	//timer
 	currentTime = (new Date().getTime())/1000;
-	startTime = 1478962800;
-	endTime = 1479056400;
+	startTime = 1478970000;
+	endTime =   1479056400;
 
 	if ( currentTime < startTime) {
 		$('#countdown-text').text('until hackpsu!')
@@ -287,7 +287,7 @@
 		}
 	});
 
-	if (imdobile) 
+	if (imdobile)
 	$('	.fc-scroller.fc-time-grid-container').css('height', '450px');
 
 	// $('')
