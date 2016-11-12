@@ -282,7 +282,8 @@ var Info = {
 			"name":"Accuweather Challenge",
 			"sponsor":"Accuweather",
 			"value":"$500 Amazon Gift Card",
-			"requirements":"Submit project to DevPost on time. Using AccuWeather's weather data, come up with a way of how this information can improve people's lives. Participants will have demo access to AccuWeather's API to leverage foundational weather data for this Hack.",
+			"requirements":"Submit project to DevPost on time. Using AccuWeather's weather data, come up with a way of how this information can improve people's lives. Participants will have demo access to AccuWeather's API to leverage foundational weather data for this Hack.\
+			<a class='yellow' href='http://apidev.accuweather.com/developers/'> Accuweather API is available here! </a>. The API key is 'PSUHackathon112016'",
 			"judging":"Innovation, Usability, Understanding of challenge"
 		},
 		{
