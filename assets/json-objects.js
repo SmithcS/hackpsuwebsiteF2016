@@ -606,7 +606,7 @@ var Info = {
 			"title": "Keynote: VR, AR, and AI with Donald Clark",
 			"start": "2016-11-12T14:00:00",
 			"end" : "2016-11-12T15:00:00",
-			"location" : "",
+			"location" : "Business Building 110",
 			"description" : "",
 			"color" : "3399CC"
 		},
