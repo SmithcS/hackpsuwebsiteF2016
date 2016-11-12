@@ -541,7 +541,7 @@ var Info = {
 			"title": "Hacking",
 			"start": "2016-11-12T14:00:00",
 			"end" : "2016-11-13T12:00:00",
-			"location": "Business Building Entrance",
+			"location": "Business Building",
 			"description": "Build something awesome!"
 		},
 		{
@@ -558,7 +558,7 @@ var Info = {
 			"title": "Team Formation",
 			"start": "2016-11-12T13:00:00",
 			"end" : "2016-11-12T14:30:00",
-			"location": "Business Building Entrance",
+			"location": "Business Building Atrium",
 			"description": "Share your ideas and listen to others to find a team to build with"
 		},
 		{
@@ -566,7 +566,7 @@ var Info = {
 			"title": "Workshop: Legal Advice Startups Need to Know",
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
-			"location" : "",
+			"location" : "Business Building 120",
 			"description" : "What you don't know can hurt you, especially when it comes to legal issues. \
 			Learn how to figure out what type of company to set up, how to structure co-founder agreements, \
 			employee agreements, and avoid issues now that can wreak havoc with your company later.",
@@ -584,9 +584,9 @@ var Info = {
 		{
 			"id" : "8",
 			"title": "Workshop: Data Visualization with D3.js",
-			"start": "2016-11-12T15:00:00",
-			"end" : "2016-11-12T16:00:00",
-			"location" : "",
+			"start": "2016-11-12T21:15:00",
+			"end" : "2016-11-12T22:15:00",
+			"location" : "Business Building 126",
 			"description" : "Learn how to make eye-catching data visualization that will impress, inspire, and \
 			inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. \
 			Visualize live data or map out this year's election polling. Be prepared with your computer, your favorite \
@@ -599,7 +599,7 @@ var Info = {
 			"title": "Workshop: Help Yourself: DIY Tools to Make Canvas Better for Students",
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
-			"location" : "",
+			"location" : "Business Building 126",
 			"description" : "",
 			"color" : "ffa726"
 		},
@@ -608,7 +608,7 @@ var Info = {
 			"title": "Workshop: LabVIEW: A Programming Language (and some cool ways to use it)",
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
-			"location" : "",
+			"location" : "Business Building 120",
 			"description" : "Interested in how LabVIEW can be used in your project?  In this workshop, \
 			we will cover the basics of the LabVIEW and then share some of the possible ways it could make\
 			 your project awesome.  Come learn how LabVIEW allows developers to leverage many different\
@@ -621,7 +621,7 @@ var Info = {
 			"title": "Workshop: Building Cognitive Applications using IBM Watson",
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
-			"location" : "",
+			"location" : "Business Building 121",
 			"description" : "Introduction to the IBM watson cognitive technology system, and how to integrate it into your hack.",
 			"color" : "ffa726"
 		},
@@ -630,7 +630,7 @@ var Info = {
 			"title": "Workshop: The AccuWeather API",
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
-			"location" : "",
+			"location" : "Business Building 126",
 			"description" : "An introduction in how to implement the Accuweather API, and how to integrate it into your hack.",
 			"color" : "ffa726"
 		},
@@ -645,11 +645,13 @@ var Info = {
 		},
 		{
 			"id" : "13",
-			"title": "Workshop: How to Make an API",
+			"title": "Workshop: Build and Deploy Your Own Python Backend in an Hour",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
-			"location" : "",
-			"description" : "",
+			"location" : "Business Building 120",
+			"description" : "An essential part about developing your app is having a solid backend to handle\
+			 processing data. Join Mayank and Josh in learning how to use Python’s Flask framework to build your\
+			  own backend, and then deploy it to Amazon Web Services to have it accessible for any app you’d like to build!",
 			"color" : "ffa726"
 		},
 		{
@@ -657,7 +659,7 @@ var Info = {
 			"title": "Workshop: Introduction to Machine Learning",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
-			"location" : "",
+			"location" : "Business Building 126",
 			"description" : "In this workshop, we will cover basics on what\
 			 machine learning is, how we can use it to solve many problems and how \
 			 you can quickly get started with Machine Learning through an introduction \
@@ -669,7 +671,7 @@ var Info = {
 			"title": "Workshop: Create Your Own Machine Learning Model",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
-			"location" : "",
+			"location" : "Business Building 121",
 			"description" : "Without any previous knowledge on AI, we will help you to \
 			build your own Spam Email Classifier that can identify any spam email in an hour! \
 			<br><span style='font-weight: 700'>Requirements: </span> Python development environment",
@@ -680,7 +682,7 @@ var Info = {
 			"title": "Workshop: The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
-			"location" : "",
+			"location" : "Business Building 120",
 			"description" : "Join Microsoft Student Ambassadors, Alex and David, as they harness\
 			 the power of awesome APIs, such as Project Oxford and LUIS.ai, bringing your dreams\
 			  of building Skynet one step closer to reality.",
@@ -691,8 +693,8 @@ var Info = {
 			"title": "Workshop: VR Development",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
-			"location" : "",
-			"description" : "",
+			"location" : "Business Building 121",
+			"description" : "Matt Young takes you through the amazing things you can do with the latest VR tech",
 			"color" : "ffa726"
 		},
 		{
@@ -700,7 +702,7 @@ var Info = {
 			"title": "Workshop: Introduction to Arduino",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
-			"location" : "",
+			"location" : "Business Building 126",
 			"description" : "",
 			"color" : "ffa726"
 		},
@@ -709,8 +711,12 @@ var Info = {
 			"title": "Workshop: React Native",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
-			"location" : "",
-			"description" : "",
+			"location" : "Business Building 120",
+			"description" : "Have you ever wanted to build your own app for iOS or Android? Fear not! In this hour long\
+			 workshop, you will learn how to building your mobile app from scrath using Facebook’s React Native framework,\
+			  and have it work on both iOS and Android! Expect to leave with corny jokes, a better understanding of mobile\
+				development, and a working iOS and Android app!\
+				<br><span style='font-weight: 700'>Requirements: </span> None, but limited knowledge of JavaScript and general mobile development is helpful.",
 			"color" : "ffa726"
 		},
 		{
@@ -718,11 +724,31 @@ var Info = {
 			"title": "Workshop: Socket.io - A Useful NodeJS Library for Realtime Applications",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
-			"location" : "",
+			"location" : "Business Building 121",
 			"description" : "Have you ever wanted to make realtime applications like online\
 			 chatrooms, multiplayer web games, or even document collaboration on the same webpage?\
 			  Learn how to do all these things and more using Socket.io, a powerful tool built on\
 			   top of NodeJS.<br><span style='font-weight: 700'>Requirements:</span> Basic knowledge of JavaScript and web technologies.",
+			"color" : "ffa726"
+		},
+		{
+			"id" : "33",
+			"title": "Workshop: Introduction to Web Development",
+			"start": "2016-11-12T15:00:00",
+			"end" : "2016-11-12T16:00:00",
+			"location" : "Business Building 121",
+			"description" : "This hands-on introductory workshop is perfect for everyone interested in learning the languages of the web.\
+			 Get started with HTML, CSS, and JavaScript and learn why coding is important for everyone. After the workshop, you’ll have\
+			  a website made. All majors and backgrounds welcomed!",
+			"color" : "ffa726"
+		},
+		{
+			"id" : "34",
+			"title": "Workshop: Introduction to Design",
+			"start": "2016-11-12T22:30:00",
+			"end" : "2016-11-12T23:30:00",
+			"location" : "Business Building 120",
+			"description" : "",
 			"color" : "ffa726"
 		},
 		{
