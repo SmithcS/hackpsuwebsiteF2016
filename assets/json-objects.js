@@ -677,7 +677,7 @@ var Info = {
 			"title": "Workshop: Build and Deploy Your Own Python Backend in an Hour",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
-			"location" : "Business Building 125",
+			"location" : "Business Building 121",
 			"description" : "An essential part about developing your app is having a solid backend to handle\
 			 processing data. Join Mayank and Josh in learning how to use Python’s Flask framework to build your\
 			  own backend, and then deploy it to Amazon Web Services to have it accessible for any app you’d like to build!",
