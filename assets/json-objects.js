@@ -170,7 +170,7 @@ var Info = {
 		},
 		{
 			"name":"Socket.io - A Useful NodeJS Library for Realtime Applications",
-			"location":"",
+			"location":"Business Building 125",
 			"time":"9:15 PM",
 			"instructor":"Evelyn Pan",
 			"description": "Have you ever wanted to make realtime applications like online chatrooms, multiplayer web games, or even document collaboration on the same webpage? Learn how to do all these things and more using Socket.io, a powerful tool built on top of NodeJS."
@@ -637,7 +637,7 @@ var Info = {
 			"title": "Workshop: LabVIEW: A Programming Language (and some cool ways to use it)",
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
-			"location" : "Business Building 125",
+			"location" : "Business Building 121",
 			"description" : "Interested in how LabVIEW can be used in your project?  In this workshop, \
 			we will cover the basics of the LabVIEW and then share some of the possible ways it could make\
 			 your project awesome.  Come learn how LabVIEW allows developers to leverage many different\
@@ -711,7 +711,7 @@ var Info = {
 			"title": "Workshop: The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
-			"location" : "Business Building 125",
+			"location" : "Business Building 121",
 			"description" : "Join Microsoft Student Ambassadors, Alex and David, as they harness\
 			 the power of awesome APIs, such as Project Oxford and LUIS.ai, bringing your dreams\
 			  of building Skynet one step closer to reality.",
@@ -740,7 +740,7 @@ var Info = {
 			"title": "Workshop: React Native",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
-			"location" : "Business Building 125",
+			"location" : "Business Building 121",
 			"description" : "Have you ever wanted to build your own app for iOS or Android? Fear not! In this hour long\
 			 workshop, you will learn how to building your mobile app from scrath using Facebook’s React Native framework,\
 			  and have it work on both iOS and Android! Expect to leave with corny jokes, a better understanding of mobile\
@@ -776,7 +776,7 @@ var Info = {
 			"title": "Workshop: Introduction to Design",
 			"start": "2016-11-12T22:30:00",
 			"end" : "2016-11-12T23:30:00",
-			"location" : "Business Building 125",
+			"location" : "Business Building 121",
 			"description" : "For hackers interested in design, or at least some nice shortcuts and resources for hackathon projects. Learn how to ideate and design a website, app, or project! Stop by if you want to learn how to make things look pretty and shiny for demos!",
 			"color" : "ffa726"
 		},
