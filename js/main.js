@@ -287,6 +287,9 @@
 		}
 	});
 
+	if (imdobile) 
+	$('	.fc-scroller.fc-time-grid-container').css('height', '450px');
+
 	// $('')
 
   $("#nav-bar a").on('click', function(event) {

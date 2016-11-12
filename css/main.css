@@ -150,6 +150,11 @@ table {
 		/*margin:10px 0;*/
 		font-family: 'Oswald', sans-serif;
 	}
+
+	#schedule-container {
+		height: 600px;
+	}
+
 }
 
 @media (min-width: 450px) and (max-width: 650px) {
