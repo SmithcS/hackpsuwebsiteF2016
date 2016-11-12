@@ -316,7 +316,7 @@ var Info = {
 	    },
 	    {
 	    	"name":"Avery Verhade",
-	    	"image":"assets/judges/averyverhade.png",
+	    	"image":"assets/judges/averyverhade.jpg",
 	    	"tagline":"President of Penn State Association of Women in Computing",
 	    	"description": ""
 	    },
@@ -767,7 +767,7 @@ var Info = {
 			"start": "2016-11-12T22:30:00",
 			"end" : "2016-11-12T23:30:00",
 			"location" : "",
-			"description" : "As the saying goes, hackers make great stackers. It's time to prove yourself at a hackathon classic. "
+			"description" : "It's like that PowerPoint your group makes that you haven't looked at at all and they're all sick so you present alone."
 		},
 		{
 			"id" : "21",
