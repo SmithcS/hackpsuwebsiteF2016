@@ -89,7 +89,7 @@ var Info = {
 			"time":"3:00 PM",
 			"instructor":"Kenneth Au",
 			"description": "This hands-on introductory workshop is perfect for everyone interested in learning the languages of the web. Get started with HTML, CSS, and JavaScript and learn why coding is important for everyone. After the workshop, you’ll have	a website made. All majors and backgrounds welcomed!"
-		}
+		},
 		{
 			"name":"Help yourself: DIY tools to make Canvas better for students",
 			"location":"Business Building 126",
