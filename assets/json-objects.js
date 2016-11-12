@@ -78,21 +78,21 @@ var Info = {
 	[
 		{
 			"name":"Legal Advice Startups Need to Know",
-			"location":"",
+			"location":"Business Building 121",
 			"time":"3:00 PM",
 			"instructor":"Happy Valley Launchbox <br> Tyler Etter <br> Cam Piasecki",
 			"description": "What you don't know can hurt you, especially when it comes to legal issues. Learn how to figure out what type of company to set up, how to structure co-founder agreements, employee agreements, and avoid issues now that can reek havoc with your company later."
 		},
 		{
-			"name":"Data Visualization with D3",
-			"location":"",
+			"name":"Intro to Web Development",
+			"location":"Business Building 125",
 			"time":"3:00 PM",
 			"instructor":"Kenneth Au",
-			"description": "Learn how to make eye-catching data visualization that will impress, inspire, and inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. Visualize live data or map out this year's election polling. Be prepared with your computer, your favorite text editor, and a baseline knowledge of JavaScript and web technologies."
-		},
+			"description": "This hands-on introductory workshop is perfect for everyone interested in learning the languages of the web. Get started with HTML, CSS, and JavaScript and learn why coding is important for everyone. After the workshop, you’ll have	a website made. All majors and backgrounds welcomed!"
+		}
 		{
 			"name":"Help yourself: DIY tools to make Canvas better for students",
-			"location":"",
+			"location":"Business Building 126",
 			"time":"3:00 PM",
 			"instructor":"Instructure",
 			"description": ""
@@ -100,81 +100,95 @@ var Info = {
 		},
 		{
 			"name":"LabVIEW - A Programming Language (And some cool ways to use it)",
-			"location":"",
+			"location":"Business Building 121",
 			"time":"4:15 PM",
 			"instructor":"National Instruments <br> Kevin Wenner <br> Brad Sherman",
 			"description": "Interested in how LabVIEW can be used in your project?  In this workshop, we will cover the basics of the LabVIEW and then share some of the possible ways it could make your project awesome.  Come learn how LabVIEW allows developers to leverage many different hardware and software platforms using the same language."
 		},
 		{
 			"name":"Building Cognitive Applications using IBM Watson",
-			"location":"",
+			"location":"Business Building 125",
 			"time":"4:15 PM",
 			"instructor":"IBM",
 			"description": "Introduction to the IBM watson cognitive technology system, and how to integrate it into your hack."
 		},
 		{
 			"name":"The Accuweather API",
-			"location":"",
+			"location":"Business Building 126",
 			"time":"4:15 PM",
 			"instructor":"Accuweather",
 			"description": "An introduction in how to implement the Accuweather API, and how to integrate it into your hack."
 		},
 		{
-			"name":"How to make an API",
-			"location":"",
+			"name":"Build and eploy your own Python Backend in an hour",
+			"location":"Business Building 121",
 			"time":"5:30 PM",
 			"instructor":"Josh Li <br> Mayank Makwana",
 			"description": ""
 		},
 		{
 			"name":"Creating your own AI Machine Learning model",
-			"location":"",
+			"location":"Business Building 125",
 			"time":"5:30 PM",
 			"instructor":"AI Association <br> Jason Tu",
 			"description": "Without any previous knowledge on AI, we will help you to build your own Spam Email Classifier that can identify any spam email in an hour! "
 		},
 		{
 			"name":"Introduction to Machine Learning",
-			"location":"",
+			"location":"Business Building 126",
 			"time":"5:30 PM",
 			"instructor":"Nittany Data Labs <br> Yuya Ong",
 			"description": "In this workshop, we will cover basics on what machine learning is, how we can use it to solve many problems and how you can quickly get started with Machine Learning through an introduction of a few libraries to be able to learn from data."
 		},
 		{
 			"name":"The Terminator (beta) - a journey into facial recognition, voice analysis, and natural language processing",
-			"location":"",
+			"location":"Business Building 121",
 			"time":"8:00 PM",
 			"instructor":"Alex Patin <br> David de Matheu",
 			"description": "Join Microsoft Student Ambassadors, Alex and David, as they harness the power of awesome APIs, such as Project Oxford and LUIS.ai, bringing your dreams of building Skynet one step closer to reality."
 		},
 		{
 			"name":"VR Development",
-			"location":"",
+			"location":"Business Building 122",
 			"time":"8:00 PM",
 			"instructor":"Matt Young",
-			"description": ""
+			"description": "Matt Young takes you through the amazing things you can do with the latest VR tech"
 		},
 		{
 			"name":"Introduction to Arduino",
-			"location":"",
+			"location":"Business Building 126",
 			"time":"8:00 PM",
 			"instructor":"IEEE",
-			"description": ""
+			"description": "Come learn some basic hardware skills with Penn State's IEEE branch"
 		},
 		{
-			"name":"React Native",
-			"location":"",
+			"name":"Building mobile apps with React Native",
+			"location":"Business Building 121",
 			"time":"9:15 PM",
 			"instructor":"Mayank Makwana",
-			"description": ""
+			"description": "Have you ever wanted to build your own app for iOS or Android? Fear not! In this hour long	workshop, you will learn how to building your mobile app from scrath using Facebook’s React Native framework,	and have it work on both iOS and Android! Expect to leave with corny jokes, a better understanding of mobile	development, and a working iOS and Android app!	Requirements: None, but limited knowledge of JavaScript and general mobile development is helpful."
 		},
 		{
 			"name":"Socket.io - A Useful NodeJS Library for Realtime Applications",
 			"location":"",
-			"time":"8:00 PM",
+			"time":"9:15 PM",
 			"instructor":"Evelyn Pan",
 			"description": "Have you ever wanted to make realtime applications like online chatrooms, multiplayer web games, or even document collaboration on the same webpage? Learn how to do all these things and more using Socket.io, a powerful tool built on top of NodeJS."
-		}
+		},
+		{
+			"name":"Data Visualization with D3",
+			"location":"Business Building 126",
+			"time":"9:15 PM",
+			"instructor":"Kenneth Au",
+			"description": "Learn how to make eye-catching data visualization that will impress, inspire, and inform! Kenneth Au (@kennethkau) will guide you through D3.js and other libraries to turn numbers into art. Visualize live data or map out this year's election polling. Be prepared with your computer, your favorite text editor, and a baseline knowledge of JavaScript and web technologies."
+		},
+		{
+			"name":"Introduction to Design",
+			"location":"Business Building 121",
+			"time":"10:30 PM",
+			"instructor":"Cordell Yee",
+			"description": ""
+		},
 
 	],
 	//TODO: update final prizes
@@ -214,6 +228,20 @@ var Info = {
 			"value":"$500 and pizza party for your club",
 			"requirements":"Register as part of the Club Cup challenge upon check-in, and submit project to Devpost on time.",
 			"judging":"HackPSU General Judging Criteria"
+		},
+		{
+			"name":"Thought for Food 1st Place",
+			"sponsor":"Thought for Food",
+			"value":"Flight, Registration, and Room & Board for up to 3 people on the winning team, to attend the TFF Global Summit, to be held in Europe in May or June. Aftermovie of last year's Summit here.",
+			"requirements":"Utilize the TFF Design Lab to take your Team’s idea and turn it into a reality. This includes talking to customers, ideation sessions, and building prototypes. Expert mentors will be available to help coach teams through this process.",
+			"judging":"Submit your Pitch at <a href='http://www.tffchallenge.com/challenge/'> Thought for food challenge </a>"
+		},
+		{
+			"name":"Thought for Food 2nd Place",
+			"sponsor":"Thought for Food",
+			"value":"Registration, and Room & Board for up to 3 people on the winning team, to attend the TFF Global Summit, to be held in Europe in May or June. Aftermovie of last year's Summit here.",
+			"requirements":"Utilize the TFF Design Lab to take your Team’s idea and turn it into a reality. This includes talking to customers, ideation sessions, and building prototypes. Expert mentors will be available to help coach teams through this process.",
+			"judging":"Submit your Pitch at <a href='http://www.tffchallenge.com/challenge/'> Thought for food challenge </a>"
 		},
 		{
 			"name":"MLH 1st, 2nd, 3rd Place",
@@ -566,7 +594,7 @@ var Info = {
 			"title": "Workshop: Legal Advice Startups Need to Know",
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
-			"location" : "Business Building 120",
+			"location" : "Business Building 125",
 			"description" : "What you don't know can hurt you, especially when it comes to legal issues. \
 			Learn how to figure out what type of company to set up, how to structure co-founder agreements, \
 			employee agreements, and avoid issues now that can wreak havoc with your company later.",
@@ -608,7 +636,7 @@ var Info = {
 			"title": "Workshop: LabVIEW: A Programming Language (and some cool ways to use it)",
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
-			"location" : "Business Building 120",
+			"location" : "Business Building 125",
 			"description" : "Interested in how LabVIEW can be used in your project?  In this workshop, \
 			we will cover the basics of the LabVIEW and then share some of the possible ways it could make\
 			 your project awesome.  Come learn how LabVIEW allows developers to leverage many different\
@@ -621,7 +649,7 @@ var Info = {
 			"title": "Workshop: Building Cognitive Applications using IBM Watson",
 			"start": "2016-11-12T16:15:00",
 			"end" : "2016-11-12T17:15:00",
-			"location" : "Business Building 121",
+			"location" : "Business Building 125",
 			"description" : "Introduction to the IBM watson cognitive technology system, and how to integrate it into your hack.",
 			"color" : "ffa726"
 		},
@@ -648,7 +676,7 @@ var Info = {
 			"title": "Workshop: Build and Deploy Your Own Python Backend in an Hour",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
-			"location" : "Business Building 120",
+			"location" : "Business Building 125",
 			"description" : "An essential part about developing your app is having a solid backend to handle\
 			 processing data. Join Mayank and Josh in learning how to use Python’s Flask framework to build your\
 			  own backend, and then deploy it to Amazon Web Services to have it accessible for any app you’d like to build!",
@@ -671,7 +699,7 @@ var Info = {
 			"title": "Workshop: Create Your Own Machine Learning Model",
 			"start": "2016-11-12T17:30:00",
 			"end" : "2016-11-12T18:30:00",
-			"location" : "Business Building 121",
+			"location" : "Business Building 125",
 			"description" : "Without any previous knowledge on AI, we will help you to \
 			build your own Spam Email Classifier that can identify any spam email in an hour! \
 			<br><span style='font-weight: 700'>Requirements: </span> Python development environment",
@@ -682,7 +710,7 @@ var Info = {
 			"title": "Workshop: The Terminator (beta): a journey into facial recognition, voice analysis, and natural language processing",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
-			"location" : "Business Building 120",
+			"location" : "Business Building 125",
 			"description" : "Join Microsoft Student Ambassadors, Alex and David, as they harness\
 			 the power of awesome APIs, such as Project Oxford and LUIS.ai, bringing your dreams\
 			  of building Skynet one step closer to reality.",
@@ -693,7 +721,7 @@ var Info = {
 			"title": "Workshop: VR Development",
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
-			"location" : "Business Building 121",
+			"location" : "Business Building 122",
 			"description" : "Matt Young takes you through the amazing things you can do with the latest VR tech",
 			"color" : "ffa726"
 		},
@@ -703,7 +731,7 @@ var Info = {
 			"start": "2016-11-12T20:00:00",
 			"end" : "2016-11-12T21:00:00",
 			"location" : "Business Building 126",
-			"description" : "",
+			"description" : "Come learn some basic hardware skills with Penn State's IEEE branch",
 			"color" : "ffa726"
 		},
 		{
@@ -711,7 +739,7 @@ var Info = {
 			"title": "Workshop: React Native",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
-			"location" : "Business Building 120",
+			"location" : "Business Building 125",
 			"description" : "Have you ever wanted to build your own app for iOS or Android? Fear not! In this hour long\
 			 workshop, you will learn how to building your mobile app from scrath using Facebook’s React Native framework,\
 			  and have it work on both iOS and Android! Expect to leave with corny jokes, a better understanding of mobile\
@@ -724,7 +752,7 @@ var Info = {
 			"title": "Workshop: Socket.io - A Useful NodeJS Library for Realtime Applications",
 			"start": "2016-11-12T21:15:00",
 			"end" : "2016-11-12T22:15:00",
-			"location" : "Business Building 121",
+			"location" : "Business Building 125",
 			"description" : "Have you ever wanted to make realtime applications like online\
 			 chatrooms, multiplayer web games, or even document collaboration on the same webpage?\
 			  Learn how to do all these things and more using Socket.io, a powerful tool built on\
@@ -736,7 +764,7 @@ var Info = {
 			"title": "Workshop: Introduction to Web Development",
 			"start": "2016-11-12T15:00:00",
 			"end" : "2016-11-12T16:00:00",
-			"location" : "Business Building 121",
+			"location" : "Business Building 125",
 			"description" : "This hands-on introductory workshop is perfect for everyone interested in learning the languages of the web.\
 			 Get started with HTML, CSS, and JavaScript and learn why coding is important for everyone. After the workshop, you’ll have\
 			  a website made. All majors and backgrounds welcomed!",
@@ -747,7 +775,7 @@ var Info = {
 			"title": "Workshop: Introduction to Design",
 			"start": "2016-11-12T22:30:00",
 			"end" : "2016-11-12T23:30:00",
-			"location" : "Business Building 120",
+			"location" : "Business Building 125",
 			"description" : "",
 			"color" : "ffa726"
 		},
