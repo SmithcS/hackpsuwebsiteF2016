@@ -209,7 +209,7 @@
 	//timer
 	currentTime = (new Date().getTime())/1000;
 	startTime = 1478970000;
-	endTime =   1479042000;
+	endTime =   1479060000;
 
 	if ( currentTime < startTime) {
 		$('#countdown-text').text('until hackpsu!')
