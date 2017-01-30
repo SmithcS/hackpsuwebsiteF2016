@@ -1,0 +1,39 @@
+.hextop {
+	width: 0;
+	border-bottom: 30px solid #FFFFFF;
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent; 
+}
+
+.hexmiddle { 
+	width: 104px;
+	height: 60px;
+	background-color: #FFFFFF;
+}
+
+.hexbottom {
+	width: 0;
+	border-top: 30px solid #FFFFFF;
+	border-left: 52px solid transparent;
+	border-right: 52px solid transparent;
+}
+
+.hexagon {
+	left:-50px;
+	top:-50px;
+	position: absolute;
+	z-index: -1;
+	animation:spin 6s infinite linear;
+	
+
+
+
+}
+
+
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
