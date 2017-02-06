@@ -1,6 +1,5 @@
 .DS_Store
-./hackpsu17/platforms/**
-./hackpsu17/platforms/**/*
-./hackpsu17/plugins/**
-./hackpsu17/plugins/**/*
-*.key
+platforms/**
+platforms/**/*
+plugins/**
+plugins/**/*
