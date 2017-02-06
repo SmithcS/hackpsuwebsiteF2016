@@ -16,6 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -28,6 +31,18 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+	
+	var fs = require('fs');
+	var gcmKey = null;
+	var storage = window.localStorage;
+
+	fs.readFile('gcm.key', 'utf8', function (err,data) {
+	  if (err) {
+	    return console.log(err);
+	  }
+		gcmKey = data;
+	});
+
 	app.push = PushNotification.init({
 	     	"android": {
 		 	"senderID": "838368032544"
@@ -42,11 +57,10 @@ var app = {
 
 	app.push.on('registration', function(data) {
 	     	console.log("registration event: " + data.registrationId);
-	     	document.getElementById("regId").innerHTML = data.registrationId;
-	     	var oldRegId = localStorage.getItem('registrationId');
+	     	var oldRegId = storage.getItem('registrationId');
 	     	if (oldRegId !== data.registrationId) {
 	 		// Save new registration ID
-	 		localStorage.setItem('registrationId', data.registrationId);
+	 		storage.setItem('registrationId', data.registrationId);
 			// Post registrationId to your app server as the value has changed
  		}
 	});
