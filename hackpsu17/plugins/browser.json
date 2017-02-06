@@ -9,6 +9,13 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "838368032544",
+            "PACKAGE_NAME": "io.cordova.hackpsu"
+        },
+        "cordova-plugin-cocoapod-support": {
+            "PACKAGE_NAME": "io.cordova.hackpsu"
         }
     },
     "dependent_plugins": {}

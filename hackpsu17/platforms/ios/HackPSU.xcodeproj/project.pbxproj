@@ -16,6 +16,11 @@
 		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		C1981BB5DFD8461498193059 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E2583582C43519398E02B /* AppDelegate+notification.m */; };
+		337F0A52AD884DE2ADCC0371 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FE6D42C0CC4F2CB5C1426C /* PushPlugin.m */; };
+		2DABBC6C3F70411491F24525 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68E23C87F4A4590BA5BF6E7 /* AddressBook.framework */; };
+		DBC4DA917A7B47E1804F94B8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BFAE0B7CB349CFBA312518 /* libsqlite3.tbd */; };
+		A5BDA0F62C34495494B5291E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2AA14F571FB4BFBA5BB519F /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,13 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "HackPSU/config.xml"; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		311E2583582C43519398E02B /* AppDelegate+notification.m */ = {isa = PBXFileReference; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		82FE6D42C0CC4F2CB5C1426C /* PushPlugin.m */ = {isa = PBXFileReference; name = "PushPlugin.m"; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A2AE6D939E0F40F0886634D8 /* AppDelegate+notification.h */ = {isa = PBXFileReference; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		667BBF72778942C79D4C4E10 /* PushPlugin.h */ = {isa = PBXFileReference; name = "PushPlugin.h"; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B68E23C87F4A4590BA5BF6E7 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		66BFAE0B7CB349CFBA312518 /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		A2AA14F571FB4BFBA5BB519F /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				2DABBC6C3F70411491F24525 /* AddressBook.framework in Frameworks */,
+				DBC4DA917A7B47E1804F94B8 /* libsqlite3.tbd in Frameworks */,
+				A5BDA0F62C34495494B5291E /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +149,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B68E23C87F4A4590BA5BF6E7 /* AddressBook.framework */,
+				66BFAE0B7CB349CFBA312518 /* libsqlite3.tbd */,
+				A2AA14F571FB4BFBA5BB519F /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +177,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				311E2583582C43519398E02B /* AppDelegate+notification.m */,
+				82FE6D42C0CC4F2CB5C1426C /* PushPlugin.m */,
+				A2AE6D939E0F40F0886634D8 /* AppDelegate+notification.h */,
+				667BBF72778942C79D4C4E10 /* PushPlugin.h */,
 			);
 			name = Plugins;
 			path = "HackPSU/Plugins";
@@ -271,6 +293,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				C1981BB5DFD8461498193059 /* AppDelegate+notification.m in Sources */,
+				337F0A52AD884DE2ADCC0371 /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

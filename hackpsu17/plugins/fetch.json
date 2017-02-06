@@ -30,5 +30,23 @@
         },
         "is_top_level": false,
         "variables": {}
+    },
+    "phonegap-plugin-push": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-push@1.9.2"
+        },
+        "is_top_level": true,
+        "variables": {
+            "SENDER_ID": "838368032544"
+        }
+    },
+    "cordova-plugin-cocoapod-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-cocoapod-support"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
