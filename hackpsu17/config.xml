@@ -24,4 +24,7 @@
     </platform>
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-cocoapod-support" spec="~1.2.14" />
+    <plugin name="phonegap-plugin-push" spec="1.6.0">
+    	<param name="SENDER_ID" value="838368032544" />
+    </plugin>
 </widget>
