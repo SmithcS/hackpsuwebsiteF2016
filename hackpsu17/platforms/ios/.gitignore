@@ -1,5 +1,3 @@
-*.mode1v3
-*.perspectivev3
-*.pbxuser
-.DS_Store
-build/
+# Ignore any file in this directory except for this file and *.foo files
+*
+!/.gitignore
