@@ -1,7 +1,4 @@
 .DS_Store
-platforms/**
-platforms/**/*
-plugins/**
-plugins/**/*
-node_modules/**
-node_modules/**/*
+platforms/
+plugins/
+node_modules/
