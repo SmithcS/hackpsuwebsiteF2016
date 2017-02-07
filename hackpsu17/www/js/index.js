@@ -22,7 +22,7 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        document.addEventListener('document', this.onDeviceReady.bind(this), false);
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
 
     // deviceready Event Handler
@@ -30,17 +30,37 @@ var app = {
     // Bind any cordova events here. Common events are:
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
-        this.receivedEvent('document');
-	
-	var fs = require('fs');
+        this.receivedEvent('deviceready');
+	console.log("cordova123 device ready");	
+
+	window.FirebasePlugin.onNotificationOpen(function(notification) {
+		    console.log("cordova123 " + notification);
+		}, function(error) {
+		    console.error("cordova123 " + error);
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+//	var fs = require('fs');
 	var gcmKey = null;
 
-	fs.readFile('gcm.key', 'utf8', function (err,data) {
-		if (err) {
-	    		return console.log(err);
-	  	}
-		gcmKey = data;
-
+//	fs.readFile('gcm.key', 'utf8', function (err,data) {
+//		if (err) {
+//	    		return console.log(err);
+//	  	}
+/*
+		gcmKey = "IzaSyDMXtc1D70D7u6mupYsczwUP-zu92LyvDE";
+		document.getElementById("changethis").innerHTML = ("This has been changed");
 		app.push = PushNotification.init({
 			"android": {
 				"senderID": "838368032544"
@@ -58,7 +78,7 @@ var app = {
 
 		app.push.on('registration', function(data) {
 			console.log("registration event: " + data.registrationId);
-			document.getElementById("changethis").innerHTML = "registration event: " + data.registrationId);
+			document.getElementById("changethis").innerHTML = ("registration event: " + data.registrationId);
 			var oldRegId = localStorage.getItem('registrationId');
 			if (oldRegId !== data.registrationId) {
 				// Save new registration ID
@@ -76,8 +96,8 @@ var app = {
 			console.log("data" + data.message);		
 			console.log("addtional data" + data.additionalData.foreground);
 		});
-	});
-
+*/
+//	});
     },
 
     // Update DOM on a Received Event
