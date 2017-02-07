@@ -32,6 +32,17 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
 	console.log("cordova123 device ready");	
+	var devicePlatform = device.platform;
+	
+	if (devicePlatform == "Android") {
+		window.FirebasePlugin.onPause(function() {
+			window.FirebasePlugin.inBackground = false;
+		});
+
+		window.FirebasePlugin.onResume(function() {
+			window.FirebasePlugin.inBackground = true;
+		});
+	}
 
 	window.FirebasePlugin.onNotificationOpen(function(notification) {
 		    console.log("cordova123 " + notification);
