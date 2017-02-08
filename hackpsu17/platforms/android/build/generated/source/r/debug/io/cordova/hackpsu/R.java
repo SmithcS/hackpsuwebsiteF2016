@@ -145,9 +145,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int common_open_on_phone=0x7f05000e;
         public static final int common_signin_button_text=0x7f05000f;
         public static final int common_signin_button_text_long=0x7f050010;
-        public static final int google_api_key=0x7f050013;
-        public static final int google_app_id=0x7f050014;
-        public static final int launcher_name=0x7f050015;
+        public static final int default_web_client_id=0x7f050013;
+        public static final int firebase_database_url=0x7f050014;
+        public static final int gcm_defaultSenderId=0x7f050015;
+        public static final int google_api_key=0x7f050016;
+        public static final int google_app_id=0x7f050017;
+        public static final int google_crash_reporting_api_key=0x7f050018;
+        public static final int google_storage_bucket=0x7f050019;
+        public static final int launcher_name=0x7f05001a;
     }
     public static final class xml {
         public static final int config=0x7f040000;

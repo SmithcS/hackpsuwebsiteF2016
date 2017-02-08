@@ -33,80 +33,38 @@ var app = {
         this.receivedEvent('deviceready');
 	console.log("cordova123 device ready");	
 	var devicePlatform = device.platform;
-	console.log(devicePlatform);
-	window.FirebasePlugin.onPause(function() {
-		window.FirebasePlugin.inBackground = false;
-	});
+	
+	if (devicePlatform == "Android") {
+		console.log("cordova123 device is android");
+		window.FirebasePlugin.onPause(function() {
+			window.FirebasePlugin.inBackground = false;
+		});
 
-	window.FirebasePlugin.onResume(function() {
-		window.FirebasePlugin.inBackground = true;
+		window.FirebasePlugin.onResume(function() {
+			window.FirebasePlugin.inBackground = true;
+		});
+	}
+
+	window.FirebasePlugin.getToken(function(token) {
+			// save this server-side and use it to push notifications to this device
+			console.log("cordova123 " + token);
+		}, function(error) {
+			console.error("cordova123 " + error);
+	});	
+
+	window.FirebasePlugin.onTokenRefresh(function(token) {
+			// save this server-side and use it to push notifications to this device
+			console.log("cordova123 " + token);
+		}, function(error) {
+			console.error("cordova123 " + error);
 	});
 
 	window.FirebasePlugin.onNotificationOpen(function(notification) {
-		    console.log("cordova123 " + notification);
+			console.log("cordova123 " + notification);
 		}, function(error) {
-		    console.error("cordova123 " + error);
+			console.error("cordova123 " + error);
 	});
 
-
-
-
-
-
-
-
-
-
-
-
-
-//	var fs = require('fs');
-	var gcmKey = null;
-
-//	fs.readFile('gcm.key', 'utf8', function (err,data) {
-//		if (err) {
-//	    		return console.log(err);
-//	  	}
-/*
-		gcmKey = "IzaSyDMXtc1D70D7u6mupYsczwUP-zu92LyvDE";
-		document.getElementById("changethis").innerHTML = ("This has been changed");
-		app.push = PushNotification.init({
-			"android": {
-				"senderID": "838368032544"
-			},
-			"browser": {
-				"pushServiceURL": 'http://push.api.phonegap.com/v1/push'
-			},
-			"ios": {
-				"sound": true,
-				"vibration": true,
-				"badge": true
-			},
-			"windows": {}
-		});
-
-		app.push.on('registration', function(data) {
-			console.log("registration event: " + data.registrationId);
-			document.getElementById("changethis").innerHTML = ("registration event: " + data.registrationId);
-			var oldRegId = localStorage.getItem('registrationId');
-			if (oldRegId !== data.registrationId) {
-				// Save new registration ID
-				localStorage.setItem('registrationId', data.registrationId);
-				// Post registrationId to your app server as the value has changed
-			}
-		});
-
-		app.push.on('error', function(e) {
-			console.log("push error = " + e.message);
-		});
-
-		app.push.on('notification', function(data) {
-			console.log("notification received");
-			console.log("data" + data.message);		
-			console.log("addtional data" + data.additionalData.foreground);
-		});
-*/
-//	});
     },
 
     // Update DOM on a Received Event

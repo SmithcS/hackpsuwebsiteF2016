@@ -15,6 +15,10 @@
                         {
                             "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FCMPlugin\"><param name=\"ios-package\" value=\"FCMPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -43,12 +47,22 @@
             },
             "*/Entitlements-Debug.plist": {
                 "parents": {
-                    "aps-environment": []
+                    "aps-environment": [
+                        {
+                            "xml": "<string>development</string>",
+                            "count": 1
+                        }
+                    ]
                 }
             },
             "*/Entitlements-Release.plist": {
                 "parents": {
-                    "aps-environment": []
+                    "aps-environment": [
+                        {
+                            "xml": "<string>production</string>",
+                            "count": 1
+                        }
+                    ]
                 }
             }
         }
@@ -58,6 +72,9 @@
             "PACKAGE_NAME": "io.cordova.hackpsu"
         },
         "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.hackpsu"
+        },
+        "cordova-plugin-fcm": {
             "PACKAGE_NAME": "io.cordova.hackpsu"
         }
     },
@@ -78,10 +95,19 @@
             "clobbers": [
                 "device"
             ]
+        },
+        {
+            "id": "cordova-plugin-fcm.FCMPlugin",
+            "file": "plugins/cordova-plugin-fcm/www/FCMPlugin.js",
+            "pluginId": "cordova-plugin-fcm",
+            "clobbers": [
+                "FCMPlugin"
+            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-firebase": "0.1.19",
-        "cordova-plugin-device": "1.1.4"
+        "cordova-plugin-device": "1.1.4",
+        "cordova-plugin-fcm": "2.1.1"
     }
 }

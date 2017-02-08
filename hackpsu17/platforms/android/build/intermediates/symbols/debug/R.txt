@@ -67,9 +67,14 @@ int string common_google_play_services_wear_update_text 0x7f05000d
 int string common_open_on_phone 0x7f05000e
 int string common_signin_button_text 0x7f05000f
 int string common_signin_button_text_long 0x7f050010
-int string google_api_key 0x7f050013
-int string google_app_id 0x7f050014
-int string launcher_name 0x7f050015
+int string default_web_client_id 0x7f050013
+int string firebase_database_url 0x7f050014
+int string gcm_defaultSenderId 0x7f050015
+int string google_api_key 0x7f050016
+int string google_app_id 0x7f050017
+int string google_crash_reporting_api_key 0x7f050018
+int string google_storage_bucket 0x7f050019
+int string launcher_name 0x7f05001a
 int[] styleable LoadingImageView { 0x7f010000, 0x7f010001, 0x7f010002 }
 int styleable LoadingImageView_circleCrop 2
 int styleable LoadingImageView_imageAspectRatio 1

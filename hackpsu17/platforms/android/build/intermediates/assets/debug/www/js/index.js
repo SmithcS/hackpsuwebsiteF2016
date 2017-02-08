@@ -32,9 +32,30 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
 	console.log("cordova123 device ready");	
+
+	FCMPlugin.onTokenRefresh(function(token){
+		console.log("cordova123 " + token );
+	});
+
+	FCMPlugin.getToken(function(token){
+		console.log("cordova123 " + token);
+	});
+	
+	FCMPlugin.onNotification(function(data){
+		if(data.wasTapped){
+			//Notification was received on device tray and tapped by the user.
+			console.log("cordova123 " + JSON.stringify(data) );
+		}else{
+			//Notification was received in foreground. Maybe the user needs to be notified.
+			console.log("cordova123 " + JSON.stringify(data) );
+		}
+	});
+
+/* 	WORKING CODE
 	var devicePlatform = device.platform;
-	console.log("cordova1234 " + devicePlatform);	
+	
 	if (devicePlatform == "Android") {
+		console.log("cordova123 device is android");
 		window.FirebasePlugin.onPause(function() {
 			window.FirebasePlugin.inBackground = false;
 		});
@@ -44,71 +65,26 @@ var app = {
 		});
 	}
 
-	window.FirebasePlugin.onNotificationOpen(function(notification) {
-		    console.log("cordova123 " + notification);
+	window.FirebasePlugin.getToken(function(token) {
+			// save this server-side and use it to push notifications to this device
+			console.log("cordova123 " + token);
 		}, function(error) {
-		    console.error("cordova123 " + error);
+			console.error("cordova123 " + error);
+	});	
+
+	window.FirebasePlugin.onTokenRefresh(function(token) {
+			// save this server-side and use it to push notifications to this device
+			console.log("cordova123 " + token);
+		}, function(error) {
+			console.error("cordova123 " + error);
 	});
 
-
-
-
-
-
-
-
-
-
-
-
-
-//	var fs = require('fs');
-	var gcmKey = null;
-
-//	fs.readFile('gcm.key', 'utf8', function (err,data) {
-//		if (err) {
-//	    		return console.log(err);
-//	  	}
-/*
-		gcmKey = "IzaSyDMXtc1D70D7u6mupYsczwUP-zu92LyvDE";
-		document.getElementById("changethis").innerHTML = ("This has been changed");
-		app.push = PushNotification.init({
-			"android": {
-				"senderID": "838368032544"
-			},
-			"browser": {
-				"pushServiceURL": 'http://push.api.phonegap.com/v1/push'
-			},
-			"ios": {
-				"sound": true,
-				"vibration": true,
-				"badge": true
-			},
-			"windows": {}
-		});
-
-		app.push.on('registration', function(data) {
-			console.log("registration event: " + data.registrationId);
-			document.getElementById("changethis").innerHTML = ("registration event: " + data.registrationId);
-			var oldRegId = localStorage.getItem('registrationId');
-			if (oldRegId !== data.registrationId) {
-				// Save new registration ID
-				localStorage.setItem('registrationId', data.registrationId);
-				// Post registrationId to your app server as the value has changed
-			}
-		});
-
-		app.push.on('error', function(e) {
-			console.log("push error = " + e.message);
-		});
-
-		app.push.on('notification', function(data) {
-			console.log("notification received");
-			console.log("data" + data.message);		
-			console.log("addtional data" + data.additionalData.foreground);
-		});
+	window.FirebasePlugin.onNotificationOpen(function(notification) {
+			console.log("cordova123 " + notification);
+		}, function(error) {
+			console.error("cordova123 " + error);
+	});
 */
-//	});
     },
 
     // Update DOM on a Received Event

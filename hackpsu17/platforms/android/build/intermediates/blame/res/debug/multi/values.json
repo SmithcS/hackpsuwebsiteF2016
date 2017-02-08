@@ -558,17 +558,17 @@
                     "startLine": 54,
                     "startColumn": 4,
                     "startOffset": 3946,
-                    "endColumn": 82,
-                    "endOffset": 4024
+                    "endColumn": 143,
+                    "endOffset": 4085
                 },
                 "from": {
-                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/res/values/strings.xml",
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 82,
-                        "endOffset": 383
+                        "startOffset": 55,
+                        "endColumn": 143,
+                        "endOffset": 194
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 4029,
-                    "endColumn": 81,
-                    "endOffset": 4106
+                    "startOffset": 4090,
+                    "endColumn": 113,
+                    "endOffset": 4199
                 },
                 "from": {
-                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/res/values/strings.xml",
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 223,
-                        "endColumn": 81,
-                        "endOffset": 300
+                        "startOffset": 199,
+                        "endColumn": 113,
+                        "endOffset": 308
                     }
                 }
             },
@@ -595,9 +595,104 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 4111,
+                    "startOffset": 4204,
+                    "endColumn": 81,
+                    "endOffset": 4281
+                },
+                "from": {
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 313,
+                        "endColumn": 81,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4286,
+                    "endColumn": 103,
+                    "endOffset": 4385
+                },
+                "from": {
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 103,
+                        "endOffset": 494
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4390,
+                    "endColumn": 102,
+                    "endOffset": 4488
+                },
+                "from": {
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 102,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4493,
+                    "endColumn": 119,
+                    "endOffset": 4608
+                },
+                "from": {
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 602,
+                        "endColumn": 119,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4613,
+                    "endColumn": 102,
+                    "endOffset": 4711
+                },
+                "from": {
+                    "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/generated/res/google-services/debug/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 722,
+                        "endColumn": 102,
+                        "endOffset": 820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 4716,
                     "endColumn": 58,
-                    "endOffset": 4165
+                    "endOffset": 4770
                 },
                 "from": {
                     "file": "/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/res/values/strings.xml",

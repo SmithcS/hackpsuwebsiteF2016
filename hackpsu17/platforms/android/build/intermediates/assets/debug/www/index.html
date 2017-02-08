@@ -19,10 +19,10 @@
 -->
 <html>
     <head>
-       
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' http://fonts.googleapis.com; media-src *; img-src 'self' data: content:; script-src 'self' http://hackpsu.s3-website-us-east-1.amazonaws.com/ https://apis.google.com http://push.api.phonegap.com; connect-src 'self' http://hackpsu.s3-website-us-east-1.amazonaws.com/ https://apis.google.com http://push.api.phonegap.com; font-src *">
-
-<!--	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' http://hackpsu.s3-website-us-east-1.amazonaws.com/ https://apis.google.com http://push.api.phonegap.com; font-src *; media-src *; img-src 'self' data: content:; style-src *;">-->
+     	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline' https://www.gstatic.com/firebasejs/3.6.9/firebase.js https://www.gstatic.com/firebasejs/3.5.2/firebase-messaging.js https://fcm.googleapis.com/fcm/connect/subscribe  https://fonts.gstatic.com https://fonts.googleapis.com; media-src *"> 
+<!-- 
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; script-src 'self' https://apis.google.com; connect-src 'self' https://apis.google.com; font-src *">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' https://apis.google.com; font-src *; media-src *; img-src 'self' data: content:; style-src *;">-->
 
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
@@ -33,14 +33,15 @@
         <meta name="google-site-verification" content="Bl3Vj9Zzc3XisnRWC1pK7BDkhVJJ80dScl3BeJRn11k" />
 
         <!-- fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lekton:400' rel='stylesheet' type='text/css'>
 
 
         <link rel="stylesheet" type="text/css" href="css/animate.css">
         <link rel="shortcut icon" href="assets/icons/favicon.ico">
-        
+       	
+	<script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+        <script src="js/firebase_support.js"></script>
         <script src="js/jquery.min.js"></script>
 
 	<!-- bootstrap -->

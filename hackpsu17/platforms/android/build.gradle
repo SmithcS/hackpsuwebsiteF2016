@@ -89,6 +89,7 @@ ext {
 
 // PLUGIN GRADLE EXTENSIONS START
 apply from: "cordova-plugin-firebase/hackpsu-build.gradle"
+apply from: "cordova-plugin-fcm/hackpsu-FCMPlugin.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()

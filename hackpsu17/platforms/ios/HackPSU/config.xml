@@ -22,6 +22,9 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
+    <feature name="FCMPlugin">
+        <param name="ios-package" value="FCMPlugin" />
+    </feature>
     <name>HackPSU</name>
     <description>
         HackPSU website/app
