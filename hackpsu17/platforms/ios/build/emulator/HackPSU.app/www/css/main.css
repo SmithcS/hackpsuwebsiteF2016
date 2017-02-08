@@ -1,0 +1,543 @@
+/*=============== *** CSS RESET *** =================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: xx-large;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers 
+*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*========================= *** MEDIA QUERIES *** =========================*/
+
+@media (max-width: 380px) {
+	#banner-text h1 {
+		font-size: 60%;
+	}
+	.section-header {
+		font-size: 60%;
+	}
+	#logo-container img {
+		width: 60%;
+	}
+	.tagline {
+		padding: 5px;
+	}
+	a .button {
+		font-size: 40%;
+	}
+	p {
+		font-size: 45%
+	}
+
+}
+
+@media (min-width: 380px) and (max-width: 450px) {
+	#banner-text h1 {
+		font-size: 80%;
+	}
+	.section-header {
+		font-size: 80%;
+	}
+	#logo-container img {
+		width: 60%;
+	}
+	.tagline {
+		padding: 10px;
+	}	
+	a .button {
+		font-size: 40%;
+	}
+	p {
+		font-size: 55%
+	}
+}
+
+@media (min-width: 450px) and (max-width: 650px) {
+	#banner-text h1 {
+		font-size: 100%;
+	}
+	.section-header {
+		font-size: 100%;
+	}
+	#logo-container img {
+		width: 300px;
+	}
+	.tagline {
+		padding: 15px;
+	}
+	a .button {
+		font-size: 50%;
+	}
+	p {
+		font-size: 60%
+	}
+}
+@media (min-width: 650px) {
+	#banner-text h1 {
+		font-size: 120%;
+	}
+	.section-header {
+		font-size: 120%;
+	}
+	#logo-container img {
+		width: 350px;
+	}
+	.tagline {
+		padding: 20px;
+	}
+	a .button {
+		font-size: 70%;
+	}
+	p {
+		font-size: 70%
+	}
+}
+
+/*=================================================*/
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald', 'Arial', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-size: larger;
+}
+p {
+	padding:10px;
+	line-height: 200%;
+}
+body {
+	text-align: center;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: xx-large;
+	background:url('../assets/backgrounds/smealexpo.jpg') no-repeat center center fixed;
+	background-color: #CCFFFF; 
+	-webkit-background-size: cover;  
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+section {
+	display: block;
+}
+a {
+
+} a:hover {
+	
+	text-decoration: none;
+}	
+
+/*======================= CUSTOM ===========================*/
+
+/*++++++++ COLORS +++++++*/
+.yellow {
+	color:#FFCC66;
+}
+.white {
+	color:white;
+}
+.darkBlue {
+	color:#2A202F;
+}
+.lightBlue {
+	color:#3399CC;
+}
+.lightestBlue {
+	color:#D0EBF3
+}
+.gray {
+	color: #3A2D40;
+}
+
+/*+++++++ EFFECTS ++++*/
+.bolder {
+	font-weight: 900;
+}
+
+/*++++++++ ELEMENTS +++++++*/
+
+.button {
+	background: #3A2D40;
+	border: 2px solid white;
+	padding:10px 10px;
+	transition: ease-out .5s;
+	margin: 5px 0;
+	color:white;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: large;
+	letter-spacing: 5px
+
+} .button:hover {
+	border: 2px solid #ffcc66;
+	transition: linear .1s;
+	text-align:center;
+	text-decoration: none;
+	background-color: #3399CC
+}
+.divider {
+	height:2px; 
+	width:100%; 
+	background:#2A202F;
+}
+.alt-divider {
+	height:2px; 
+	width:100%; 
+	background: white;
+}
+.section-header {
+	text-align: left;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.tinyhexagon {
+	margin-top: -30px;
+	text-align: left;
+	font-size: 25px;
+	color:#3399CC;
+	padding:4px;
+}
+
+.scrolly-divider {
+	margin: 10px 0;
+	height:4px;
+}
+
+
+/*++++++++++++ CUSTOM HEADER ELEMENTS +++++++++++++*/
+
+/*========= HEADER ==========*/
+
+#header {
+	background: rgba(58, 45, 64, 0.5);
+	padding:0;
+}
+#logo-container {
+	width:100%;
+	z-index: 500;
+}
+#logo-container img {
+	text-align: center;	
+	height:auto;
+	z-index: 500;
+}
+#banner {
+	margin-top: -20px;
+	width:100%;
+	z-index: 0;
+}
+#banner-text h1 {
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner-text .divider {
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+}
+#date {
+	margin:0; 
+	letter-spacing:20px;
+	font-size: larger;
+}
+
+
+/*========= ABOUT ==========*/
+
+#about {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+#about p {
+	text-align: left;
+}
+
+/*========= LEARN BUILD SHARE  ==========*/
+
+#learnbuildshare {
+	background: rgba(58, 45, 64, 0.5);
+}
+#learnbuildshare div img {
+}
+#learnbuildshare-icon-container {
+	margin: 0;
+	background: url('../assets/backgrounds/typeformBackground.png') no-repeat center center;
+	background-color: none 
+	-webkit-background-size: cover;  
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+	border-bottom: 10px #FFCC66 solid;
+	border-top: 10px #FFCC66 solid;
+}
+.learnbuildshare-icon img {
+	padding:20px;
+	width:200px;
+}
+.learnbuildshare-icon h2 {
+	color:#2A202F;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+/*================= CLUB CUP ==================*/
+
+#club-cup {
+	background-color: white;
+}
+
+#club-cup p {
+	text-align: left;
+}
+
+#club-cup-image {
+	max-width:400px;
+	width:100%;
+	height:auto;
+	padding:20px;
+}
+
+
+/*================= SCHEDULE ==================*/
+
+#schedule {
+	background-color: #2A202F;
+	padding:50px 0;
+}
+#schedule p {
+	color: white;
+}
+#schedule .divider {
+	background-color: white;
+}
+#schedule-container {
+	z-index: 20;
+}
+#schedule table {
+	margin:20px;
+}
+
+#schedule td {
+	padding:10px;
+	font-size: smaller;
+}
+#schedule td:first-child { 
+    color: #FFCC66;
+    font-weight: 300;
+    font-size: large;
+    letter-spacing: 2px;
+}#schedule td:last-child {
+	color:white;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: large;
+	letter-spacing: 5px
+}
+#schedule-container div h4 {
+	font-size: smaller;
+	padding:10px;
+	text-align: left;
+	background-color: #3399CC;
+}
+
+/*================= FAQ ==================*/
+
+#faq {
+	background: rgba(58, 45, 64, 0.5);
+	-webkit-background-size: auto;  
+	-moz-background-size: auto; 
+	-o-background-size: auto; 
+	background-size: auto;
+	padding:50px 0;
+}
+#faq div h3{
+	color:#2A202F;
+}
+.question-container{
+	padding:10px;
+	text-align: left;
+}
+.question{
+	background-color: #2A202F;
+	color:white;
+}
+.question p span{
+	transition: ease-out .5s;
+} 
+.answer{
+	background-color:white;
+	color: #2A202F;
+	display: none; 
+}
+.answer p{
+	line-height:120%;
+}
+.rotated {
+	transform: rotate(90deg);
+	transition: ease-out .5s;
+}
+
+
+/*================= SPONSORS ==================*/
+
+#sponsors {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:50px 0;
+}
+.sponsor-med img {
+	max-width: 100%;
+	width:auto;
+	height:auto;
+	max-height:250px;
+	padding:30px;
+}
+.sponsor-list-image img {
+	max-width: 300px;
+	max-height: 150px;
+	width:auto;
+	height:auto;
+}
+.sponsor-lg img {
+	max-width: 600px;
+	width: 100%;
+	height:auto;
+	padding:20px;
+	position: relative;
+	top: 50%;
+}
+#sponsors div p a:hover {
+	color:#2A202F;
+}
+
+/*========= CONTACT ==========*/
+
+#contact {
+	background-color: rgba(58, 45, 64, 0.5);
+} 
+
+#contact-icon-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+.social-media-icon {
+	width:80px;
+	margin: 10px 5px;
+	transition: ease-out .3s;
+}
+
+/*========= FOOTER ==========*/
+
+#footer {
+	font-size: medium;
+	background-color:#2A202F;
+	text-align: right;
+	padding:10px;
+	width: 100%;
+	margin-top:0;
+}
+#footer p {
+	font-size: medium;
+	font-weight: 200;
+}
+
+/*====================  MISCELLANEOUS ====================*/
+.spacer {
+	height:70px;
+}
+.container {
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+.img-circle {
+	border-radius:50%;
+	max-width:80%;
+	height:auto;
+	margin:20px;
+}
+/*======== GEARS ========*/
+#gearbox{
+	float:right;
+	margin-top: -150px;
+}
+.gear {
+	z-index: 0;
+	opacity: 0.3;
+	display: inline-block
+	
+} 
+.gear1 img {
+	animation:spin 6s infinite linear;
+	height: 130px
+}
+.gear2 img {
+	height:80px;
+	animation:spin 6s infinite linear;
+	animation-direction:reverse;
+}
+
+#changing-text-container {
+	padding:5px 10px 5px 10px;
+	background-color: #3399CC;
+	margin:5px;
+	/*font-family: 'Lekton', sans-serif;*/
+}
+#changing-text {
+	letter-spacing: 5px
+}
+.blink{
+    animation:blink .7s infinite alternate;
+}
+
+@keyframes blink {
+    0% { opacity:1; }
+    45% { opacity:1; }
+    55% { opacity:0; }
+    100% { opacity:0; }
+};
+
+

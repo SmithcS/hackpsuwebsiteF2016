@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: xx-large;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+/* HTML5 display-role reset for older browsers 
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+
+/*+++++++++++++++ BODY AND TEXT +++++++++++++++++++*/
+
+body {
+	text-align: center;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: xx-large;
+}
+
+
+body {
+	background:url(../assets/images/cybertorium2.jpg) no-repeat center center fixed;  
+	background-color: #CCFFFF; 
+	-webkit-background-size: cover;  
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+@media (max-width: 450px) {
+
+	.button a {
+		/*font-size: 80%*/
+	}
+
+	#logo-container img {
+		width: 60%;
+	}
+
+}
+
+@media (min-width: 450px) and (max-width: 650px) {
+
+	.button a {
+		/*font-size: 100%*/
+	}
+
+	#logo-container img {
+		width: 300px;
+	}
+
+}
+
+@media (min-width: 650px) {
+
+	.button a {
+		/*font-size: 120%*/
+	}
+
+	#logo-container img {
+		width: 350px;
+	}
+
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Oswald', 'Arial';
+	font-weight: 500;
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+p {
+	color:#383739;
+	text-align:center;
+	font-family: 'Open-Sans', 'Arial';
+
+}
+
+/*++++++++ COLORS +++++++*/
+.yellow {
+	color:#e2cb59;
+}
+.white {
+	color:white;
+}
+.darkBlue {
+	color:#2A202F;
+}
+.lightBlue {
+	color:#0099FF;
+}
+
+/*++++++++ ELEMENTS +++++++*/
+
+.divider {
+	height:2px; 
+	width:90%; 
+	background:#FFFFFF
+}
+
+.button {
+	background: none;
+	border: 2px solid white;
+	padding:10px 10px;
+	letter-spacing: 2px;
+	transition: ease-out .5s;
+	margin: 5px 0;
+
+} .button:hover {
+	border: 2px solid #e2cb59;
+	transition: ease-out .1s;
+	text-align:center
+} .button a {
+	color:white;
+	font-weight: 200;
+}
+  
+/*++++++++++++ CUSTOM HEADER ELEMENTS +++++++++++++*/
+
+#logo-container {
+	height:50%;
+	width:100%;
+	position: absolute;	
+	z-index: 500;
+}
+
+#logo-container img {
+	text-align: center;	
+	height:auto;
+	z-index: 500;
+}
+
+.banner-text div {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.banner-text h1 {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#banner {
+	background: #2A202F;
+	width:100%;
+	z-index: 0;
+	padding: 40px;
+}
+
+
+#footer {
+	background-color:#0099FF;
+	border-top:10px solid #e2cb59;
+
+	text-align: right;
+	padding:0;
+
+	width: 100%;
+	position:absolute;
+}
+
+.date {
+	margin:-4px; 
+	letter-spacing:20px;
+	font-size: larger;
+}
+

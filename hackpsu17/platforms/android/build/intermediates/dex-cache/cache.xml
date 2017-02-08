@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-10.0.1_33196ffae74e432d00d2c99a4dc88fd9cf33341b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-10.0.1_fdf8a314e0e7f298bfdf899098e5b5c9b146e74f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-10.0.1_70f7bbd494e82f56524b1860eb6d4a8670a01a6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_b08ec7afbfe229bb13acef63fa971fd08cb27cd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_7330814de280df5f8dbe2994f974bc4ce32b2bcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="eb49b97a4651b4c991a302f6c3e7dc73fc5887dc">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_32ac99b54bf73049b1c66c59c736114c79a79b7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-10.0.1_4373998ca395086af288e23f6cd9bb3c3848a6a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_3a41fb29eff231af30af28501853999494874ebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-10.0.1_b25fab337c99e0d0e01150afba0daab2756576c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_234c596e542e19c8716310305b3e122fffe758ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_7405d025d9d45fbf6445fb4aa336ea7772b852cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b346a5d3fc5d6d1d36c6262c8cc865b76df9f40c">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/me.leolin-ShortcutBadger-1.1.4_13c886fab84dd55dbb06d607df07cb88d926c600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_2648a59c1c0e051d1a5c3df00abfd58d44beca78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-10.0.1_7595bc10ace3e8d2aa0ce8323d3b51406629d34b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-10.0.1_16404d2d6b6dc7bb6cc525067689a05841272add.jar" />
+    </item>
+
+</items>

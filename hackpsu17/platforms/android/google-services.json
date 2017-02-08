@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "385399873291",
+    "firebase_url": "https://notifications-b01a3.firebaseio.com",
+    "project_id": "notifications-b01a3",
+    "storage_bucket": "notifications-b01a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385399873291:android:b9936b6a7fd4f1e8",
+        "android_client_info": {
+          "package_name": "io.cordova.hackpsu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385399873291-6njkdm8tk2h7ja1rvopgc1m99er48o2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0sbneFjKBDn_3DFRAYamSxNJ-iSUHDDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

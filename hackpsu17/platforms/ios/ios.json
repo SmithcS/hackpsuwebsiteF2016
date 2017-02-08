@@ -1,0 +1,87 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"FirebasePlugin\"><param name=\"ios-package\" value=\"FirebasePlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "UIBackgroundModes": [],
+                    "GCM_SENDER_ID": [
+                        {
+                            "xml": "<string>838368032544</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IS_GCM_ENABLED": []
+                }
+            },
+            "*-Debug.plist": {
+                "parents": {
+                    "aps-environment": []
+                }
+            },
+            "*-Release.plist": {
+                "parents": {
+                    "aps-environment": []
+                }
+            },
+            "*/Entitlements-Debug.plist": {
+                "parents": {
+                    "aps-environment": []
+                }
+            },
+            "*/Entitlements-Release.plist": {
+                "parents": {
+                    "aps-environment": []
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-firebase": {
+            "PACKAGE_NAME": "io.cordova.hackpsu"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.hackpsu"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "cordova-plugin-firebase.FirebasePlugin",
+            "file": "plugins/cordova-plugin-firebase/www/firebase.js",
+            "pluginId": "cordova-plugin-firebase",
+            "clobbers": [
+                "FirebasePlugin"
+            ]
+        },
+        {
+            "id": "cordova-plugin-device.device",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-firebase": "0.1.19",
+        "cordova-plugin-device": "1.1.4"
+    }
+}
