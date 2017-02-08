@@ -31,23 +31,23 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-	console.log("cordova123 device ready");	
+	console.log("device ready");	
 
 	FCMPlugin.onTokenRefresh(function(token){
-		console.log("cordova123 " + token );
+		console.log( token );
 	});
 
 	FCMPlugin.getToken(function(token){
-		console.log("cordova123 " + token);
+		console.log( token);
 	});
 	
 	FCMPlugin.onNotification(function(data){
 		if(data.wasTapped){
 			//Notification was received on device tray and tapped by the user.
-			console.log("cordova123 " + JSON.stringify(data) );
+			console.log( JSON.stringify(data) );
 		}else{
 			//Notification was received in foreground. Maybe the user needs to be notified.
-			console.log("cordova123 " + JSON.stringify(data) );
+			console.log( JSON.stringify(data) );
 		}
 	});
 
@@ -55,7 +55,7 @@ var app = {
 	var devicePlatform = device.platform;
 	
 	if (devicePlatform == "Android") {
-		console.log("cordova123 device is android");
+		console.log("device is android");
 		window.FirebasePlugin.onPause(function() {
 			window.FirebasePlugin.inBackground = false;
 		});
@@ -67,22 +67,22 @@ var app = {
 
 	window.FirebasePlugin.getToken(function(token) {
 			// save this server-side and use it to push notifications to this device
-			console.log("cordova123 " + token);
+			console.log( token);
 		}, function(error) {
-			console.error("cordova123 " + error);
+			console.error( error);
 	});	
 
 	window.FirebasePlugin.onTokenRefresh(function(token) {
 			// save this server-side and use it to push notifications to this device
-			console.log("cordova123 " + token);
+			console.log( token);
 		}, function(error) {
-			console.error("cordova123 " + error);
+			console.error( error);
 	});
 
 	window.FirebasePlugin.onNotificationOpen(function(notification) {
-			console.log("cordova123 " + notification);
+			console.log( notification);
 		}, function(error) {
-			console.error("cordova123 " + error);
+			console.error( error);
 	});
 */
     },
