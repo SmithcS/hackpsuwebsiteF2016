@@ -32,59 +32,78 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
 	console.log("device ready");	
-
-	FCMPlugin.onTokenRefresh(function(token){
-		console.log( token );
-	});
-
-	FCMPlugin.getToken(function(token){
-		console.log( token);
-	});
-	
-	FCMPlugin.onNotification(function(data){
-		if(data.wasTapped){
-			//Notification was received on device tray and tapped by the user.
-			console.log( JSON.stringify(data) );
-		}else{
-			//Notification was received in foreground. Maybe the user needs to be notified.
-			console.log( JSON.stringify(data) );
-		}
-	});
-
-/* 	WORKING CODE
-	var devicePlatform = device.platform;
-	
-	if (devicePlatform == "Android") {
-		console.log("device is android");
-		window.FirebasePlugin.onPause(function() {
-			window.FirebasePlugin.inBackground = false;
+	if (device.platform != "browser") {	
+		$.support.cors = true;
+		FCMPlugin.onTokenRefresh(function(token){
+			console.log( token );
+			if (token != null) {
+				var messageObj = {
+					"_id": token,
+					"platform": device.platform
+				};
+				console.log("messageObj: " + JSON.stringify(messageObj));
+				$.ajax({
+					type: "POST",
+					url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
+					data: JSON.stringify(messageObj),
+					success: function(result){
+						console.log(JSON.stringify(result));
+					},
+					error: function(err) {
+						console.log(JSON.stringify(err));
+					},
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+						"Access-Control-Allow-Methods": "GET, POST",
+						"Access-Control-Allow-Headers": "Authorization",
+						"Content-Type": "application/json"
+					}
+				});   
+			} 
 		});
 
-		window.FirebasePlugin.onResume(function() {
-			window.FirebasePlugin.inBackground = true;
+		FCMPlugin.getToken(function(token){
+			console.log( token );
+			if (token != null) {
+				var messageObj = {
+					"_id": token,
+					"platform": device.platform
+				};
+				console.log("messageObj: " + JSON.stringify(messageObj));
+				$.ajax({
+					type: "POST",
+					url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
+					data: JSON.stringify(messageObj),
+					success: function(result){
+						console.log(JSON.stringify(result));
+					},
+					error: function(err) {
+						console.log(JSON.stringify(err));
+					},
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+						"Access-Control-Allow-Methods": "GET, POST",
+						"Access-Control-Allow-Headers": "Authorization",
+						"Content-Type": "application/json"
+					}
+				});   
+			} 
+		});
+		
+		FCMPlugin.onNotification(function(data){
+			if(data.wasTapped){
+				//Notification was received on device tray and tapped by the user.
+				console.log( JSON.stringify(data) );
+			}else{
+				//Notification was received in foreground. Maybe the user needs to be notified.
+				console.log( JSON.stringify(data) );
+			}
+		}, function(success) {
+			console.log(JSON.stringify(success));
+		}, function(err) {
+			console.log(JSON.stringify(err));
 		});
 	}
-
-	window.FirebasePlugin.getToken(function(token) {
-			// save this server-side and use it to push notifications to this device
-			console.log( token);
-		}, function(error) {
-			console.error( error);
-	});	
-
-	window.FirebasePlugin.onTokenRefresh(function(token) {
-			// save this server-side and use it to push notifications to this device
-			console.log( token);
-		}, function(error) {
-			console.error( error);
-	});
-
-	window.FirebasePlugin.onNotificationOpen(function(notification) {
-			console.log( notification);
-		}, function(error) {
-			console.error( error);
-	});
-*/
     },
 
     // Update DOM on a Received Event

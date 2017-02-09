@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <access origin="http://hackpsu.s3-website-us-east-1.amazonaws.com" />
+    <access origin="https://api.mlab.com/api/1/databases/push-notification-registrations" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -23,5 +23,4 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-firebase" spec="~0.1.19" />
 </widget>

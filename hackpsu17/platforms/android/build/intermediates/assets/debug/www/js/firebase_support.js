@@ -84,6 +84,29 @@ if (firebase) {
 		if (!isTokenSentToServer()) {
 			console.log('Sending token to server...');
 			// TODO(developer): Send the current token to your server.
+
+			var messageObj = {
+				"_id": currentToken,
+				"platform": "browser" 
+			};				
+			
+			$.ajax({
+				type: "POST",
+				url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
+				data: JSON.stringify(messageObj),
+				success: function(result){
+					console.log(JSON.stringify(result));
+				},
+				error: function(err) {
+					console.log(JSON.stringify(err));
+				},
+				headers: {
+					"Access-Control-Allow-Origin": "*",
+					"Access-Control-Allow-Methods": "GET, POST",
+					"Access-Control-Allow-Headers": "Authorization",
+					"Content-Type": "application/json"
+				}
+			});	
 			setTokenSentToServer(true);
 		} else {
 			console.log('Token already sent to server so won\'t send it again ' +
@@ -91,3 +114,4 @@ if (firebase) {
 		}
 	}
 }
+

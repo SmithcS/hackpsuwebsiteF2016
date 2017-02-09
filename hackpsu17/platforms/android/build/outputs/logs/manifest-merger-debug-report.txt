@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:2:102-130
 		INJECTED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml
@@ -32,18 +32,15 @@ ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/
 	android:anyDensity
 		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:3:23-48
 application
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:4:5-38:19
-MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:4:5-27:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:24.0.0] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:28:5-50:19
 MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-config:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:28:5-50:19
 MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:19:5-29:19
 	android:label
 		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:4:81-113
@@ -79,134 +76,128 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:8:17-77
 	android:name
 		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:8:27-74
-service#org.apache.cordova.firebase.FirebasePluginMessagingService
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:11:9-15:19
-	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:11:18-91
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:12:13-14:29
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:13:17-78
-	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:13:25-75
-service#org.apache.cordova.firebase.FirebasePluginInstanceIDService
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:16:9-20:19
-	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:16:18-92
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:17:13-19:29
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:18:17-80
-	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:18:25-77
-receiver#org.apache.cordova.firebase.OnNotificationOpenReceiver
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:21:9-91
-	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:21:19-88
 activity#com.gae.scaffolder.plugin.FCMPluginActivity
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:22:9-27:20
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:11:9-16:20
 	android:launchMode
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:22:43-73
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:11:43-73
 	android:exported
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:22:19-42
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:11:19-42
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:22:74-132
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:11:74-132
 intent-filter#FCM_PLUGIN_ACTIVITY+android.intent.category.DEFAULT
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:23:13-26:29
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:12:13-15:29
 action#FCM_PLUGIN_ACTIVITY
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:24:17-62
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:13:17-62
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:24:25-59
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:13:25-59
 category#android.intent.category.DEFAULT
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:25:17-76
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:14:17-76
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:25:27-73
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:14:27-73
 service#com.gae.scaffolder.plugin.MyFirebaseMessagingService
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:28:9-32:19
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:17:9-21:19
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:28:18-85
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:17:18-85
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:18:13-20:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:19:17-78
+	android:name
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:19:25-75
 service#com.gae.scaffolder.plugin.MyFirebaseInstanceIDService
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:33:9-37:19
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:22:9-26:19
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:33:18-86
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:22:18-86
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:24:17-80
+	android:name
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:24:25-77
 uses-sdk
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:39:5-74
-MERGED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/AndroidManifest.xml:20:5-42
+ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:28:5-74
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:support-v4:24.0.0] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-config:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-core/10.0.1/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:17:5-42
 MERGED from [android:CordovaLib:unspecified:debug] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/AndroidManifest.xml:25:5-44
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.0.0] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:39:42-71
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:28:42-71
 	android:minSdkVersion
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:39:15-41
+		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:28:15-41
 uses-permission#android.permission.INTERNET
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:40:5-67
-MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:20:5-66
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:20:5-66
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:40:22-64
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:20:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:41:5-79
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:5-78
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:41:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:42:5-68
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:22:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/AndroidManifest.xml:42:22-65
-uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:19:5-86
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:19:22-83
-uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:20:5-87
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:20:22-84
-uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:23:5-81
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:23:22-78
-uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:24:5-83
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:24:22-80
-uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:27:5-88
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:27:22-85
-uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:30:5-84
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:30:22-81
-uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:33:5-83
-	android:name
-		ADDED from [me.leolin:ShortcutBadger:1.1.4] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/me.leolin/ShortcutBadger/1.1.4/AndroidManifest.xml:33:22-80
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:16-87
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:20-65
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:79-143
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:22:5-81
 	android:name
@@ -255,56 +246,6 @@ ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu1
 		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:83-106
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/AndroidManifest.xml:44:18-82
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:9-194
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:19-78
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:144-168
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:169-192
-	android:name
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/AndroidManifest.xml:6:79-143
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:25:7-26:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:90-112
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:113-137
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:25:17-89
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:7-31:18
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:162-184
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:105-161
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:27:17-104
-intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:28:11-30:27
-action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:15-76
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:29:23-74
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/AndroidManifest.xml:27:7-137
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:88-110
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:111-135
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/AndroidManifest.xml:32:16-87
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:19-85
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/ScottMiller/hackpsu17/hackpsuwebsiteF2016/hackpsu17/platforms/android/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/AndroidManifest.xml:23:9-27:19
 	android:exported

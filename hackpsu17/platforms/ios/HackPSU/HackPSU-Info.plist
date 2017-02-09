@@ -53,11 +53,8 @@
       <true/>
       <key>NSExceptionDomains</key>
       <dict>
-        <key>hackpsu.s3-website-us-east-1.amazonaws.com</key>
-        <dict>
-          <key>NSExceptionAllowsInsecureHTTPLoads</key>
-          <true/>
-        </dict>
+        <key>api.mlab.com</key>
+        <dict/>
       </dict>
     </dict>
     <key>GCM_SENDER_ID</key>

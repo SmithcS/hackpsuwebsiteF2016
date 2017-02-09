@@ -1,0 +1,17 @@
+{ "notification": {
+    "title": "Testing from postman",
+    "body": "Testing from postman",
+    "sound":"default",
+    "click_action" : "https://notifications-b01a3.firebaseapp.com/",
+    "icon": "https://notifications-b01a3.firebaseapp.com/assets/images/hackpsulogo.png"
+  }, 
+  "priority": "high",
+  "data": {
+    "title": "Testing from postman",
+    "body": "Testing from postman"
+  },
+
+  "registration_ids" : ["dDX5liXbqa4:APA91bH0ixlPQNZK6DjgtCXrvXVSNa90y9bTB7kCZ16NFblrse56BwenBp9hDx6XRe2yk-jgJLZV7vSLiskOffHRUSIqb_K17gfs0Vn4x6CFrTHiRc8LKBKHriwUv9JAGxaKRTpx8Jw9", "fID1lk4VDNk:APA91bE38VQ5nMAc1OruWzLohDDh9QYq5u10TtGBuBkLHDIvK8DRHpYetMja_dggyg1lLfwoqPygM5Odz45NJe4ogkxbIVAwUGCQkZFkKYt3LkB9e2NFbdi1uz2D2ecrOa9dTszGc2NL", "cHp7xQXJlxk:APA91bF7Se0LyhwKkU1KLfNSchOuJl9vLQ6KCgrXtFsTXH9AxGhcVFztQKt7AMAlznGuQWHSOn3dJ8XGZM55NyVnaKFcR-eqJyrThjUv2Z1g_MmwBE4nuFNUuZkpAe5EvSnNRjkxluPt"]
+
+}
+

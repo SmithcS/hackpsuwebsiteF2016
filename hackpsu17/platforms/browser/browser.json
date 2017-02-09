@@ -18,26 +18,18 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-firebase": {
-            "PACKAGE_NAME": "io.cordova.hackpsu"
-        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "io.cordova.hackpsu"
         },
         "cordova-plugin-fcm": {
             "PACKAGE_NAME": "io.cordova.hackpsu"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.cordova.hackpsu"
         }
     },
     "dependent_plugins": {},
     "modules": [
-        {
-            "file": "plugins/cordova-plugin-firebase/www/firebase-browser.js",
-            "id": "cordova-plugin-firebase.FirebasePlugin",
-            "pluginId": "cordova-plugin-firebase",
-            "clobbers": [
-                "FirebasePlugin"
-            ]
-        },
         {
             "file": "plugins/cordova-plugin-device/www/device.js",
             "id": "cordova-plugin-device.device",
@@ -62,8 +54,8 @@
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-firebase": "0.1.19",
         "cordova-plugin-device": "1.1.4",
-        "cordova-plugin-fcm": "2.1.1"
+        "cordova-plugin-fcm": "2.1.1",
+        "cordova-plugin-whitelist": "1.3.1"
     }
 }
