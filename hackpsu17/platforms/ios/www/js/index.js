@@ -36,53 +36,58 @@ var app = {
 		$.support.cors = true;
 		FCMPlugin.onTokenRefresh(function(token){
 			console.log( token );
-			var messageObj = {
-				"_id": token,
-				"platform": device.platform
-			};
-			$.ajax({
-				type: "POST",
-				url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
-				data: JSON.stringify(messageObj),
-				success: function(result){
-					console.log(JSON.stringify(result));
-				},
-				error: function(err) {
-					console.log(JSON.stringify(err));
-				},
-				headers: {
-					"Access-Control-Allow-Origin": "*",
-					"Access-Control-Allow-Methods": "GET, POST",
-					"Access-Control-Allow-Headers": "Authorization",
-					"Content-Type": "application/json"
-				}
-			});    
+			if (token != null) {
+				var messageObj = {
+					"_id": token,
+					"platform": device.platform
+				};
+				console.log("messageObj: " + JSON.stringify(messageObj));
+				$.ajax({
+					type: "POST",
+					url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
+					data: JSON.stringify(messageObj),
+					success: function(result){
+						console.log(JSON.stringify(result));
+					},
+					error: function(err) {
+						console.log(JSON.stringify(err));
+					},
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+						"Access-Control-Allow-Methods": "GET, POST",
+						"Access-Control-Allow-Headers": "Authorization",
+						"Content-Type": "application/json"
+					}
+				});   
+			} 
 		});
 
 		FCMPlugin.getToken(function(token){
 			console.log( token );
-			var messageObj = {
-				"_id": token,
-				"platform": device.platform
-			};
-			console.log("messageObj: " + JSON.stringify(messageObj));
-			$.ajax({
-				type: "POST",
-				url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
-				data: JSON.stringify(messageObj),
-				success: function(result){
-					console.log(JSON.stringify(result));
-				},
-				error: function(err) {
-					console.log(JSON.stringify(err));
-				},
-				headers: {
-					"Access-Control-Allow-Origin": "*",
-					"Access-Control-Allow-Methods": "GET, POST",
-					"Access-Control-Allow-Headers": "Authorization, X-Requested-With, origin, content-type",
-					"Content-Type": "application/json"
-				}
-			});    
+			if (token != null) {
+				var messageObj = {
+					"_id": token,
+					"platform": device.platform
+				};
+				console.log("messageObj: " + JSON.stringify(messageObj));
+				$.ajax({
+					type: "POST",
+					url: "https://api.mlab.com/api/1/databases/push-notification-registrations/collections/registrations?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
+					data: JSON.stringify(messageObj),
+					success: function(result){
+						console.log(JSON.stringify(result));
+					},
+					error: function(err) {
+						console.log(JSON.stringify(err));
+					},
+					headers: {
+						"Access-Control-Allow-Origin": "*",
+						"Access-Control-Allow-Methods": "GET, POST",
+						"Access-Control-Allow-Headers": "Authorization",
+						"Content-Type": "application/json"
+					}
+				});   
+			} 
 		});
 		
 		FCMPlugin.onNotification(function(data){

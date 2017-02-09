@@ -28,7 +28,6 @@ if (firebase) {
 					data: JSON.stringify(messageObj),
 					success: function(result){
 						console.log(JSON.stringify(result));
-						sendSuccess = true;
 					},
 					error: function(err) {
 						console.log(JSON.stringify(err));

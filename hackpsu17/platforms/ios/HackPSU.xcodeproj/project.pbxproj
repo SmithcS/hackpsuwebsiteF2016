@@ -33,6 +33,9 @@
 		561C2FFED08E44B98B74332F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538761D8685B43CBBA8848E0 /* AddressBook.framework */; };
 		2F93D7576F3C42B6A55AD328 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5841012984B0F85D15574 /* libsqlite3.0.tbd */; };
 		83504370C8AD4E40BB79FA36 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7067FBB289874678848DC5D0 /* Security.framework */; };
+		044149E0BE9847EF9277144E /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A5959848518C4CFAB761076B /* CDVNotification.m */; };
+		0ED29D219D7C4659A0BF21BD /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F3C0C60ED5949ED81C78E29 /* CDVNotification.bundle */; };
+		B12C560F5B02461C89539EE1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6A9D0C1496456F92558444 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +97,10 @@
 		538761D8685B43CBBA8848E0 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		3AC5841012984B0F85D15574 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; name = "libsqlite3.0.tbd"; path = "usr/lib/libsqlite3.0.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		7067FBB289874678848DC5D0 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A5959848518C4CFAB761076B /* CDVNotification.m */ = {isa = PBXFileReference; name = "CDVNotification.m"; path = "cordova-plugin-dialogs/CDVNotification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		526D9741CCAA49509AF1146C /* CDVNotification.h */ = {isa = PBXFileReference; name = "CDVNotification.h"; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0F3C0C60ED5949ED81C78E29 /* CDVNotification.bundle */ = {isa = PBXFileReference; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		FE6A9D0C1496456F92558444 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +122,7 @@
 				561C2FFED08E44B98B74332F /* AddressBook.framework in Frameworks */,
 				2F93D7576F3C42B6A55AD328 /* libsqlite3.0.tbd in Frameworks */,
 				83504370C8AD4E40BB79FA36 /* Security.framework in Frameworks */,
+				B12C560F5B02461C89539EE1 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +186,7 @@
 				8D1107310486CEB800E47090 /* HackPSU-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				CAD66E3F3E5B48F385BDBD00 /* GoogleService-Info.plist */,
+				0F3C0C60ED5949ED81C78E29 /* CDVNotification.bundle */,
 			);
 			name = Resources;
 			path = "HackPSU/Resources";
@@ -199,6 +208,7 @@
 				538761D8685B43CBBA8848E0 /* AddressBook.framework */,
 				3AC5841012984B0F85D15574 /* libsqlite3.0.tbd */,
 				7067FBB289874678848DC5D0 /* Security.framework */,
+				FE6A9D0C1496456F92558444 /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +241,8 @@
 				A090E7631675488A95223F9E /* FCMPlugin.h */,
 				3BEDE1BBB50E494A81A79774 /* AppDelegate+FCMPlugin.h */,
 				07B1CE2A3B5B492F946DEC60 /* Firebase.h */,
+				A5959848518C4CFAB761076B /* CDVNotification.m */,
+				526D9741CCAA49509AF1146C /* CDVNotification.h */,
 			);
 			name = Plugins;
 			path = "HackPSU/Plugins";
@@ -313,6 +325,7 @@
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				C737E3C3FABE4FCB9C5EE5EF /* GoogleService-Info.plist in Resources */,
+				0ED29D219D7C4659A0BF21BD /* CDVNotification.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +360,7 @@
 				C6956C7EAC854BB8AEE913A9 /* CDVDevice.m in Sources */,
 				F0CBE558B3084076AD13EB33 /* FCMPlugin.m in Sources */,
 				18B3FE57A32240688F5BBF21 /* AppDelegate+FCMPlugin.m in Sources */,
+				044149E0BE9847EF9277144E /* CDVNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -97,6 +97,14 @@ var app = {
 			}else{
 				//Notification was received in foreground. Maybe the user needs to be notified.
 				console.log( JSON.stringify(data) );
+				navigator.notification.alert(
+					data.body,  // message
+					function() {
+						console.log("Notification dismissed");
+					},         // callback
+					data.title,            // title
+					'Dismiss'                  // buttonName
+				);
 			}
 		}, function(success) {
 			console.log(JSON.stringify(success));
