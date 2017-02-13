@@ -61,7 +61,6 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6{
-
 	text-align: center;
 	color:white;
 	text-transform: uppercase;
@@ -109,9 +108,9 @@ a:hover {
 .lightestBlue {
 	color:#D0EBF3
 }
-.gray {
+/*.gray {
 	color:#3A2D40;
-}
+}*/
 .purple {
 	color: #3a2d40;
 }
@@ -127,11 +126,11 @@ a:hover {
 /*++++++++ ELEMENTS +++++++*/
 
 .button {
-	background: #3A2D40;
+	background: #fff;
 	padding:10px 10px;
 	transition: ease-out .5s;
-	margin: 5px 0;
-	color:white;
+	margin: 25px; 0;
+	color: black;
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: large;
@@ -141,13 +140,19 @@ a:hover {
 	transition: linear .1s;
 	text-align:center;
 	text-decoration: none;
-	background-color: #3399CC
+	background-color: #ff7e69;
 }
 .divider {
 	height:2px;
 	width:auto;
 	background:#2A202F;
 }
+.divider-date {
+	height: 2px;
+	width: 100%;
+	background: white;
+}
+
 .center-divider-left {
 	height: 4px;
 	width: auto;
@@ -196,6 +201,9 @@ a:hover {
 .center {
 	float: center;
 }
+.center-align {
+	margin: auto;
+}
 
 .right {
 	float: right;
@@ -226,7 +234,7 @@ a:hover {
 #logo-container {
 	max-width: 350px;
 	margin: auto;
-	width: 40%;
+	width: 60%;
 	height: 50%;
 	min-height: 350px;
 }
@@ -235,9 +243,11 @@ a:hover {
 	width: auto;
 	z-index: 0;
 }
-#banner-text h1 {
+#banner-text .tagline {
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px:
 }
 #banner-text .divider {
 	background-color: white;
@@ -249,7 +259,6 @@ a:hover {
 	letter-spacing:20px;
 	font-size: larger;
 }
-
 /*========= PRESS ==========*/
 #press {
 	color: white
@@ -555,8 +564,14 @@ a:hover {
    }
    .section-title{width: 100%;}
 
+	 #banner {
+		 margin-top: -75px;
+	 }
+
+	 .med-div {height: 50px;}
+
 	 #hackpsu-logo {
-		 width: 35%;
+		 width: 55%;
 		 margin: auto;
 		 left: 0;
 		 right: 0;
@@ -564,6 +579,10 @@ a:hover {
 		 top: -50px;
 		 bottom: 0;
 		 /*margin-left: -20%;*/
+	 }
+
+	 #banner-text h1 {
+		 font-size: 60%;
 	 }
 
 	 .hex-container-xl {
