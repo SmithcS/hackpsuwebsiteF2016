@@ -95,7 +95,7 @@ a:hover {
 
 /*++++++++ COLORS +++++++*/
 .yellow {
-	color:#FFCC66;
+	color:#ffc969;
 }
 .white {
 	color:white;
@@ -104,13 +104,19 @@ a:hover {
 	color:#2A202F;
 }
 .lightBlue {
-	color:#3399CC;
+	color:#8cc7f0;
 }
 .lightestBlue {
 	color:#D0EBF3
 }
 .gray {
 	color:#3A2D40;
+}
+.purple {
+	color: #3a2d40;
+}
+.salmon, .accent {
+	color: #ff7e69;
 }
 
 /*+++++++ EFFECTS ++++*/
@@ -247,7 +253,7 @@ a:hover {
 }
 #press-line p {
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	font-size: 18px;
 	max-width: 1000px;
 }
@@ -322,7 +328,6 @@ a:hover {
 
 .hex-container-xl {
 	display: inline-block;
-	position: relative;
 	max-width: 200px;
 	max-height: 220px;
 	width: 100%;
@@ -331,7 +336,6 @@ a:hover {
 
 .hex-container-lg {
 	display: inline-block;
-	position: relative;
 	max-width: 150px;
 	width: 100%;
 	height: 100%;
@@ -339,16 +343,14 @@ a:hover {
 
 .hex-container-med {
 	display: inline-block;
-	position: relative;
 	max-width: 150px;
-	max-height: 165px;
+	max-height: 115px;
 	width: 100%;
 	height: 100%;
 }
 
 .hex-container-sm {
 	display: inline-block;
-	position: relative;
 	max-width:; 75px;
 	width: 100%;
 	height: 100%;
@@ -376,7 +378,7 @@ a:hover {
 	width: 66.6%;
 	height: 45%;
 	right: 17%;
-	top: 25%;
+	top: 50%;
 }
 
 .sponsor-hex-med {
@@ -435,37 +437,51 @@ a:hover {
 }
 
 .zoom {
-	-webkit-transform:scale(1); 
-    -moz-transform:scale(1); 
-    -ms-transform:scale(1); 
-    -o-transform:scale(1); 
+    -webkit-transition: all 1.25s ease;
+    -moz-transition: all 1.25s ease;
+    -ms-transition: all 1.25s ease;
+    -o-transition: all 1.25s ease;
+    transition: all 1.25s ease;
+
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
     transform:scale(1);
 
-    -webkit-transition: all 1s ease; 
-    -moz-transition: all 1s ease; 
-    -ms-transition: all 1s ease; 
-    -o-transition: all 1s ease; 
-    transition: all 1s ease;
+    transform-origin: bottom;
+
 }
 
 .zoom:hover {
-	-webkit-transform:scale(1.25); 
-    -moz-transform:scale(1.25); 
-    -ms-transform:scale(1.25); 
-    -o-transform:scale(1.25); 
+	-webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
     transform:scale(1.25);
 
-    -webkit-transition: all 1s ease; 
-    -moz-transition: all 1s ease; 
-    -ms-transition: all 1s ease; 
-    -o-transition: all 1s ease; 
+
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
     transition: all 1s ease;
 }
 .zoom:hover img:nth-child(1) {
-	top: -50px;
+	/*-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	top: -55px;*/
 }
 .zoom:hover img:nth-child(2) {
-	top: -5px;
+	/*-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	top: -5px;*/
 }
 
 /*========= PAST PROJECTS ==========*/
@@ -528,6 +544,32 @@ a:hover {
    	width: 0px;
    }
    .section-title{width: 100%;}
+
+	 .hex-container-xl {
+		 max-width: 100px;
+		 max-height: 100px;
+	 }
+	 .sponsor-img-xl {
+		pointer-events: none;
+		position: absolute;
+		width: 66.6%;
+		right: 15%;
+		top: 15%;
+	 }
+	 .sm-div {
+		 height: 0px;
+	 }
+	 .hex-container-med {
+		 max-width: 75px;
+		 max-height: 75px;
+	 }
+	 .sponsor-img-med {
+	 	pointer-events: none;
+	 	position: absolute;
+	 	width: 66.6%;
+		right: 15%;
+		top: 15%;
+	 }
 }
 
 
@@ -547,5 +589,3 @@ a:hover {
 	padding-top:40px;
 	padding-bottom: 40px;
 }
-
-
