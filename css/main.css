@@ -228,8 +228,8 @@ a:hover {
 #logo-container-outer {
 	font-size: 0;
 	width: auto;
+	max-height: 350px;
 	position: relative;
-	z-index: 500;
 }
 #logo-container {
 	max-width: 350px;
@@ -238,8 +238,15 @@ a:hover {
 	height: 50%;
 	min-height: 350px;
 }
+#mlh-trust-badge {
+   display: block;
+   position: absolute;
+   right: 50px;
+   top: 0;
+   width: 10%;
+   z-index: 10000;
+}
 #banner {
-	margin-top: -20px;
 	width: auto;
 	z-index: 0;
 }
@@ -308,6 +315,7 @@ a:hover {
 	left: 0;
 	right: 0;
 	max-width: 300px;
+	max-height: 300px;
 	z-index: 500;
 }
 
@@ -564,14 +572,11 @@ a:hover {
    }
    .section-title{width: 100%;}
 
-	 #banner {
-		 margin-top: -75px;
-	 }
-
 	 .med-div {height: 50px;}
 
 	 #hackpsu-logo {
 		 width: 55%;
+		 max-height: 300px;
 		 margin: auto;
 		 left: 0;
 		 right: 0;
@@ -593,8 +598,8 @@ a:hover {
 		pointer-events: none;
 		position: absolute;
 		width: 66.6%;
-		right: 15%;
-		top: 15%;
+		right: 17%;
+		top: 23%;
 	 }
 	 .sm-div {
 		 height: 0px;
@@ -607,8 +612,8 @@ a:hover {
 	 	pointer-events: none;
 	 	position: absolute;
 	 	width: 66.6%;
-		right: 15%;
-		top: 15%;
+		right: 17%;
+		top: 30%;
 	 }
 }
 
