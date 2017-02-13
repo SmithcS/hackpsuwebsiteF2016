@@ -129,7 +129,7 @@ a:hover {
 	background: #fff;
 	padding:10px 10px;
 	transition: ease-out .5s;
-	margin: 25px; 0;
+	margin: 5%; 0;
 	color: black;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -241,7 +241,7 @@ a:hover {
 #mlh-trust-badge {
    display: block;
    position: absolute;
-   right: 50px;
+   right: 5%;
    top: 0;
    width: 10%;
    z-index: 10000;
@@ -447,6 +447,11 @@ a:hover {
 	height: 175px;
 	width: auto;
 }
+.lg-div {
+	pointer-events: none;
+	height: 120px;
+	width: auto;
+}
 .med-div {
 	pointer-events: none;
 	height: 90px;
@@ -510,6 +515,20 @@ a:hover {
 	transition: all 0.1s ease;
 	top: -5px;*/
 }
+
+/*========= CONTACT ==========*/
+
+#contact {
+	background-color: rgba(58, 45, 64, 0.5);
+} 
+
+.social-media-icon {
+	max-width: 80px;
+	width:20%;
+	margin: 2% 1%;
+	transition: ease-out .3s;
+}
+
 
 /*========= PAST PROJECTS ==========*/
 #past-projects {
