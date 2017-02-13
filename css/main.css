@@ -217,11 +217,18 @@ a:hover {
 	background: rgba(58, 45, 64, 0.5);
 	padding:0;
 }
-#logo-container {
+#logo-container-outer {
 	font-size: 0;
 	width: auto;
 	position: relative;
 	z-index: 500;
+}
+#logo-container {
+	max-width: 350px;
+	margin: auto;
+	width: 40%;
+	height: 50%;
+	min-height: 350px;
 }
 #banner {
 	margin-top: -20px;
@@ -288,9 +295,9 @@ a:hover {
 /*========= HACKPSU LOGO ==========*/
 #hackpsu-logo {
 	position: absolute;
-	margin-left: -150px;
-	left: 50%;
-	top: 100px;
+	margin: auto;
+	left: 0;
+	right: 0;
 	max-width: 300px;
 	z-index: 500;
 }
@@ -298,7 +305,10 @@ a:hover {
 .logo-outline {
 	padding: 0;
 	margin: 0;
-	width: 30%;
+	width: 100%;
+	position: relative;
+	top: -100px;
+	max-width: 350px;
 }
 
 .path-left {
@@ -544,6 +554,17 @@ a:hover {
    	width: 0px;
    }
    .section-title{width: 100%;}
+
+	 #hackpsu-logo {
+		 width: 35%;
+		 margin: auto;
+		 left: 0;
+		 right: 0;
+		 position: absolute;
+		 top: -50px;
+		 bottom: 0;
+		 /*margin-left: -20%;*/
+	 }
 
 	 .hex-container-xl {
 		 max-width: 100px;
