@@ -529,6 +529,50 @@ a:hover {
 	transition: ease-out .3s;
 }
 
+/*========= FOOTER ==========*/
+
+#footer {
+	background-color:#2A202F;
+	padding:10px;
+	width: 100%;
+	margin-top:0;
+}
+
+#footer p {
+	margin-top: 20px;
+	font-size: medium;
+	font-weight: 200;
+}
+
+#left-foot {
+	float: left;
+	display: inline-block;
+	position: relative;
+	margin: 0px;
+	color: white;
+	text-align: left;
+	font-size: small;
+	font-weight: 600;
+}
+
+#right-foot {
+	float: right;
+	display: inline-block;
+	position: relative;
+	color: white;
+	text-align: right;
+}
+
+#left-foot img {
+	max-width: 140px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	display: block;
+	float: left;
+}
+
+
 
 /*========= PAST PROJECTS ==========*/
 #past-projects {
