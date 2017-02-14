@@ -5,13 +5,19 @@
 			var email = $(':input').val();
 			console.log($(':input').hasClass('valid'));
 			console.log($(':input').val());
+			$('button').prop("disabled", true);
+
 
 			if (email && $('input').has(':valid')) {
 				$.ajax ({
-					url: "https://api.mongolab.com/api/1/databases/registration_emails/collections/emails?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
+					// header: 'access-control-allow-origin: *'
+					url: "https://api.mlab.com/api/1/databases/registration_emails/collections/emails?apiKey=Y9MYB5bt3fAyPmJ99eXfiRIJGZK9N-hz",
 					type: "POST",
-					data: JSON.stringify(email),
-					contentType: "application/json"
+					data: JSON.stringify( {"emailID" : email}),
+					contentType: "application/json",
+					success: function(data) {
+						$('button').text("Submitted!");
+					}
 				}).done(function(msg) {
 					console.log(msg);
 				})

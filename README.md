@@ -1,10 +1,14 @@
-# HackPSU F2016 Website
-Welcome to the HackPSU F2016 Website!
+# Welcome to the HackPSU S2017 Website!
 
-Forked from Christina Platt (github @tinasplatt) who made the first and original HackPSU website! 
+This website is built based off the original HackPSU website created by Christina Platt (github @tinasplatt) and code created by Smith Sopp (github @SmithcS).
 
-Please make all edits to the 'Developer' branch, so that they may be reviewed and then merged to the master once they get reviewed! 
+Please make all edits to your personal branch, so that they may be reviewed and then merged to the master once they get reviewed!
 
-##Questions? 
-Be sure to reach out to anyone on the team who knows some web development - theres plenty of us! Here are some contacts below:
-Christina Platt (@tinasplatt) 
+#Questions?
+
+Be sure to reach out to anyone on the team who knows some web development - theres plenty of us! Here are some contacts below: 
+Christina Platt (@tinasplatt)
+Sushrut Shringarputale (@sushshring)
+Smith Sopp (@SmithcS)
+Scott Miller (@sam6258)
+
