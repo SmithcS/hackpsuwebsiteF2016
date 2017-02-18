@@ -60,9 +60,14 @@ table {
     src: url(OpenSans/OpenSans-Light.ttf);
 }
 
+@font-face {
+	font-family: "Open-Sans-Bold";
+	src: url(OpenSans/OpenSans-Bold.ttf);
+}
+
 h1, h2, h3, h4, h5, h6{
 	text-align: center;
-	color:white;
+	color:#3A2D40;
 	text-transform: uppercase;
 	white-space: nowrap;
 	font-size: larger;
@@ -73,10 +78,10 @@ p {
 }
 body {
 	text-align: center;
-	font-family: 'Open-Sans-Light';
+	font-family: 'Open-Sans-Bold';
 	color: white:;
 	font-size: xx-large;
-	background-color: #3A2D40;
+	background-color: #FFFFFF;
 	-webkit-background-size: cover;
 	background-size: contain;
 	-moz-background-size: cover;
@@ -108,14 +113,14 @@ a:hover {
 .lightestBlue {
 	color:#D0EBF3
 }
-/*.gray {
+.gray {
 	color:#3A2D40;
-}*/
+}
 .purple {
 	color: #3a2d40;
 }
-.salmon, .accent {
-	color: #ff7e69;
+.red, .accent {
+	color: #FF3E3E;
 }
 
 /*+++++++ EFFECTS ++++*/
@@ -126,7 +131,7 @@ a:hover {
 /*++++++++ ELEMENTS +++++++*/
 
 .button {
-	background: #fff;
+	background: #FFC969;
 	padding:10px 10px;
 	transition: ease-out .5s;
 	margin: 5%; 0;
@@ -222,7 +227,7 @@ a:hover {
 /*========= HEADER ==========*/
 
 #header {
-	background: rgba(58, 45, 64, 0.5);
+	background: white;
 	padding:0;
 }
 #logo-container-outer {
@@ -349,8 +354,8 @@ a:hover {
 
 /*========= SPONSORS ==========*/
 #sponsors {
-	color: white;
-	font-family: 'Open-Sans-Light';
+	color: #3A2D40;
+	font-family: 'Open-Sans-Bold';
 }
 
 .hex-container-xl {
@@ -434,7 +439,7 @@ a:hover {
 	margin-left: 25px;
 	margin-right: 25px;
 	font-size: 75%;
-	color: white:;
+	color: #3A2D40;
 }
 
 #sponsors p {
@@ -459,7 +464,7 @@ a:hover {
 }
 .sm-div {
 	pointer-events: none;
-	height: 27px;
+	height: 0px;
 	width: auto;
 }
 .seperator-div {
@@ -519,7 +524,7 @@ a:hover {
 /*========= CONTACT ==========*/
 
 #contact {
-	background-color: rgba(58, 45, 64, 0.5);
+	background-color: white;
 } 
 
 .social-media-icon {
@@ -616,7 +621,7 @@ a:hover {
 
 .title-graphic-line {
 	position: relative;
-	background-color: white;
+	background-color: #3A2D40;
 	height: 2px;
 	top: 14px;
 }
