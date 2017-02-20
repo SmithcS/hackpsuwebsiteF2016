@@ -145,7 +145,7 @@ a:hover {
 	transition: linear .1s;
 	text-align:center;
 	text-decoration: none;
-	background-color: #ff7e69;
+	background-color: #AAD4F2;
 }
 .divider {
 	height:2px;
@@ -464,7 +464,7 @@ a:hover {
 }
 .sm-div {
 	pointer-events: none;
-	height: 0px;
+	height: 5px;
 	width: auto;
 }
 .seperator-div {
@@ -526,6 +526,10 @@ a:hover {
 #contact {
 	background-color: white;
 } 
+
+#contact p {
+	font-size: medium;
+}
 
 .social-media-icon {
 	max-width: 80px;
